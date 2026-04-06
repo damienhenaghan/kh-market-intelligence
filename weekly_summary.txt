@@ -1,0 +1,12 @@
+============================================================
+KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
+Run date: 2026-03-18
+============================================================
+
+This is the first run. No comparison available yet.
+Run the scraper again next week to generate a diff.
+
+Active listings captured this run: 642
+Freehold listings: 320
+
+Database: /Users/damienhenaghan/Desktop/KH Dashboard/listings.db

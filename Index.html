@@ -1,0 +1,3030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kawarau Heights — Market Intelligence</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:          #F4F1EB;
+    --surface:     #FFFFFF;
+    --surface2:    #EDE9E1;
+    --border:      #D8D3C8;
+    --gold:        #B8926A;
+    --gold-light:  #CDA882;
+    --gold-dim:    rgba(184,146,106,0.15);
+    --text:        #2A2A2A;
+    --text-muted:  #6B7162;
+    --text-dim:    #A8A49C;
+    --green:       #4A7C5E;
+    --green-light: #7AAE91;
+    --green-dim:   rgba(74,124,94,0.12);
+    --header-bg:   #E8EFE9;
+    --header-text: #2C4A38;
+    --red:         #B85C5C;
+    --blue:        #5C7FA8;
+    --card-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+  }
+
+  /* Header */
+  header {
+    border-bottom: 2px solid rgba(74,124,94,0.2);
+    padding: 28px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--header-bg);
+  }
+
+  .logo-area h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    color: var(--header-text);
+    text-transform: uppercase;
+  }
+
+  .logo-area p {
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  .header-right {
+    text-align: right;
+  }
+
+  .week-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+  }
+
+  .week-date {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: var(--header-text);
+    margin-top: 4px;
+  }
+
+  /* Nav */
+  nav {
+    padding: 0 48px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 0;
+  }
+
+  nav button {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+  }
+
+  nav button:hover { color: var(--text); }
+  nav button.active {
+    color: var(--green);
+    border-bottom-color: var(--green);
+  }
+
+  /* Main */
+  main {
+    padding: 40px 48px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  /* Section headers */
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .section-header h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--text);
+  }
+
+  .section-header span {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+  }
+
+  /* Metric cards */
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .metric-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 24px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    border-radius: 2px;
+  }
+
+  .metric-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--green);
+    opacity: 0.5;
+  }
+
+  .metric-card.highlight::before { opacity: 1; background: var(--green); }
+
+  .metric-label {
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .metric-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+    font-weight: 300;
+    color: var(--text);
+    line-height: 1;
+  }
+
+  .metric-value.gold { color: var(--gold); }
+
+  .metric-sub {
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-top: 8px;
+  }
+
+  .metric-change {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 8px;
+    padding: 3px 8px;
+    border-radius: 2px;
+  }
+
+  .metric-change.up   { background: rgba(74,124,94,0.12);  color: var(--green); }
+  .metric-change.down { background: rgba(184,92,92,0.12);  color: var(--red);   }
+  .metric-change.neutral { background: rgba(92,127,168,0.12); color: var(--blue); }
+
+  /* Charts grid */
+  .charts-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .chart-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 28px;
+    box-shadow: var(--card-shadow);
+    border-radius: 2px;
+  }
+
+  .chart-title {
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .chart-container {
+    position: relative;
+    height: 220px;
+    max-height: 250px;
+    overflow: hidden;
+  }
+
+  /* Supply gap */
+  .supply-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .supply-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 28px;
+  }
+
+  .supply-bar-wrap {
+    margin-top: 20px;
+  }
+
+  .supply-bar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+    letter-spacing: 0.1em;
+  }
+
+  .supply-bar {
+    height: 6px;
+    background: var(--surface2);
+    border-radius: 3px;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+
+  .supply-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.8s ease;
+  }
+
+  .supply-bar-fill.gold { background: var(--green); }
+  .supply-bar-fill.dim  { background: var(--border); }
+
+  /* KH performance */
+  .kh-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .kh-card {
+    background: var(--surface);
+    border: 1px solid var(--gold);
+    border-opacity: 0.3;
+    padding: 24px;
+    position: relative;
+  }
+
+  .kh-card::after {
+    content: 'KH';
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    opacity: 0.4;
+  }
+
+  /* Update panel */
+  .update-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 32px;
+    margin-bottom: 32px;
+  }
+
+  .update-panel h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+
+  .update-panel p {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-bottom: 28px;
+    letter-spacing: 0.05em;
+  }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .form-group label {
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+  }
+
+  .form-group input {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 14px;
+    outline: none;
+    transition: border-color 0.2s;
+    -moz-appearance: textfield;
+  }
+
+  .form-group input:focus { border-color: var(--gold); }
+  .form-group input::-webkit-outer-spin-button,
+  .form-group input::-webkit-inner-spin-button { -webkit-appearance: none; }
+
+  .form-section-label {
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--gold-dim);
+  }
+
+  .btn-update {
+    background: var(--green);
+    color: var(--surface);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    padding: 14px 36px;
+    cursor: pointer;
+    transition: background 0.2s;
+    border-radius: 2px;
+  }
+
+  .btn-update:hover { background: var(--green-light); }
+
+  .btn-secondary {
+    background: none;
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    cursor: pointer;
+    margin-left: 12px;
+    transition: all 0.2s;
+    border-radius: 2px;
+  }
+
+  .btn-secondary:hover { border-color: var(--text-muted); color: var(--text); }
+
+  /* History table */
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+
+  .history-table th {
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    font-weight: 400;
+  }
+
+  .history-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+  }
+
+  .history-table tr:last-child td { border-bottom: none; }
+  .history-table tr:hover td { background: var(--surface2); }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    border-radius: 2px;
+  }
+
+  .badge.latest { background: var(--gold-dim); color: var(--gold); }
+
+  /* Tabs */
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Divider */
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 40px 0;
+  }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 20px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer p {
+    font-size: 10px;
+    color: var(--text-dim);
+    letter-spacing: 0.1em;
+  }
+
+  .gold-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: var(--green);
+    border-radius: 50%;
+    margin-right: 8px;
+    animation: pulse 2s infinite;
+  }
+
+  /* Region toggle */
+  .region-toggle {
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: auto;
+  }
+  .region-toggle button {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .region-toggle button.active {
+    background: var(--green);
+    color: var(--surface);
+  }
+  .region-toggle button:not(.active):hover {
+    color: var(--text);
+    background: var(--surface2);
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+  @media print {
+    @page {
+      size: A4 landscape;
+      margin: 16mm 14mm;
+    }
+
+    body {
+      background: #fff;
+      font-size: 11px;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    /* Hide everything interactive */
+    nav, footer,
+    button,
+    .region-toggle,
+    #live-data-badge,
+    .btn-update, .btn-secondary,
+    #no-data-msg,
+    .update-panel,
+    .tab-content:not(.active) { display: none !important; }
+
+    /* Show active tab full width */
+    .tab-content.active { display: block !important; }
+
+    header {
+      padding: 14px 20px;
+      border-bottom: 2px solid #4A7C5E;
+      margin-bottom: 18px;
+    }
+
+    main {
+      padding: 0;
+      max-width: 100%;
+    }
+
+    .metrics-grid {
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .metric-card {
+      padding: 14px;
+      box-shadow: none;
+      border: 1px solid #D8D3C8;
+      break-inside: avoid;
+    }
+
+    .metric-value {
+      font-size: 28px;
+    }
+
+    .charts-grid,
+    .supply-grid,
+    .kh-grid,
+    .absorption-grid {
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .chart-card,
+    .supply-card,
+    .kh-card,
+    .absorption-card {
+      box-shadow: none;
+      border: 1px solid #D8D3C8;
+      break-inside: avoid;
+      padding: 16px;
+    }
+
+    .chart-container { height: 160px !important; max-height: 160px !important; }
+
+    .section-header { margin-bottom: 12px; }
+    .section-header h2 { font-size: 20px; }
+
+    .kh-listings-grid { grid-template-columns: repeat(3, 1fr) !important; gap: 10px; }
+    .listing-card, .kh-listing-card { break-inside: avoid; box-shadow: none; border: 1px solid #D8D3C8; }
+
+    .history-table th, .history-table td { padding: 8px 10px; font-size: 10px; }
+  }
+
+  /* Tenure insights */
+  .tenure-insights-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+
+  .tenure-insight-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 24px;
+    position: relative;
+  }
+
+  .tenure-insight-card .tenure-type-tag {
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 14px;
+  }
+
+  .tag-freehold { background: rgba(201,169,110,0.15); color: var(--gold); }
+  .tag-leasehold { background: rgba(106,159,216,0.15); color: var(--blue); }
+  .tag-premium { background: rgba(76,175,125,0.15); color: var(--green); }
+
+  .tenure-stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 8px;
+  }
+
+  .tenure-stat-label {
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+  }
+
+  .tenure-stat-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    color: var(--text);
+  }
+
+  .tenure-source-note {
+    font-size: 9px;
+    color: var(--text-dim);
+    letter-spacing: 0.08em;
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+
+  /* Price band section */
+  .band-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 16px;
+    margin-bottom: 32px;
+    align-items: start;
+  }
+  .band-grid .card {
+    padding-bottom: 16px;
+  }
+
+  .band-detail-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 4px;
+  }
+
+  .band-row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .band-row-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .band-label {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+  }
+
+  .band-label.kh-zone {
+    color: var(--gold);
+  }
+
+  .band-counts {
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  .band-counts strong {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--text);
+    margin-right: 4px;
+  }
+
+  .band-bar-track {
+    height: 5px;
+    background: var(--surface2);
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    gap: 1px;
+  }
+
+  .band-bar-fh {
+    height: 100%;
+    background: var(--gold);
+    opacity: 0.85;
+    border-radius: 3px 0 0 3px;
+    transition: width 0.7s ease;
+  }
+
+  .band-bar-other {
+    height: 100%;
+    background: var(--text-dim);
+    border-radius: 0 3px 3px 0;
+    transition: width 0.7s ease;
+  }
+
+  .band-kh-tag {
+    font-size: 8px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    background: var(--gold-dim);
+    padding: 2px 7px;
+    border-radius: 2px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  .chart-note {
+    font-size: 9px;
+    color: var(--text-dim);
+    letter-spacing: 0.06em;
+    margin-top: 14px;
+    line-height: 1.6;
+  }
+
+  /* Absorption section */
+  .absorption-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .absorption-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 28px;
+  }
+
+  .dom-bar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 20px;
+  }
+
+  .dom-bar-row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .dom-bar-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+  }
+
+  .dom-bar-track {
+    height: 5px;
+    background: var(--surface2);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .dom-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.7s ease;
+  }
+
+  .signal-display {
+    margin-top: 24px;
+    text-align: center;
+    padding: 24px;
+    border: 1px solid var(--border);
+    background: var(--surface2);
+  }
+
+  .signal-label {
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+  }
+
+  .signal-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+
+  .signal-value.balanced { color: var(--gold); }
+  .signal-value.seller   { color: var(--green); }
+  .signal-value.buyer    { color: var(--blue); }
+
+  .signal-detail {
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 0.06em;
+    line-height: 1.7;
+  }
+
+  .absorption-metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  .absorption-metric {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 20px;
+  }
+
+  .absorption-metric .metric-label { margin-bottom: 8px; }
+  .absorption-metric .metric-value { font-size: 32px; }
+
+  /* ── All Listings tab ───────────────────────────────────────────────── */
+  .listings-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 32px;
+    align-items: flex-start;
+    padding: 24px 32px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    margin: -32px -48px 24px;
+  }
+
+  .listings-search-wrap {
+    flex: 1 1 220px;
+    min-width: 200px;
+  }
+
+  .listings-search {
+    width: 100%;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    padding: 9px 14px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .listings-search::placeholder { color: var(--text-dim); }
+  .listings-search:focus { border-color: var(--gold); }
+
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .filter-group-sort { min-width: 160px; }
+
+  .filter-label {
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .filter-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .pill {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+
+  .pill:hover { border-color: var(--gold); color: var(--text); }
+
+  .pill.active {
+    background: var(--gold-dim);
+    border-color: var(--gold);
+    color: var(--gold);
+  }
+
+  .listings-sort-select {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    padding: 7px 12px;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .listings-sort-select:focus { border-color: var(--gold); }
+
+  .listings-meta-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .listings-count {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .listings-reset {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.15s;
+  }
+
+  .listings-reset:hover { color: var(--gold); }
+
+  .listings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+
+  .listings-empty {
+    grid-column: 1 / -1;
+    color: var(--text-muted);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    padding: 48px 0;
+    text-align: center;
+  }
+
+  .listing-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: border-color 0.18s, background 0.18s;
+    position: relative;
+  }
+
+  .listing-card:hover {
+    border-color: var(--blue);
+    background: rgba(92,127,168,0.05);
+  }
+
+  .listing-card.clickable { cursor: pointer; }
+
+  .listing-card-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .listing-tenure-tag {
+    font-size: 8px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 2px;
+  }
+
+  .listing-tenure-tag.tag-freehold   { background: rgba(201,169,110,0.15); color: var(--gold); }
+  .listing-tenure-tag.tag-leasehold  { background: rgba(224,92,92,0.12);   color: var(--red); }
+  .listing-tenure-tag.tag-unittitle  { background: rgba(106,159,216,0.12); color: var(--blue); }
+  .listing-tenure-tag.tag-other      { background: var(--surface2);         color: var(--text-dim); }
+
+  .listing-new-tag {
+    font-size: 8px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 2px;
+    background: rgba(76,175,125,0.15);
+    color: var(--green);
+  }
+
+  .listing-address {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.35;
+  }
+
+  .listing-price {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--gold);
+    line-height: 1;
+  }
+
+  .listing-price.muted { color: var(--text-muted); font-size: 16px; }
+
+  .listing-divider {
+    height: 1px;
+    background: var(--border);
+    margin: 2px 0;
+  }
+
+  .listing-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 12px;
+  }
+
+  .listing-stat { display: flex; flex-direction: column; gap: 3px; }
+  .listing-stat-full { grid-column: 1 / -1; }
+
+  .stat-label {
+    font-size: 8px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  .stat-value {
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  .stat-value.fresh { color: var(--green); }
+  .stat-value.stale { color: var(--red); }
+
+  /* KH Listings cards */
+  .kh-listings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .kh-listing-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    transition: border-color 0.2s;
+  }
+
+  .kh-listing-card:hover {
+    border-color: var(--blue);
+    background: rgba(92,127,168,0.05);
+  }
+
+  .kh-listing-address {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.35;
+  }
+
+  .kh-listing-price {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: var(--gold);
+  }
+
+  .kh-listing-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .kh-listing-meta-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+  }
+
+  .kh-listing-meta-row span:last-child {
+    color: var(--text);
+  }
+
+  .kh-listing-link {
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold);
+    text-decoration: none;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+
+  .kh-listing-link:hover { opacity: 1; }
+
+  .kh-empty-state {
+    color: var(--text-muted);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    padding: 32px 0;
+  }
+
+  /* Supply cards */
+  .supply-cards-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 0;
+  }
+
+  .supply-card-main {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 32px;
+  }
+
+  .supply-guide {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+  }
+
+  .supply-guide-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .guide-bar {
+    display: inline-block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .guide-seller  { background: var(--green); }
+  .guide-balanced { background: var(--gold); }
+  .guide-buyer   { background: var(--blue); }
+
+  .guide-label {
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+  }
+
+  /* Competitive comparison cards */
+  .comp-comparison-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 8px;
+  }
+
+  .comp-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 28px 32px;
+  }
+
+  .comp-card-label {
+    font-size: 9px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+  }
+
+  .comp-card-label.label-kh  { color: var(--gold); }
+  .comp-card-label.label-jp  { color: var(--text-muted); }
+
+  .comp-stats-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .comp-stat { display: flex; flex-direction: column; gap: 6px; }
+
+  .comp-stat-label {
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  .comp-stat-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: var(--text);
+    line-height: 1;
+  }
+
+  .comp-stat-value.gold { color: var(--gold); }
+
+  .comp-stat-sub {
+    font-size: 9px;
+    color: var(--text-dim);
+    letter-spacing: 0.06em;
+    margin-top: 2px;
+  }
+
+  .comp-delta {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 0.06em;
+    line-height: 1.7;
+  }
+
+  .comp-delta strong { color: var(--text); }
+
+  /* History tab */
+  .history-charts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .metrics-grid { grid-template-columns: repeat(3, 1fr); }
+    .charts-grid { grid-template-columns: 1fr; }
+    .form-grid { grid-template-columns: repeat(2, 1fr); }
+    .kh-grid { grid-template-columns: repeat(2, 1fr); }
+    .tenure-insights-grid { grid-template-columns: 1fr 1fr; }
+    main { padding: 24px; }
+    header { padding: 20px 24px; }
+    nav { padding: 0 24px; }
+    footer { padding: 16px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-area">
+    <h1>Kawarau Heights</h1>
+    <p>Queenstown Lakes Market Intelligence — $2M+ Residential</p>
+  </div>
+  <div class="header-right">
+    <div class="week-label">Week Ending</div>
+    <div class="week-date" id="currentDate">—</div>
+    <div id="live-data-badge" style="display:none; margin-top:6px; font-size:9px; letter-spacing:0.15em; text-transform:uppercase; color:var(--green); background:var(--green-dim); padding:3px 10px; border-radius:2px;"></div>
+    <button onclick="window.print()" style="margin-top:12px; background:var(--green); color:#fff; border:none; font-family:'Montserrat',sans-serif; font-size:9px; font-weight:600; letter-spacing:0.2em; text-transform:uppercase; padding:8px 18px; border-radius:2px; cursor:pointer;">Export PDF</button>
+  </div>
+</header>
+
+<nav>
+  <button class="active" onclick="showTab('dashboard')">Dashboard</button>
+  <button onclick="showTab('update')">Update Data</button>
+  <button onclick="showTab('listings')">All Listings</button>
+  <button onclick="showTab('jacks-point')">Jack's Point</button>
+  <button onclick="showTab('history')">History</button>
+</nav>
+
+<main>
+
+  <!-- DASHBOARD TAB -->
+  <div id="tab-dashboard" class="tab-content active">
+
+    <div class="section-header">
+      <h2>Market Overview</h2>
+      <span id="region-label">Queenstown · $2M+ Residential</span>
+      <div class="region-toggle" style="margin-left:auto;">
+        <button id="btn-qtn" class="active" onclick="setRegion('queenstown')">Queenstown</button>
+        <button id="btn-all" onclick="setRegion('all')">All QLDC</button>
+      </div>
+    </div>
+
+    <!-- Key metrics -->
+    <div class="metrics-grid">
+      <div class="metric-card highlight">
+        <div class="metric-label">Active Listings</div>
+        <div class="metric-value gold" id="m-active">—</div>
+        <div class="metric-sub">Total $2M+ properties</div>
+        <div id="m-active-change" class="metric-change neutral" style="display:none"></div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">New This Week</div>
+        <div class="metric-value" id="m-new">—</div>
+        <div class="metric-sub">Fresh to market</div>
+        <div id="m-new-change" class="metric-change neutral" style="display:none"></div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Avg. Asking Price</div>
+        <div class="metric-value" id="m-price">—</div>
+        <div class="metric-sub">$M average</div>
+        <div id="m-price-change" class="metric-change neutral" style="display:none"></div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Avg. Days on Market</div>
+        <div class="metric-value" id="m-dom">—</div>
+        <div class="metric-sub">Days average</div>
+        <div id="m-dom-change" class="metric-change neutral" style="display:none"></div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Price Reductions</div>
+        <div class="metric-value" id="m-reductions">—</div>
+        <div class="metric-sub">This week vs last week</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Withdrawn Stock</div>
+        <div class="metric-value" id="m-withdrawn">—</div>
+        <div class="metric-sub">Removed since last run</div>
+      </div>
+    </div>
+
+    <!-- New This Week listings -->
+    <div class="section-header" style="margin-bottom:0;">
+      <h2>New This Week</h2>
+      <span id="new-listings-count">Fresh to market</span>
+      <button onclick="toggleNewListings()" id="new-listings-toggle"
+        style="margin-left:auto; background:none; border:1px solid var(--border); color:var(--text-muted);
+               font-family:'Montserrat',sans-serif; font-size:9px; font-weight:500; letter-spacing:0.18em;
+               text-transform:uppercase; padding:6px 14px; cursor:pointer; border-radius:2px; transition:all 0.2s;">
+        Show Listings
+      </button>
+    </div>
+    <div id="new-listings-grid" style="display:none; margin-top:16px; margin-bottom:32px;"></div>
+
+    <!-- Charts -->
+    <div class="charts-grid">
+      <div class="chart-card">
+        <div class="chart-title">Active Listings — 12 Week Trend</div>
+        <div class="chart-container" id="listings-trend-container" style="height:200px; max-height:250px; overflow:hidden;">
+          <canvas id="listingsChart"></canvas>
+        </div>
+        <div id="listings-trend-nodata" style="display:none; padding:40px 0; text-align:center; font-size:11px; color:var(--text-muted); letter-spacing:0.06em; line-height:1.8;">
+          Trend data will appear after several weeks of scraper runs.
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Weekly Activity</div>
+        <div class="chart-container">
+          <canvas id="activityChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Supply gap -->
+    <div class="section-header">
+      <h2>Supply Analysis</h2>
+      <span>Tenure Composition — $2M+ QLDC</span>
+    </div>
+
+    <div class="supply-grid">
+      <div class="supply-card">
+        <div class="chart-title">Tenure Breakdown — Active Listings</div>
+        <div class="supply-bar-wrap">
+          <div class="supply-bar-label">
+            <span>Freehold</span>
+            <span id="freehold-pct">—</span>
+          </div>
+          <div class="supply-bar">
+            <div class="supply-bar-fill gold" id="freehold-bar" style="width:0%"></div>
+          </div>
+          <div class="supply-bar-label">
+            <span>Unit Title / Body Corporate</span>
+            <span id="unittitle-pct">—</span>
+          </div>
+          <div class="supply-bar">
+            <div class="supply-bar-fill" id="unittitle-bar" style="width:0%; background:var(--blue);"></div>
+          </div>
+          <div class="supply-bar-label">
+            <span>Leasehold</span>
+            <span id="leasehold-pct">—</span>
+          </div>
+          <div class="supply-bar">
+            <div class="supply-bar-fill" id="leasehold-bar" style="width:0%; background:var(--red); opacity:0.7;"></div>
+          </div>
+          <div class="supply-bar-label">
+            <span>Not Specified</span>
+            <span id="unspecified-pct">—</span>
+          </div>
+          <div class="supply-bar">
+            <div class="supply-bar-fill dim" id="unspecified-bar" style="width:0%"></div>
+          </div>
+        </div>
+        <div style="margin-top:20px; font-size:11px; color:var(--text-muted); line-height:1.8;">
+          The freehold supply gap is the core strategic opportunity.<br>
+          Kawarau Heights is unencumbered freehold with no levies.
+        </div>
+      </div>
+      <div class="supply-card">
+        <div class="chart-title">Tenure Mix</div>
+        <div class="chart-container" style="height:220px; max-height:250px; overflow:hidden;">
+          <canvas id="tenureChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tenure Insights -->
+    <div class="tenure-insights-grid">
+      <div class="tenure-insight-card">
+        <div class="tenure-type-tag tag-freehold">Freehold</div>
+        <div class="tenure-stat-row">
+          <span class="tenure-stat-label">Avg. Asking Price</span>
+          <span class="tenure-stat-value" id="ti-freehold-price">$3.49M</span>
+        </div>
+        <div class="tenure-stat-row">
+          <span class="tenure-stat-label">Avg. Days on Market</span>
+          <span class="tenure-stat-value" id="ti-freehold-dom">163</span>
+        </div>
+        <div class="tenure-stat-row">
+          <span class="tenure-stat-label">Active Listings</span>
+          <span class="tenure-stat-value" id="ti-freehold-count">321</span>
+        </div>
+        <div class="tenure-source-note">Source: live market scan</div>
+      </div>
+      <div class="tenure-insight-card">
+        <div class="tenure-type-tag tag-leasehold">Leasehold</div>
+        <div class="tenure-stat-row">
+          <span class="tenure-stat-label">Avg. Asking Price</span>
+          <span class="tenure-stat-value" id="ti-leasehold-price">$2.31M</span>
+        </div>
+        <div class="tenure-stat-row">
+          <span class="tenure-stat-label">Avg. Days on Market</span>
+          <span class="tenure-stat-value" id="ti-leasehold-dom">117</span>
+        </div>
+        <div class="tenure-stat-row">
+          <span class="tenure-stat-label">Active Listings</span>
+          <span class="tenure-stat-value" id="ti-leasehold-count">19</span>
+        </div>
+        <div class="tenure-source-note">Source: live market scan</div>
+      </div>
+      <div class="tenure-insight-card">
+        <div class="tenure-type-tag tag-premium">Freehold Premium</div>
+        <div class="tenure-stat-row">
+          <span class="tenure-stat-label">Price Premium vs Leasehold</span>
+          <span class="tenure-stat-value" id="ti-premium">+$1.18M</span>
+        </div>
+        <div class="tenure-stat-row">
+          <span class="tenure-stat-label">Premium %</span>
+          <span class="tenure-stat-value" id="ti-premium-pct">+51%</span>
+        </div>
+        <div style="margin-top:16px; font-size:11px; color:var(--text-muted); line-height:1.8;">
+          KH is freehold — buyers pay<br>a clear premium for clean title.
+        </div>
+        <div class="tenure-source-note">Based on listings with disclosed price</div>
+      </div>
+    </div>
+
+    <!-- Price Band Breakdown -->
+    <div class="section-header">
+      <h2>Price Band Breakdown</h2>
+      <span>Active listings by price range</span>
+      <button onclick="toggleKHZone()" id="kh-zone-toggle"
+        style="margin-left:auto; background:var(--gold); color:#fff; border:none;
+               font-family:'Montserrat',sans-serif; font-size:9px; font-weight:600;
+               letter-spacing:0.2em; text-transform:uppercase; padding:8px 18px;
+               border-radius:2px; cursor:pointer; transition:all 0.2s;">
+        Show KH Zone Listings $3M – $5M
+      </button>
+    </div>
+
+    <!-- KH Zone listings panel -->
+    <div id="kh-zone-panel" style="display:none; margin-bottom:28px;">
+      <div style="background:var(--gold-dim); border:1px solid rgba(184,146,106,0.3); border-radius:2px;
+                  padding:10px 18px; margin-bottom:14px; display:flex; align-items:center; gap:12px;">
+        <span style="font-size:9px; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); font-weight:600;">KH Zone</span>
+        <span id="kh-zone-count" style="font-size:11px; color:var(--text-muted);">—</span>
+        <span style="font-size:10px; color:var(--text-muted); margin-left:auto;">$3M – $5M · Your direct competitive set</span>
+      </div>
+      <div id="kh-zone-grid" style="display:grid; grid-template-columns:repeat(4,1fr); gap:12px;"></div>
+    </div>
+
+    <div class="band-grid">
+      <div class="card">
+        <canvas id="priceBandChart" height="200" style="max-height:250px;"></canvas>
+        <div class="chart-note">Stacked by tenure — gold = freehold. Disclosed-price listings only (auction &amp; negotiation excluded).</div>
+      </div>
+      <div class="band-detail-list" id="band-detail-list">
+        <!-- populated by JS -->
+      </div>
+    </div>
+
+    <!-- Absorption Rate -->
+    <div class="section-header">
+      <h2>Absorption Rate</h2>
+      <span>Market velocity &amp; supply depth</span>
+    </div>
+
+    <!-- Prominent supply cards side by side -->
+    <div class="supply-cards-row">
+      <div class="supply-card-main">
+        <div class="metric-label">Months of Supply — All $2M+ Listings</div>
+        <div class="metric-value gold" id="ab-supply" style="font-size:56px; margin:16px 0 8px;">—</div>
+        <div class="metric-sub" id="ab-signal-detail">—</div>
+        <div class="supply-guide">
+          <div class="supply-guide-row"><span class="guide-bar guide-seller"></span><span class="guide-label">Under 3 months — Seller's Market</span></div>
+          <div class="supply-guide-row"><span class="guide-bar guide-balanced"></span><span class="guide-label">3–6 months — Balanced Market</span></div>
+          <div class="supply-guide-row"><span class="guide-bar guide-buyer"></span><span class="guide-label">Over 6 months — Buyer's Market</span></div>
+        </div>
+        <div class="signal-display" style="margin-top:20px;">
+          <div class="signal-label">Current Signal</div>
+          <div class="signal-value" id="ab-signal">—</div>
+        </div>
+      </div>
+      <div class="supply-card-main">
+        <div class="metric-label">Months of Supply — Freehold Only</div>
+        <div class="metric-value" id="ab-fh-supply" style="font-size:56px; margin:16px 0 8px;">—</div>
+        <div class="metric-sub" id="ab-fh-detail">—</div>
+        <div class="supply-guide">
+          <div class="supply-guide-row"><span class="guide-bar guide-seller"></span><span class="guide-label">Under 3 months — Seller's Market</span></div>
+          <div class="supply-guide-row"><span class="guide-bar guide-balanced"></span><span class="guide-label">3–6 months — Balanced Market</span></div>
+          <div class="supply-guide-row"><span class="guide-bar guide-buyer"></span><span class="guide-label">Over 6 months — Buyer's Market</span></div>
+        </div>
+        <div class="signal-display" style="margin-top:20px;">
+          <div class="signal-label">Freehold Signal</div>
+          <div class="signal-value" id="ab-fh-signal">—</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Supporting metrics row -->
+    <div class="absorption-metrics" style="margin-top:16px;">
+      <div class="absorption-metric">
+        <div class="metric-label">Active Listings</div>
+        <div class="metric-value" id="ab-active">—</div>
+        <div class="metric-sub">$2M+ residential</div>
+      </div>
+      <div class="absorption-metric">
+        <div class="metric-label">Est. Monthly Sales</div>
+        <div class="metric-value" id="ab-monthly">—</div>
+        <div class="metric-sub">Based on avg DOM</div>
+      </div>
+      <div class="absorption-metric">
+        <div class="metric-label">Freehold Active</div>
+        <div class="metric-value" id="ab-fh-active">—</div>
+        <div class="metric-sub">Freehold listings</div>
+      </div>
+      <div class="absorption-metric">
+        <div class="metric-label">Absorption Rate</div>
+        <div class="metric-value" id="ab-rate">—</div>
+        <div class="metric-sub">% selling per month</div>
+      </div>
+    </div>
+
+    <div class="absorption-grid">
+      <div class="absorption-card">
+        <div class="metric-label">Days on Market Distribution</div>
+        <div class="dom-bar-list" id="dom-bar-list">
+          <!-- populated by JS -->
+        </div>
+      </div>
+      <div class="absorption-card">
+        <div class="metric-label">Methodology</div>
+        <div class="chart-note" style="margin-top:8px; font-size:10px; line-height:2; color:var(--text-muted);">
+          Monthly sales estimated as: active listings ÷ avg days on market × 30.<br>
+          Months of supply = active listings ÷ estimated monthly sales.<br>
+          Freehold calculation uses freehold listings and their average DOM independently.<br><br>
+          <strong style="color:var(--text);">Under 3 months</strong> — Seller's Market: strong pricing power, limited choice.<br>
+          <strong style="color:var(--text);">3–6 months</strong> — Balanced: neither party holds significant advantage.<br>
+          <strong style="color:var(--text);">Over 6 months</strong> — Buyer's Market: negotiating leverage shifts to buyers.
+        </div>
+      </div>
+    </div>
+
+    <!-- KH Listings -->
+    <div class="section-header">
+      <h2>Kawarau Heights</h2>
+      <span id="kh-listing-count">Kawarau Heights Development Listings</span>
+    </div>
+
+    <div id="kh-listings-grid" class="kh-listings-grid">
+      <!-- populated by JS from kh_listings in listings_data.json -->
+    </div>
+
+  <div id="no-data-msg" style="text-align:center; padding:80px 0; color:var(--text-muted);">
+      <div style="font-family:'Cormorant Garamond',serif; font-size:32px; margin-bottom:12px;">No data yet</div>
+      <div style="font-size:11px; letter-spacing:0.1em;">Run <code style="background:var(--surface2);padding:2px 6px;">export_data.py</code> and redeploy to see live data.</div>
+    </div>
+
+  </div>
+
+  <!-- JACK'S POINT TAB -->
+  <div id="tab-jacks-point" class="tab-content">
+
+    <div class="section-header">
+      <h2>Jack's Point</h2>
+      <span>Competitive Intelligence</span>
+    </div>
+
+    <!-- Comparison cards -->
+    <div class="comp-comparison-grid" id="comp-comparison-grid">
+      <!-- populated by JS -->
+    </div>
+
+    <!-- Agency breakdown -->
+    <div class="section-header" style="margin-top:40px; margin-bottom:16px;">
+      <h2 style="font-size:18px;">Agency Breakdown</h2>
+      <span>Who has what listed at Jack's Point</span>
+    </div>
+    <div id="jp-agency-grid" style="display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:40px;">
+      <!-- populated by JS -->
+    </div>
+
+    <!-- Listings -->
+    <div class="section-header" style="margin-bottom:0;">
+      <h2 style="font-size:13px; letter-spacing:0.12em;">Jack's Point — Active Listings</h2>
+      <span id="jp-listing-count">—</span>
+    </div>
+
+    <div class="kh-listings-grid" id="jp-listings-grid" style="margin-top:16px;">
+      <!-- populated by JS -->
+    </div>
+
+  </div>
+
+  <!-- UPDATE TAB -->
+  <div id="tab-update" class="tab-content">
+    <div class="update-panel">
+      <h3>Weekly Market Update</h3>
+      <p>Market figures are pre-filled from the live data export. Add your KH-specific figures, then save to record this week in the trend history.</p>
+
+      <div class="form-section-label">Market Overview</div>
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Total Active Listings</label>
+          <input type="number" id="f-active" placeholder="e.g. 84">
+        </div>
+        <div class="form-group">
+          <label>New Listings This Week</label>
+          <input type="number" id="f-new" placeholder="e.g. 6">
+        </div>
+        <div class="form-group">
+          <label>Avg. Asking Price ($M)</label>
+          <input type="number" id="f-price" placeholder="e.g. 3.2" step="0.1">
+        </div>
+        <div class="form-group">
+          <label>Avg. Days on Market</label>
+          <input type="number" id="f-dom" placeholder="e.g. 68">
+        </div>
+      </div>
+
+      <div class="form-section-label">Price Movement</div>
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Price Reductions This Week</label>
+          <input type="number" id="f-reductions" placeholder="e.g. 4">
+        </div>
+        <div class="form-group">
+          <label>Withdrawn Stock This Week</label>
+          <input type="number" id="f-withdrawn" placeholder="e.g. 2">
+        </div>
+        <div class="form-group"></div>
+        <div class="form-group"></div>
+      </div>
+
+      <div class="form-section-label">Supply Analysis — Tenure</div>
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Freehold Listings (count)</label>
+          <input type="number" id="f-freehold" placeholder="e.g. 22">
+        </div>
+        <div class="form-group">
+          <label>Unit Title / Body Corp (count)</label>
+          <input type="number" id="f-unittitle" placeholder="e.g. 8">
+        </div>
+        <div class="form-group">
+          <label>Leasehold (count)</label>
+          <input type="number" id="f-leasehold" placeholder="e.g. 3">
+        </div>
+        <div class="form-group"></div>
+      </div>
+
+      <div style="margin-top:8px;">
+        <button class="btn-update" onclick="saveData()">Save This Week</button>
+        <button class="btn-secondary" onclick="clearForm()">Clear</button>
+      </div>
+
+      <div id="save-msg" style="display:none; margin-top:16px; font-size:11px; color:var(--green); letter-spacing:0.1em;">
+        ✓ Data saved successfully. Dashboard updated.
+      </div>
+    </div>
+  </div>
+
+  <!-- ALL LISTINGS TAB -->
+  <div id="tab-listings" class="tab-content">
+
+    <div class="listings-filter-bar">
+      <div class="listings-search-wrap">
+        <input type="text" id="listings-search" class="listings-search" placeholder="Search address or agency…" oninput="onListingsSearch(this.value)">
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-label">Price Band</div>
+        <div class="filter-pills" id="filter-price" data-filter="price">
+          <button class="pill active" data-value="" onclick="onPillFilter('filter-price','')">All</button>
+          <button class="pill" data-value="2-3"  onclick="onPillFilter('filter-price','2-3')">$2M – $3M</button>
+          <button class="pill" data-value="3-4"  onclick="onPillFilter('filter-price','3-4')">$3M – $4M</button>
+          <button class="pill" data-value="4-5"  onclick="onPillFilter('filter-price','4-5')">$4M – $5M</button>
+          <button class="pill" data-value="5+"   onclick="onPillFilter('filter-price','5+')">$5M+</button>
+          <button class="pill" data-value="none" onclick="onPillFilter('filter-price','none')">No Price</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-label">Tenure</div>
+        <div class="filter-pills" id="filter-tenure" data-filter="tenure">
+          <button class="pill active" data-value=""           onclick="onPillFilter('filter-tenure','')">All</button>
+          <button class="pill" data-value="Freehold"          onclick="onPillFilter('filter-tenure','Freehold')">Freehold</button>
+          <button class="pill" data-value="Leasehold"         onclick="onPillFilter('filter-tenure','Leasehold')">Leasehold</button>
+          <button class="pill" data-value="Unit Title"        onclick="onPillFilter('filter-tenure','Unit Title')">Unit Title</button>
+          <button class="pill" data-value="Cross-lease"       onclick="onPillFilter('filter-tenure','Cross-lease')">Cross-lease</button>
+        </div>
+      </div>
+
+      <div class="filter-group filter-group-sort">
+        <div class="filter-label">Sort</div>
+        <select id="listings-sort" class="listings-sort-select" onchange="onListingsSort(this.value)">
+          <option value="dom-asc">Newest Listed</option>
+          <option value="dom-desc">Oldest Listed</option>
+          <option value="price-desc">Price High – Low</option>
+          <option value="price-asc">Price Low – High</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="listings-meta-bar">
+      <span id="listings-count" class="listings-count">—</span>
+      <button class="listings-reset" onclick="resetListingsFilters()">Clear filters</button>
+    </div>
+
+    <div class="listings-grid" id="listings-grid">
+      <div class="listings-empty">Switch to this tab after data loads.</div>
+    </div>
+
+    <div id="listings-load-more" style="display:none; text-align:center; padding:32px 0;">
+      <button class="btn-secondary" onclick="loadMoreListings()">Load more listings</button>
+    </div>
+
+  </div>
+
+  <!-- HISTORY TAB -->
+  <div id="tab-history" class="tab-content">
+    <div class="section-header">
+      <h2>Market History</h2>
+      <span>Automatic snapshots from each scraper run</span>
+    </div>
+
+    <div class="history-charts-grid">
+      <div class="chart-card">
+        <div class="chart-title">Active Listings — Trend</div>
+        <div class="chart-container">
+          <canvas id="listingsHistoryChart"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Average Asking Price ($M) — Trend</div>
+        <div class="chart-container">
+          <canvas id="priceHistoryChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <table class="history-table" id="historyTable">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Active</th>
+            <th>New (7d)</th>
+            <th>Avg Price</th>
+            <th>Avg DOM</th>
+            <th>Freehold</th>
+            <th>Leasehold</th>
+            <th>Unit Title</th>
+            <th>Est. Sales/mo</th>
+            <th>Months Supply</th>
+            <th>Signal</th>
+          </tr>
+        </thead>
+        <tbody id="historyBody">
+          <tr><td colspan="11" style="text-align:center; color:var(--text-muted); padding:40px;">No snapshots yet — run export_data.py to create the first one.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p><span class="gold-dot"></span>Kawarau Heights Market Intelligence — Internal Use Only</p>
+  <p>Sanderson Group · Queenstown</p>
+</footer>
+
+<script>
+// Data store (manual weekly history, persisted in localStorage)
+let data = (() => { try { return JSON.parse(localStorage.getItem('kh_market_data') || '[]'); } catch(e) { return []; } })();
+
+// Live scraped data loaded from listings_data.json
+let liveData = null;
+
+// Charts
+let listingsChart, activityChart, tenureChart, priceChart, priceBandChart;
+let listingsHistoryChart, priceHistoryChart;
+
+// Init
+document.addEventListener('DOMContentLoaded', async () => {
+  updateDateDisplay();
+  // Chart.js CDN may not have finished loading — retry up to 20× before giving up
+  await waitForChartJs();
+  try { initCharts(); } catch (e) { console.warn('Chart.js init failed:', e); }
+  await loadLiveData();
+  try { renderDashboard(); } catch (e) { console.error('renderDashboard error:', e); }
+  renderHistory();
+});
+
+function waitForChartJs() {
+  return new Promise(resolve => {
+    if (typeof Chart !== 'undefined') { resolve(); return; }
+    let tries = 0;
+    const id = setInterval(() => {
+      if (typeof Chart !== 'undefined' || ++tries >= 20) { clearInterval(id); resolve(); }
+    }, 100);
+  });
+}
+
+// ── Region toggle ────────────────────────────────────────────────────────────
+let activeRegion = 'queenstown'; // 'queenstown' | 'all'
+
+function setRegion(region) {
+  activeRegion = region;
+  document.getElementById('btn-qtn').classList.toggle('active', region === 'queenstown');
+  document.getElementById('btn-all').classList.toggle('active', region === 'all');
+  const label = document.getElementById('region-label');
+  if (label) label.textContent = region === 'queenstown'
+    ? 'Queenstown · $2M+ Residential'
+    : 'All QLDC · $2M+ Residential';
+  renderDashboard();
+  if (_newListingsVisible) renderNewListings();
+  if (_khZoneVisible) renderKHZone();
+}
+
+function activeSummary() {
+  if (!liveData) return null;
+  return activeRegion === 'queenstown'
+    ? (liveData.summary_qtn || liveData.summary)
+    : (liveData.summary_all || liveData.summary);
+}
+
+function activeTenure() {
+  if (!liveData) return [];
+  return activeRegion === 'queenstown'
+    ? (liveData.tenure_qtn || liveData.tenure || [])
+    : (liveData.tenure || []);
+}
+
+function activeAbsorption() {
+  if (!liveData) return null;
+  return activeRegion === 'queenstown'
+    ? (liveData.absorption_qtn || liveData.absorption)
+    : (liveData.absorption_all || liveData.absorption);
+}
+
+function activePriceBands() {
+  if (!liveData) return [];
+  return activeRegion === 'queenstown'
+    ? (liveData.price_bands_qtn || liveData.price_bands_detail || [])
+    : (liveData.price_bands_detail || []);
+}
+
+// ── Live data loader ────────────────────────────────────────────────────────
+async function loadLiveData() {
+  try {
+    const res = await fetch('./listings_data.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const text = await res.text();
+    liveData = JSON.parse(text);
+    // Set the 4 top metrics immediately — independent of renderDashboard
+    setTopMetrics(activeSummary());
+    applyLiveDataToForm();
+    showDataBadge(liveData.scrape_date);
+  } catch (e) {
+    console.error('listings_data.json failed to load:', e);
+    const badge = document.getElementById('live-data-badge');
+    if (badge) {
+      badge.textContent = 'Data file not found — redeploy with listings_data.json';
+      badge.style.display = 'inline-block';
+      badge.style.background = 'rgba(224,92,92,0.15)';
+      badge.style.color = 'var(--red)';
+    }
+  }
+}
+
+function setTopMetrics(s) {
+  if (!s) return;
+  const noData = document.getElementById('no-data-msg');
+  if (noData) noData.style.display = 'none';
+  setText('m-active', s.total_active ?? '—');
+  setText('m-new',    s.new_7_days  ?? '—');
+  setText('m-price',  s.avg_price_m != null ? '$' + parseFloat(s.avg_price_m).toFixed(2) + 'M' : '—');
+  setText('m-dom',    s.avg_dom     ?? '—');
+}
+
+function showDataBadge(dateStr) {
+  const el = document.getElementById('live-data-badge');
+  if (el) { el.textContent = 'Live data · ' + dateStr; el.style.display = 'inline-block'; }
+}
+
+// Pre-fill the Update form with live scraped values so saving a history
+// entry is one click (user can override KH-specific fields before saving).
+function applyLiveDataToForm() {
+  if (!liveData) return;
+  const s = liveData.summary;
+  const tenure = {};
+  (liveData.tenure || []).forEach(r => { tenure[r.t] = r; });
+
+  setValue('f-active',    s.total_active);
+  setValue('f-new',       s.new_7_days);
+  setValue('f-price',     s.avg_price_m);
+  setValue('f-dom',       s.avg_dom);
+  setValue('f-freehold',  tenure['Freehold']?.count   ?? '');
+  setValue('f-leasehold', tenure['Leasehold']?.count  ?? '');
+  setValue('f-unittitle', tenure['Unit Title']?.count ?? '');
+}
+
+function setValue(id, val) {
+  const el = document.getElementById(id);
+  if (el && val !== null && val !== undefined && val !== '') el.value = val;
+}
+
+function updateDateDisplay() {
+  const now = new Date();
+  const options = { day: 'numeric', month: 'long', year: 'numeric' };
+  document.getElementById('currentDate').textContent = now.toLocaleDateString('en-NZ', options);
+}
+
+function showTab(tab) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  event.target.classList.add('active');
+  if (tab === 'history')      renderHistory();
+  if (tab === 'listings')     initListingsTab();
+  if (tab === 'jacks-point')  renderJacksPoint();
+}
+
+function formatPrice(val) {
+  return val ? '$' + parseFloat(val).toFixed(1) + 'M' : '—';
+}
+
+function formatChange(current, previous, lowerIsBetter = false) {
+  if (!previous || !current) return null;
+  const diff = current - previous;
+  const pct = Math.abs(Math.round((diff / previous) * 100));
+  if (diff === 0) return { cls: 'neutral', text: 'No change' };
+  const isGood = lowerIsBetter ? diff < 0 : diff > 0;
+  const arrow = diff > 0 ? '↑' : '↓';
+  return {
+    cls: isGood ? 'up' : 'down',
+    text: `${arrow} ${Math.abs(diff)} (${pct}%)`
+  };
+}
+
+function renderDashboard() {
+  const noData = document.getElementById('no-data-msg');
+
+  // Prefer live scraped data for current metrics; fall back to latest localStorage entry
+  const hasLive  = !!liveData;
+  const hasLocal = data.length > 0;
+
+  if (!hasLive && !hasLocal) {
+    if (noData) noData.style.display = 'block';
+    return;
+  }
+  if (noData) noData.style.display = 'none';
+
+  // ── Summary metrics ────────────────────────────────────────────────────────
+  let active, newListings, avgPrice, avgDom;
+  if (hasLive) {
+    const s = activeSummary();
+    active      = s.total_active;
+    newListings = s.new_7_days;
+    avgPrice    = s.avg_price_m;
+    avgDom      = s.avg_dom;
+  } else {
+    const latest = data[data.length - 1];
+    active      = latest.active;
+    newListings = latest.newListings;
+    avgPrice    = latest.price;
+    avgDom      = latest.dom;
+  }
+
+  setText('m-active', active      ?? '—');
+  setText('m-new',    newListings  ?? '—');
+  setText('m-price',  avgPrice ? '$' + parseFloat(avgPrice).toFixed(2) + 'M' : '—');
+  setText('m-dom',    avgDom      ?? '—');
+
+  // Price reductions and withdrawn from diff data
+  if (hasLive && liveData.diff) {
+    setText('m-reductions', liveData.diff.price_reductions ?? '—');
+    setText('m-withdrawn',  liveData.diff.withdrawn        ?? '—');
+  } else {
+    setText('m-reductions', '—');
+    setText('m-withdrawn',  '—');
+  }
+
+  // Week-on-week change indicators (from localStorage history only)
+  if (hasLocal && data.length > 1) {
+    const latest = data[data.length - 1];
+    const prev   = data[data.length - 2];
+    showChange('m-active-change', formatChange(latest.active,      prev.active));
+    showChange('m-new-change',    formatChange(latest.newListings, prev.newListings));
+    showChange('m-price-change',  formatChange(latest.price,       prev.price));
+    showChange('m-dom-change',    formatChange(latest.dom,         prev.dom, true));
+  }
+
+  // ── Tenure bars & donut ────────────────────────────────────────────────────
+  try {
+  const tenureMap = {};
+  if (hasLive) {
+    (activeTenure() || []).forEach(r => { tenureMap[r.t] = r; });
+  } else if (hasLocal) {
+    const latest = data[data.length - 1];
+    if (latest.freehold)  tenureMap['Freehold']      = { count: latest.freehold,  avg_price_m: null, avg_dom: null };
+    if (latest.unitTitle) tenureMap['Unit Title']    = { count: latest.unitTitle, avg_price_m: null, avg_dom: null };
+    if (latest.leasehold) tenureMap['Leasehold']     = { count: latest.leasehold, avg_price_m: null, avg_dom: null };
+  }
+
+  const total = active || 0;
+  const fh    = tenureMap['Freehold']?.count     || 0;
+  const ut    = tenureMap['Unit Title']?.count   || 0;
+  const lh    = tenureMap['Leasehold']?.count    || 0;
+  const cl    = tenureMap['Cross-lease']?.count  || 0;
+  const other = tenureMap['Not Specified']?.count || Math.max(0, total - fh - ut - lh - cl);
+  const pct   = n => total > 0 ? Math.round((n / total) * 100) : 0;
+
+  document.getElementById('freehold-pct').textContent    = `${fh} (${pct(fh)}%)`;
+  document.getElementById('unittitle-pct').textContent   = `${ut} (${pct(ut)}%)`;
+  document.getElementById('leasehold-pct').textContent   = `${lh} (${pct(lh)}%)`;
+  document.getElementById('unspecified-pct').textContent = `${other} (${pct(other)}%)`;
+  document.getElementById('freehold-bar').style.width    = pct(fh) + '%';
+  document.getElementById('unittitle-bar').style.width   = pct(ut) + '%';
+  document.getElementById('leasehold-bar').style.width   = pct(lh) + '%';
+  document.getElementById('unspecified-bar').style.width = pct(other) + '%';
+
+  if (typeof tenureChart !== 'undefined' && tenureChart) {
+    tenureChart.data.datasets[0].data = [fh, lh, cl, other];
+    tenureChart.update();
+  }
+
+  // ── Tenure insight cards ───────────────────────────────────────────────────
+  const fhData = tenureMap['Freehold']  || {};
+  const lhData = tenureMap['Leasehold'] || {};
+  if (fhData.avg_price_m) setText('ti-freehold-price', '$' + fhData.avg_price_m + 'M');
+  if (fhData.avg_dom)     setText('ti-freehold-dom',   fhData.avg_dom);
+  if (fhData.count)       setText('ti-freehold-count', fhData.count);
+  if (lhData.avg_price_m) setText('ti-leasehold-price', '$' + lhData.avg_price_m + 'M');
+  if (lhData.avg_dom)     setText('ti-leasehold-dom',   lhData.avg_dom);
+  if (lhData.count)       setText('ti-leasehold-count', lhData.count);
+  if (fhData.avg_price_m && lhData.avg_price_m) {
+    const diff    = (fhData.avg_price_m - lhData.avg_price_m).toFixed(2);
+    const diffPct = Math.round(((fhData.avg_price_m - lhData.avg_price_m) / lhData.avg_price_m) * 100);
+    setText('ti-premium',     '+$' + diff + 'M');
+    setText('ti-premium-pct', '+' + diffPct + '%');
+  }
+
+  } catch(e) { console.error('Tenure render error:', e); }
+
+  // ── Price band breakdown ──────────────────────────────────────────────────
+  try {
+  if (hasLive && activePriceBands() && activePriceBands().length) {
+    const bands = activePriceBands();
+    const maxTotal = Math.max(...bands.map(b => b.total));
+
+    // Update stacked bar chart
+    if (priceBandChart) {
+      priceBandChart.data.datasets[0].data = bands.map(b => b.freehold);
+      priceBandChart.data.datasets[1].data = bands.map(b => b.other);
+      priceBandChart.update();
+    }
+
+    // Build detail list
+    const detailList = document.getElementById('band-detail-list');
+    if (detailList) {
+      const khBands = new Set(['$3M – $4M', '$4M – $5M']);
+      detailList.innerHTML = bands.map(b => {
+        const isKH = khBands.has(b.band);
+        const fhPct  = b.total > 0 ? (b.freehold / b.total) * 100 : 0;
+        const otPct  = b.total > 0 ? (b.other   / b.total) * 100 : 0;
+        const barPct = maxTotal > 0 ? (b.total / maxTotal) * 100 : 0;
+        const fhBarW = barPct * (fhPct / 100);
+        const otBarW = barPct * (otPct / 100);
+        return `
+          <div class="band-row">
+            <div class="band-row-header">
+              <span class="band-label${isKH ? ' kh-zone' : ''}">${b.band}${isKH ? '<span class="band-kh-tag">KH Zone</span>' : ''}</span>
+              <span class="band-counts"><strong>${b.total}</strong> listings</span>
+            </div>
+            <div class="band-bar-track">
+              <div class="band-bar-fh"  style="width:${fhBarW.toFixed(1)}%"></div>
+              <div class="band-bar-other" style="width:${otBarW.toFixed(1)}%"></div>
+            </div>
+            <div class="band-counts" style="font-size:10px;">${b.freehold} freehold · ${b.other} other · avg ${b.avg_dom} DOM</div>
+          </div>`;
+      }).join('');
+    }
+  }
+
+  } catch(e) { console.error('Price band render error:', e); }
+
+  // ── Absorption rate ────────────────────────────────────────────────────────
+  try {
+  if (hasLive && activeAbsorption()) {
+    const ab = activeAbsorption();
+    setText('ab-active',  ab.active_listings ?? '—');
+    setText('ab-monthly', ab.est_monthly_sales ?? '—');
+    setText('ab-supply',  ab.months_of_supply != null ? ab.months_of_supply + ' mo' : '—');
+    setText('ab-rate',    ab.absorption_rate_pct != null ? ab.absorption_rate_pct + '%' : '—');
+
+    // Freehold-specific
+    setText('ab-fh-active',  ab.freehold_active ?? '—');
+    setText('ab-fh-supply',  ab.freehold_months_supply != null ? ab.freehold_months_supply + ' mo' : '—');
+
+    // Market signals (all-market)
+    const signal = ab.market_signal || 'Unknown';
+    const signalCls = s => s === "Seller's Market" ? 'seller' : s === 'Balanced' ? 'balanced' : 'buyer';
+    const signalEl = document.getElementById('ab-signal');
+    if (signalEl) { signalEl.textContent = signal; signalEl.className = 'signal-value ' + signalCls(signal); }
+
+    const detailMap = {
+      "Seller's Market": `${ab.months_of_supply} months of supply · strong seller pricing power`,
+      "Balanced":        `${ab.months_of_supply} months of supply · neither party holds strong advantage`,
+      "Buyer's Market":  `${ab.months_of_supply} months of supply · buyers hold negotiating leverage`,
+    };
+    setText('ab-signal-detail', detailMap[signal] || '');
+
+    // Freehold signal
+    const fhSignal = ab.freehold_signal || 'Unknown';
+    const fhSignalEl = document.getElementById('ab-fh-signal');
+    if (fhSignalEl) { fhSignalEl.textContent = fhSignal; fhSignalEl.className = 'signal-value ' + signalCls(fhSignal); }
+
+    const fhDetailMap = {
+      "Seller's Market": `${ab.freehold_months_supply} months of supply · freehold stock is tightly held`,
+      "Balanced":        `${ab.freehold_months_supply} months of supply · freehold conditions are balanced`,
+      "Buyer's Market":  `${ab.freehold_months_supply} months of supply · freehold buyers have room to negotiate`,
+    };
+    setText('ab-fh-detail', fhDetailMap[fhSignal] || '');
+
+    // DOM distribution bars
+    const domBars = document.getElementById('dom-bar-list');
+    if (domBars && ab.active_listings > 0) {
+      const total = ab.active_listings;
+      const segments = [
+        { label: 'New (≤30 days)',      count: ab.new_30_days,                                  color: 'var(--gold)',  pct: Math.round((ab.new_30_days / total) * 100) },
+        { label: '31–90 days',          count: ab.listed_90_days - ab.new_30_days,              color: 'var(--blue)',  pct: Math.round(((ab.listed_90_days - ab.new_30_days) / total) * 100) },
+        { label: '91–180 days',         count: total - ab.listed_90_days - ab.stale_180_days,  color: 'var(--text-muted)', pct: Math.round(((total - ab.listed_90_days - ab.stale_180_days) / total) * 100) },
+        { label: 'Stale (>180 days)',   count: ab.stale_180_days,                               color: 'var(--red)',   pct: Math.round((ab.stale_180_days / total) * 100) },
+      ];
+      domBars.innerHTML = segments.map(s => `
+        <div class="dom-bar-row">
+          <div class="dom-bar-header">
+            <span>${s.label}</span>
+            <span>${Math.max(0, s.count)} listings · ${Math.max(0, s.pct)}%</span>
+          </div>
+          <div class="dom-bar-track">
+            <div class="dom-bar-fill" style="width:${Math.max(0, s.pct)}%; background:${s.color}; opacity:0.75;"></div>
+          </div>
+        </div>`).join('');
+    }
+  }
+
+  } catch(e) { console.error('Absorption render error:', e); }
+
+  // ── KH Listings ────────────────────────────────────────────────────────────
+
+  try { updateCharts(); } catch(e) { console.error('updateCharts error:', e); }
+  try { renderNewListings(); } catch(e) { console.error('renderNewListings error:', e); }
+}
+
+// ── New This Week listings ────────────────────────────────────────────────────
+let _newListingsVisible = false;
+
+function toggleNewListings() {
+  _newListingsVisible = !_newListingsVisible;
+  const grid   = document.getElementById('new-listings-grid');
+  const toggle = document.getElementById('new-listings-toggle');
+  if (grid)   grid.style.display   = _newListingsVisible ? 'grid' : 'none';
+  if (toggle) toggle.textContent   = _newListingsVisible ? 'Hide Listings' : 'Show Listings';
+  if (_newListingsVisible) renderNewListings();
+}
+
+function renderNewListings() {
+  if (!liveData || !liveData.all_listings) return;
+
+  const isQtn = activeRegion === 'queenstown';
+  const raw   = liveData.all_listings.filter(l => {
+    if (l.days_on_market == null || l.days_on_market > 7) return false;
+    if (isQtn && l.address && l.address.toLowerCase().includes(', wanaka, central otago')) return false;
+    return true;
+  });
+
+  const countEl = document.getElementById('new-listings-count');
+  if (countEl) countEl.textContent = raw.length
+    ? `${raw.length} listing${raw.length !== 1 ? 's' : ''} — fresh to market in the last 7 days`
+    : 'No new listings this week';
+
+  const grid = document.getElementById('new-listings-grid');
+  if (!grid) return;
+
+  if (!_newListingsVisible) return;
+
+  grid.style.gridTemplateColumns = 'repeat(4, 1fr)';
+  grid.style.gap = '12px';
+
+  if (raw.length === 0) {
+    grid.innerHTML = '<div style="color:var(--text-muted); font-size:11px; grid-column:1/-1;">No new listings in the last 7 days.</div>';
+    return;
+  }
+
+  grid.innerHTML = raw.map(l => {
+    const tenure = l.tenure || '';
+    const tenureClass =
+      tenure === 'Freehold'   ? 'tag-freehold'  :
+      tenure === 'Leasehold'  ? 'tag-leasehold' :
+      tenure === 'Unit Title' ? 'tag-unittitle' : 'tag-other';
+    const tenureLabel = tenure || 'Not Specified';
+    const priceText   = l.asking_price || l.price_method || 'POA';
+    const hasPrice    = !!l.price_numeric;
+    const dom         = l.days_on_market != null ? l.days_on_market + (l.days_on_market === 1 ? ' day' : ' days') : '—';
+    const beds        = l.bedrooms  != null ? l.bedrooms  : '—';
+    const baths       = l.bathrooms != null ? l.bathrooms : '—';
+    const clickAttr   = l.url
+      ? `onclick="window.open('${l.url}','_blank')" class="listing-card clickable"`
+      : 'class="listing-card"';
+    return `
+      <div ${clickAttr}>
+        <div class="listing-card-top">
+          <span class="listing-tenure-tag ${tenureClass}">${tenureLabel}</span>
+          <span class="listing-new-tag">New</span>
+        </div>
+        <div class="listing-address">${l.address || '—'}</div>
+        <div class="listing-price${hasPrice ? '' : ' muted'}">${priceText}</div>
+        <div class="listing-divider"></div>
+        <div class="listing-stats">
+          <div class="listing-stat">
+            <span class="stat-label">Days on Market</span>
+            <span class="stat-value fresh">${dom}</span>
+          </div>
+          <div class="listing-stat">
+            <span class="stat-label">Beds / Baths</span>
+            <span class="stat-value">${beds} / ${baths}</span>
+          </div>
+          <div class="listing-stat listing-stat-full">
+            <span class="stat-label">Agency</span>
+            <span class="stat-value">${l.agency || '—'}</span>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+// ── KH Zone listings ($3M – $5M) ─────────────────────────────────────────────
+let _khZoneVisible = false;
+
+function toggleKHZone() {
+  _khZoneVisible = !_khZoneVisible;
+  const panel  = document.getElementById('kh-zone-panel');
+  const toggle = document.getElementById('kh-zone-toggle');
+  if (panel)  panel.style.display = _khZoneVisible ? 'block' : 'none';
+  if (toggle) {
+    toggle.textContent  = _khZoneVisible ? 'Hide KH Zone Listings' : 'Show KH Zone Listings $3M – $5M';
+    toggle.style.background = _khZoneVisible ? 'var(--text-muted)' : 'var(--gold)';
+  }
+  if (_khZoneVisible) renderKHZone();
+}
+
+function renderKHZone() {
+  if (!liveData || !liveData.all_listings) return;
+
+  const isQtn = activeRegion === 'queenstown';
+  const raw   = liveData.all_listings.filter(l => {
+    const p = l.price_numeric;
+    if (!p || p < 3_000_000 || p >= 5_000_000) return false;
+    if (isQtn && l.address && l.address.toLowerCase().includes(', wanaka, central otago')) return false;
+    return true;
+  });
+
+  // Sort by price ascending so buyers can scan the competitive set in order
+  raw.sort((a, b) => (a.price_numeric || 0) - (b.price_numeric || 0));
+
+  const countEl = document.getElementById('kh-zone-count');
+  if (countEl) countEl.textContent =
+    `${raw.length} active listing${raw.length !== 1 ? 's' : ''} in your price zone`;
+
+  const grid = document.getElementById('kh-zone-grid');
+  if (!grid) return;
+
+  if (raw.length === 0) {
+    grid.innerHTML = '<div style="color:var(--text-muted); font-size:11px; grid-column:1/-1; padding:24px 0;">No listings in the $3M – $5M range.</div>';
+    return;
+  }
+
+  grid.innerHTML = raw.map(l => {
+    const tenure = l.tenure || '';
+    const tenureClass =
+      tenure === 'Freehold'   ? 'tag-freehold'  :
+      tenure === 'Leasehold'  ? 'tag-leasehold' :
+      tenure === 'Unit Title' ? 'tag-unittitle' : 'tag-other';
+    const tenureLabel = tenure || 'Not Specified';
+    const priceText   = l.asking_price || l.price_method || 'POA';
+    const hasPrice    = !!l.price_numeric;
+    const dom         = l.days_on_market != null ? l.days_on_market + ' days' : '—';
+    const domClass    = l.days_on_market != null
+      ? (l.days_on_market <= 14 ? 'fresh' : l.days_on_market > 90 ? 'stale' : '') : '';
+    const beds        = l.bedrooms  != null ? l.bedrooms  : '—';
+    const baths       = l.bathrooms != null ? l.bathrooms : '—';
+    const isKH        = (l.agency || '').toLowerCase().includes('kawarau heights');
+    const khBadge     = isKH ? '<span class="listing-new-tag" style="background:var(--gold);">KH</span>' : '';
+    const clickAttr   = l.url
+      ? `onclick="window.open('${l.url}','_blank')" class="listing-card clickable"`
+      : 'class="listing-card"';
+    return `
+      <div ${clickAttr} style="${isKH ? 'border-color:var(--gold); border-width:2px;' : ''}">
+        <div class="listing-card-top">
+          <span class="listing-tenure-tag ${tenureClass}">${tenureLabel}</span>
+          ${khBadge}
+          ${l.days_on_market != null && l.days_on_market <= 14 ? '<span class="listing-new-tag">New</span>' : ''}
+        </div>
+        <div class="listing-address">${l.address || '—'}</div>
+        <div class="listing-price${hasPrice ? '' : ' muted'}">${priceText}</div>
+        <div class="listing-divider"></div>
+        <div class="listing-stats">
+          <div class="listing-stat">
+            <span class="stat-label">Days on Market</span>
+            <span class="stat-value ${domClass}">${dom}</span>
+          </div>
+          <div class="listing-stat">
+            <span class="stat-label">Beds / Baths</span>
+            <span class="stat-value">${beds} / ${baths}</span>
+          </div>
+          <div class="listing-stat listing-stat-full">
+            <span class="stat-label">Agency</span>
+            <span class="stat-value">${l.agency || '—'}</span>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+}
+function renderJacksPoint() {
+  if (!liveData) return;
+
+  const jp  = liveData.jacks_point_summary  || {};
+  const kh  = liveData.kh_summary           || {};
+  const jpL = liveData.jacks_point_listings || [];
+
+  // ── Comparison cards ──────────────────────────────────────────────────────
+  const compGrid = document.getElementById('comp-comparison-grid');
+  if (compGrid) {
+    const fmt    = v => v != null ? '$' + parseFloat(v).toFixed(2) + 'M' : '—';
+    const fmtDom = v => v != null ? v + ' days' : '—';
+
+    const priceDiff = (kh.avg_price_m != null && jp.avg_price_m != null)
+      ? (kh.avg_price_m - jp.avg_price_m).toFixed(2) : null;
+    const domDiff = (kh.avg_dom != null && jp.avg_dom != null)
+      ? (kh.avg_dom - jp.avg_dom) : null;
+
+    compGrid.innerHTML = `
+      <div class="comp-card">
+        <div class="comp-card-label label-kh">Kawarau Heights Development</div>
+        <div class="comp-stats-row">
+          <div class="comp-stat">
+            <span class="comp-stat-label">Avg Asking Price</span>
+            <span class="comp-stat-value gold">${fmt(kh.avg_price_m)}</span>
+            <span class="comp-stat-sub">${kh.count ?? '—'} listings</span>
+          </div>
+          <div class="comp-stat">
+            <span class="comp-stat-label">Avg Days on Market</span>
+            <span class="comp-stat-value gold">${fmtDom(kh.avg_dom)}</span>
+            <span class="comp-stat-sub">across all KH listings</span>
+          </div>
+        </div>
+        ${priceDiff != null || domDiff != null ? `
+        <div class="comp-delta">
+          ${priceDiff != null ? `Price premium vs Jack's Point: <strong>${priceDiff > 0 ? '+' : ''}$${priceDiff}M</strong>` : ''}
+          ${priceDiff != null && domDiff != null ? ' · ' : ''}
+          ${domDiff != null ? `DOM difference: <strong>${domDiff > 0 ? '+' : ''}${domDiff} days</strong>` : ''}
+        </div>` : ''}
+      </div>
+      <div class="comp-card">
+        <div class="comp-card-label label-jp">Jack's Point</div>
+        <div class="comp-stats-row">
+          <div class="comp-stat">
+            <span class="comp-stat-label">Avg Asking Price</span>
+            <span class="comp-stat-value">${fmt(jp.avg_price_m)}</span>
+            <span class="comp-stat-sub">${jp.count ?? '—'} listings</span>
+          </div>
+          <div class="comp-stat">
+            <span class="comp-stat-label">Avg Days on Market</span>
+            <span class="comp-stat-value">${fmtDom(jp.avg_dom)}</span>
+            <span class="comp-stat-sub">across all JP listings</span>
+          </div>
+        </div>
+        <div class="comp-delta">
+          Priced listings only used for averages. Jack's Point includes Hanley's Farm sub-development.
+        </div>
+      </div>`;
+  }
+
+  // ── Agency breakdown ──────────────────────────────────────────────────────
+  const agencyGrid = document.getElementById('jp-agency-grid');
+  if (agencyGrid && jpL.length > 0) {
+    const agencyCounts = {};
+    jpL.forEach(l => {
+      const a = l.agency || 'Unknown';
+      agencyCounts[a] = (agencyCounts[a] || 0) + 1;
+    });
+    const sorted = Object.entries(agencyCounts).sort((a, b) => b[1] - a[1]);
+    agencyGrid.innerHTML = sorted.map(([name, count]) => `
+      <div style="background:var(--surface); border:1px solid var(--border); padding:16px 20px;">
+        <div style="font-size:9px; letter-spacing:0.2em; color:var(--text-muted); text-transform:uppercase; margin-bottom:8px;">Agency</div>
+        <div style="font-family:'Cormorant Garamond',serif; font-size:24px; color:var(--text); line-height:1;">${count}</div>
+        <div style="font-size:10px; color:var(--text-muted); margin-top:6px;">${name}</div>
+      </div>`).join('');
+  } else if (agencyGrid) {
+    agencyGrid.innerHTML = '<div style="color:var(--text-muted); font-size:11px;">No data available.</div>';
+  }
+
+  // ── Listing cards ─────────────────────────────────────────────────────────
+  const jpGrid  = document.getElementById('jp-listings-grid');
+  const jpCount = document.getElementById('jp-listing-count');
+  if (jpCount) jpCount.textContent = jpL.length ? `${jpL.length} listings` : '—';
+  if (jpGrid) {
+    if (jpL.length === 0) {
+      jpGrid.innerHTML = '<div class="kh-empty-state">No Jack\'s Point listings found.</div>';
+    } else {
+      jpGrid.innerHTML = jpL.map(l => {
+        const tenure = l.tenure || '';
+        const tenureClass =
+          tenure === 'Freehold'   ? 'tag-freehold'  :
+          tenure === 'Leasehold'  ? 'tag-leasehold' :
+          tenure === 'Unit Title' ? 'tag-unittitle' : 'tag-other';
+        const tenureLabel = tenure || 'Not Specified';
+        const hasPrice   = !!l.price_numeric;
+        const priceText  = l.asking_price || l.price_method || 'POA';
+        const dom        = l.days_on_market != null ? l.days_on_market + ' days' : '—';
+        const domClass   = l.days_on_market != null
+          ? (l.days_on_market <= 14 ? 'fresh' : l.days_on_market > 180 ? 'stale' : '') : '';
+        const beds   = l.bedrooms  != null ? l.bedrooms  : '—';
+        const baths  = l.bathrooms != null ? l.bathrooms : '—';
+        const clickAttr = l.url
+          ? `onclick="window.open('${l.url}','_blank')" class="listing-card clickable"`
+          : 'class="listing-card"';
+        return `
+          <div ${clickAttr}>
+            <div class="listing-card-top">
+              <span class="listing-tenure-tag ${tenureClass}">${tenureLabel}</span>
+              ${l.days_on_market != null && l.days_on_market <= 14 ? '<span class="listing-new-tag">New</span>' : ''}
+            </div>
+            <div class="listing-address">${l.address || '—'}</div>
+            <div class="listing-price${hasPrice ? '' : ' muted'}">${priceText}</div>
+            <div class="listing-divider"></div>
+            <div class="listing-stats">
+              <div class="listing-stat">
+                <span class="stat-label">Days on Market</span>
+                <span class="stat-value ${domClass}">${dom}</span>
+              </div>
+              <div class="listing-stat">
+                <span class="stat-label">Beds / Baths</span>
+                <span class="stat-value">${beds} / ${baths}</span>
+              </div>
+              <div class="listing-stat listing-stat-full">
+                <span class="stat-label">Agency</span>
+                <span class="stat-value">${l.agency || '—'}</span>
+              </div>
+            </div>
+          </div>`;
+      }).join('');
+    }
+  }
+}
+
+function setText(id, val) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = val;
+}
+
+function showChange(id, change) {
+  const el = document.getElementById(id);
+  if (!el || !change) return;
+  el.style.display = 'inline-flex';
+  el.className = `metric-change ${change.cls}`;
+  el.textContent = change.text;
+}
+
+function initCharts() {
+  const chartDefaults = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: {
+        grid: { color: '#2a2d2d', drawBorder: false },
+        ticks: { color: '#7a7670', font: { family: 'Montserrat', size: 9 } }
+      },
+      y: {
+        grid: { color: '#2a2d2d', drawBorder: false },
+        ticks: { color: '#7a7670', font: { family: 'Montserrat', size: 9 } }
+      }
+    }
+  };
+
+  listingsChart = new Chart(document.getElementById('listingsChart'), {
+    type: 'line',
+    data: { labels: [], datasets: [{
+      data: [],
+      borderColor: '#c9a96e',
+      backgroundColor: 'rgba(201,169,110,0.08)',
+      borderWidth: 2,
+      pointBackgroundColor: '#c9a96e',
+      pointRadius: 3,
+      fill: true,
+      tension: 0.3
+    }]},
+    options: { ...chartDefaults }
+  });
+
+  activityChart = new Chart(document.getElementById('activityChart'), {
+    type: 'bar',
+    data: { labels: ['New', 'Reductions', 'Withdrawn'], datasets: [{
+      data: [0, 0, 0],
+      backgroundColor: ['rgba(201,169,110,0.7)', 'rgba(224,92,92,0.7)', 'rgba(106,159,216,0.5)'],
+      borderRadius: 2
+    }]},
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: '#7a7670', font: { family: 'Montserrat', size: 9 } } },
+        y: { grid: { color: '#2a2d2d' }, ticks: { color: '#7a7670', font: { family: 'Montserrat', size: 9 } } }
+      }
+    }
+  });
+
+  tenureChart = new Chart(document.getElementById('tenureChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Freehold', 'Leasehold', 'Cross-lease', 'Not Specified'],
+      datasets: [{
+        data: [0, 0, 0, 0],
+        backgroundColor: [
+          'rgba(201,169,110,0.75)',
+          'rgba(224,92,92,0.65)',
+          'rgba(106,159,216,0.65)',
+          'rgba(74,72,69,0.6)',
+        ],
+        borderWidth: 0
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: true,
+          position: 'bottom',
+          labels: { color: '#7a7670', font: { family: 'Montserrat', size: 9 }, boxWidth: 10, padding: 12 }
+        }
+      }
+    }
+  });
+
+  priceBandChart = new Chart(document.getElementById('priceBandChart'), {
+    type: 'bar',
+    data: {
+      labels: ['$2M – $3M', '$3M – $4M', '$4M – $5M', '$5M+'],
+      datasets: [
+        {
+          label: 'Freehold',
+          data: [0, 0, 0, 0],
+          backgroundColor: 'rgba(201,169,110,0.80)',
+          borderRadius: 2,
+          stack: 'a'
+        },
+        {
+          label: 'Other tenure',
+          data: [0, 0, 0, 0],
+          backgroundColor: 'rgba(74,72,69,0.55)',
+          borderRadius: 2,
+          stack: 'a'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: true,
+          position: 'top',
+          labels: { color: '#7a7670', font: { family: 'Montserrat', size: 9 }, boxWidth: 10, padding: 12 }
+        },
+        tooltip: {
+          callbacks: {
+            afterBody: (items) => {
+              const idx = items[0].dataIndex;
+              const fh = priceBandChart.data.datasets[0].data[idx];
+              const ot = priceBandChart.data.datasets[1].data[idx];
+              const total = fh + ot;
+              return total > 0 ? `Total: ${total}` : '';
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          stacked: true,
+          grid: { display: false },
+          ticks: { color: '#7a7670', font: { family: 'Montserrat', size: 9 } }
+        },
+        y: {
+          stacked: true,
+          grid: { color: '#2a2d2d', drawBorder: false },
+          ticks: { color: '#7a7670', font: { family: 'Montserrat', size: 9 }, stepSize: 5 }
+        }
+      }
+    }
+  });
+
+  const historyLineOpts = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { grid: { color: '#2a2d2d', drawBorder: false }, ticks: { color: '#7a7670', font: { family: 'Montserrat', size: 9 }, maxTicksLimit: 12 } },
+      y: { grid: { color: '#2a2d2d', drawBorder: false }, ticks: { color: '#7a7670', font: { family: 'Montserrat', size: 9 } } }
+    }
+  };
+
+  listingsHistoryChart = new Chart(document.getElementById('listingsHistoryChart'), {
+    type: 'line',
+    data: { labels: [], datasets: [{ data: [], borderColor: '#c9a96e', backgroundColor: 'rgba(201,169,110,0.08)', borderWidth: 2, pointBackgroundColor: '#c9a96e', pointRadius: 3, fill: true, tension: 0.3 }] },
+    options: historyLineOpts
+  });
+
+  priceHistoryChart = new Chart(document.getElementById('priceHistoryChart'), {
+    type: 'line',
+    data: { labels: [], datasets: [{ data: [], borderColor: '#6a9fd8', backgroundColor: 'rgba(106,159,216,0.08)', borderWidth: 2, pointBackgroundColor: '#6a9fd8', pointRadius: 3, fill: true, tension: 0.3 }] },
+    options: { ...historyLineOpts, scales: { ...historyLineOpts.scales, y: { ...historyLineOpts.scales.y, ticks: { ...historyLineOpts.scales.y.ticks, callback: v => '$' + parseFloat(v).toFixed(2) + 'M' } } } }
+  });
+}
+
+function updateCharts() {
+  // Activity bar — prefer live data for new listings count
+  if (activityChart) {
+    const newCount   = liveData ? liveData.summary.new_7_days : (data.length ? data[data.length-1].newListings || 0 : 0);
+    const reductions = data.length ? data[data.length-1].reductions || 0 : 0;
+    const withdrawn  = data.length ? data[data.length-1].withdrawn  || 0 : 0;
+    activityChart.data.datasets[0].data = [newCount, reductions, withdrawn];
+    activityChart.update();
+  }
+
+  if (data.length === 0) return;
+
+  // Populate trend chart from scraper snapshots (last 12 weeks)
+  const snapshots  = (liveData && liveData.history) ? liveData.history.slice(-12) : [];
+  const trendWrap  = document.getElementById('listings-trend-container');
+  const trendEmpty = document.getElementById('listings-trend-nodata');
+  if (snapshots.length >= 2) {
+    if (trendWrap)  trendWrap.style.display  = '';
+    if (trendEmpty) trendEmpty.style.display = 'none';
+    if (listingsChart) {
+      listingsChart.data.labels = snapshots.map(s => {
+        const d = new Date(s.snapshot_date);
+        return d.toLocaleDateString('en-NZ', { day: 'numeric', month: 'short' });
+      });
+      listingsChart.data.datasets[0].data = snapshots.map(s => s.total_active);
+      listingsChart.update();
+    }
+  } else {
+    if (trendWrap)  trendWrap.style.display  = 'none';
+    if (trendEmpty) trendEmpty.style.display = 'block';
+  }
+
+  if (priceChart) {
+    priceChart.data.labels = labels;
+    priceChart.data.datasets[0].data = recent.map(d => d.price);
+    priceChart.update();
+  }
+}
+
+function renderHistory() {
+  const tbody = document.getElementById('historyBody');
+  const snapshots = (liveData && liveData.history) ? liveData.history : [];
+
+  if (snapshots.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="11" style="text-align:center; color:var(--text-muted); padding:40px;">No snapshots yet — run export_data.py to create the first one.</td></tr>';
+    return;
+  }
+
+  // Update trend charts
+  const labels = snapshots.map(s => {
+    const d = new Date(s.snapshot_date);
+    return d.toLocaleDateString('en-NZ', { day: 'numeric', month: 'short' });
+  });
+  if (listingsHistoryChart) {
+    listingsHistoryChart.data.labels = labels;
+    listingsHistoryChart.data.datasets[0].data = snapshots.map(s => s.total_active);
+    listingsHistoryChart.update();
+  }
+  if (priceHistoryChart) {
+    priceHistoryChart.data.labels = labels;
+    priceHistoryChart.data.datasets[0].data = snapshots.map(s => s.avg_price_m);
+    priceHistoryChart.update();
+  }
+
+  // Table — newest first
+  const signalClass = s =>
+    s === "Seller's Market" ? 'color:var(--green)' :
+    s === 'Balanced'        ? 'color:var(--gold)'  :
+    s === "Buyer's Market"  ? 'color:var(--blue)'  : '';
+
+  const rows = [...snapshots].reverse().map((s, i) => `
+    <tr>
+      <td>${s.snapshot_date}${i === 0 ? ' <span class="badge latest">Latest</span>' : ''}</td>
+      <td>${s.total_active ?? '—'}</td>
+      <td>${s.new_7_days   ?? '—'}</td>
+      <td>${s.avg_price_m  != null ? '$' + s.avg_price_m + 'M' : '—'}</td>
+      <td>${s.avg_dom      ?? '—'}</td>
+      <td>${s.freehold_count   ?? '—'}</td>
+      <td>${s.leasehold_count  ?? '—'}</td>
+      <td>${s.unit_title_count ?? '—'}</td>
+      <td>${s.est_monthly_sales ?? '—'}</td>
+      <td>${s.months_of_supply  ?? '—'}</td>
+      <td style="${signalClass(s.market_signal)}">${s.market_signal ?? '—'}</td>
+    </tr>
+  `).join('');
+  tbody.innerHTML = rows;
+}
+
+function saveData() {
+  const now = new Date();
+  const dateStr = now.toLocaleDateString('en-NZ', { day: 'numeric', month: 'short', year: 'numeric' });
+  const weekLabel = now.toLocaleDateString('en-NZ', { day: 'numeric', month: 'short' });
+
+  const entry = {
+    date: dateStr,
+    weekLabel: weekLabel,
+    active: parseFloat(document.getElementById('f-active').value) || null,
+    newListings: parseFloat(document.getElementById('f-new').value) || null,
+    price: parseFloat(document.getElementById('f-price').value) || null,
+    dom: parseFloat(document.getElementById('f-dom').value) || null,
+    reductions: parseFloat(document.getElementById('f-reductions').value) || null,
+    withdrawn: parseFloat(document.getElementById('f-withdrawn').value) || null,
+    freehold:   parseFloat(document.getElementById('f-freehold').value)   || null,
+    unitTitle:  parseFloat(document.getElementById('f-unittitle').value)  || null,
+    leasehold:  parseFloat(document.getElementById('f-leasehold').value)  || null,
+    khActive: null,
+    khDom: null,
+    khFrom: null,
+    khTo: null,
+  };
+
+  data.push(entry);
+  localStorage.setItem('kh_market_data', JSON.stringify(data));
+
+  const msg = document.getElementById('save-msg');
+  msg.style.display = 'block';
+  setTimeout(() => msg.style.display = 'none', 3000);
+
+  renderDashboard();
+  clearForm();
+}
+
+function clearForm() {
+  ['f-active','f-new','f-price','f-dom','f-reductions','f-withdrawn',
+   'f-freehold','f-unittitle','f-leasehold'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.value = '';
+  });
+}
+
+function deleteEntry(index) {
+  if (confirm('Delete this entry?')) {
+    data.splice(index, 1);
+    localStorage.setItem('kh_market_data', JSON.stringify(data));
+    renderHistory();
+    renderDashboard();
+  }
+}
+
+// ── All Listings tab ─────────────────────────────────────────────────────────
+
+let allListings      = [];
+let filteredListings = [];
+let listingsPage     = 0;
+const LISTINGS_PAGE_SIZE = 48;
+
+let _filterPrice  = '';
+let _filterTenure = '';
+let _sortOrder    = 'dom-asc';
+let _searchQuery  = '';
+let _listingsReady = false;
+
+function initListingsTab() {
+  if (_listingsReady || !liveData || !liveData.all_listings) return;
+  allListings = liveData.all_listings;
+  _listingsReady = true;
+  applyListingsFilters();
+}
+
+function onListingsSearch(val) {
+  _searchQuery = val.trim().toLowerCase();
+  applyListingsFilters();
+}
+
+function onListingsSort(val) {
+  _sortOrder = val;
+  applyListingsFilters();
+}
+
+function onPillFilter(groupId, value) {
+  document.querySelectorAll(`#${groupId} .pill`).forEach(p => p.classList.remove('active'));
+  event.target.classList.add('active');
+  if (groupId === 'filter-price')  _filterPrice  = value;
+  if (groupId === 'filter-tenure') _filterTenure = value;
+  applyListingsFilters();
+}
+
+function resetListingsFilters() {
+  _filterPrice = _filterTenure = _searchQuery = '';
+  _sortOrder = 'dom-asc';
+  document.querySelectorAll('.filter-pills .pill').forEach(p => {
+    p.classList.toggle('active', p.dataset.value === '');
+  });
+  document.getElementById('listings-sort').value = 'dom-asc';
+  document.getElementById('listings-search').value = '';
+  applyListingsFilters();
+}
+
+function applyListingsFilters() {
+  filteredListings = allListings.filter(l => {
+    const p = l.price_numeric;
+
+    if (_filterPrice === 'none'  && p)                                    return false;
+    if (_filterPrice === '2-3'   && !(p >= 2000000 && p < 3000000))       return false;
+    if (_filterPrice === '3-4'   && !(p >= 3000000 && p < 4000000))       return false;
+    if (_filterPrice === '4-5'   && !(p >= 4000000 && p < 5000000))       return false;
+    if (_filterPrice === '5+'    && !(p >= 5000000))                       return false;
+
+    if (_filterTenure && l.tenure !== _filterTenure) return false;
+
+    if (_searchQuery) {
+      const q = _searchQuery;
+      if (!((l.address || '').toLowerCase().includes(q) ||
+            (l.agency  || '').toLowerCase().includes(q))) return false;
+    }
+    return true;
+  });
+
+  filteredListings.sort((a, b) => {
+    if (_sortOrder === 'dom-asc')    return (a.days_on_market ?? 9999) - (b.days_on_market ?? 9999);
+    if (_sortOrder === 'dom-desc')   return (b.days_on_market ?? 0)    - (a.days_on_market ?? 0);
+    if (_sortOrder === 'price-desc') return (b.price_numeric  ?? 0)    - (a.price_numeric  ?? 0);
+    if (_sortOrder === 'price-asc') {
+      return (a.price_numeric ?? Infinity) - (b.price_numeric ?? Infinity);
+    }
+    return 0;
+  });
+
+  listingsPage = 0;
+  renderListingsPage();
+}
+
+function renderListingsPage() {
+  const grid    = document.getElementById('listings-grid');
+  const countEl = document.getElementById('listings-count');
+  if (!grid) return;
+
+  const slice = filteredListings.slice(0, LISTINGS_PAGE_SIZE);
+  countEl.textContent = `${filteredListings.length.toLocaleString()} listing${filteredListings.length !== 1 ? 's' : ''}`;
+
+  if (filteredListings.length === 0) {
+    grid.innerHTML = '<div class="listings-empty">No listings match the current filters.</div>';
+    document.getElementById('listings-load-more').style.display = 'none';
+    return;
+  }
+
+  grid.innerHTML = slice.map(listingCardHTML).join('');
+  listingsPage = 1;
+
+  const loadMore = document.getElementById('listings-load-more');
+  loadMore.style.display = filteredListings.length > LISTINGS_PAGE_SIZE ? 'block' : 'none';
+}
+
+function loadMoreListings() {
+  const grid = document.getElementById('listings-grid');
+  if (!grid) return;
+  const start = listingsPage * LISTINGS_PAGE_SIZE;
+  const slice = filteredListings.slice(start, start + LISTINGS_PAGE_SIZE);
+  grid.insertAdjacentHTML('beforeend', slice.map(listingCardHTML).join(''));
+  listingsPage++;
+  if (listingsPage * LISTINGS_PAGE_SIZE >= filteredListings.length) {
+    document.getElementById('listings-load-more').style.display = 'none';
+  }
+}
+
+function listingCardHTML(l) {
+  const tenure = l.tenure || '';
+  const tenureClass =
+    tenure === 'Freehold'   ? 'tag-freehold'  :
+    tenure === 'Leasehold'  ? 'tag-leasehold' :
+    tenure === 'Unit Title' ? 'tag-unittitle' : 'tag-other';
+  const tenureLabel = tenure || 'Not Specified';
+
+  const hasPrice   = !!l.price_numeric;
+  const priceText  = l.asking_price || l.price_method || 'POA';
+  const priceClass = hasPrice ? '' : ' muted';
+
+  const dom      = l.days_on_market != null ? l.days_on_market : null;
+  const domText  = dom != null ? dom + ' days' : '—';
+  const domClass = dom != null ? (dom <= 14 ? 'fresh' : dom > 180 ? 'stale' : '') : '';
+
+  const beds   = l.bedrooms  != null ? l.bedrooms  : '—';
+  const baths  = l.bathrooms != null ? l.bathrooms : '—';
+  const agency = l.agency || '—';
+
+  const isNew      = dom != null && dom <= 14;
+  const clickAttr  = l.url ? `onclick="window.open('${l.url}','_blank')" class="listing-card clickable"` : 'class="listing-card"';
+
+  return `
+    <div ${clickAttr}>
+      <div class="listing-card-top">
+        <span class="listing-tenure-tag ${tenureClass}">${tenureLabel}</span>
+        ${isNew ? '<span class="listing-new-tag">New</span>' : ''}
+      </div>
+      <div class="listing-address">${l.address || '—'}</div>
+      <div class="listing-price${priceClass}">${priceText}</div>
+      <div class="listing-divider"></div>
+      <div class="listing-stats">
+        <div class="listing-stat">
+          <span class="stat-label">Days on Market</span>
+          <span class="stat-value ${domClass}">${domText}</span>
+        </div>
+        <div class="listing-stat">
+          <span class="stat-label">Beds / Baths</span>
+          <span class="stat-value">${beds} / ${baths}</span>
+        </div>
+        <div class="listing-stat listing-stat-full">
+          <span class="stat-label">Agency</span>
+          <span class="stat-value">${agency}</span>
+        </div>
+      </div>
+    </div>`;
+}
+</script>
+</body>
+</html>
