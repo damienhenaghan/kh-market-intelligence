@@ -29,9 +29,35 @@ def safe(val, default=None):
     return val if val is not None else default
 
 
+class _MedianAgg:
+    def __init__(self):
+        self.vals = []
+    def step(self, v):
+        if v is not None:
+            self.vals.append(v)
+    def finalize(self):
+        if not self.vals:
+            return None
+        s = sorted(self.vals)
+        n = len(s)
+        mid = n // 2
+        return s[mid] if n % 2 else (s[mid - 1] + s[mid]) / 2
+
+
 def build_json(conn: sqlite3.Connection) -> dict:
+    conn.create_aggregate("MEDIAN", 1, _MedianAgg)
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
+
+    # Filter all listing queries to only those active in the latest scrape run
+    cur.execute("""
+        CREATE TEMP VIEW active_listings AS
+        SELECT * FROM listings
+        WHERE listing_id IN (
+            SELECT listing_id FROM snapshots
+            WHERE run_date = (SELECT MAX(run_date) FROM snapshots)
+        )
+    """)
 
     today = datetime.now(timezone.utc)
     seven_days_ago = (today - timedelta(days=7)).isoformat()
@@ -42,17 +68,17 @@ def build_json(conn: sqlite3.Connection) -> dict:
         SELECT
             COUNT(*)                                          AS total_active,
             ROUND(AVG(CAST(price_numeric AS REAL)) / 1e6, 2) AS avg_price_m,
-            ROUND(AVG(days_on_market), 0)                     AS avg_dom
-        FROM listings
+            ROUND(MEDIAN(days_on_market), 0)                     AS avg_dom
+        FROM active_listings
         WHERE price_numeric IS NOT NULL
     """)
     row = dict(cur.fetchone())
 
-    cur.execute("SELECT COUNT(*) AS new_7_days FROM listings WHERE days_on_market <= 7")
+    cur.execute("SELECT COUNT(*) AS new_7_days FROM active_listings WHERE days_on_market <= 7")
     new_7 = cur.fetchone()["new_7_days"]
 
     # Total count (including no-price listings)
-    cur.execute("SELECT COUNT(*) AS n FROM listings")
+    cur.execute("SELECT COUNT(*) AS n FROM active_listings")
     total_all = cur.fetchone()["n"]
 
     summary = {
@@ -68,8 +94,8 @@ def build_json(conn: sqlite3.Connection) -> dict:
             COALESCE(tenure, 'Not Specified')             AS t,
             COUNT(*)                                       AS count,
             ROUND(AVG(CAST(price_numeric AS REAL))/1e6,2) AS avg_price_m,
-            ROUND(AVG(days_on_market), 0)                  AS avg_dom
-        FROM listings
+            ROUND(MEDIAN(days_on_market), 0)                  AS avg_dom
+        FROM active_listings
         GROUP BY COALESCE(tenure, 'Not Specified')
         ORDER BY count DESC
     """)
@@ -99,8 +125,8 @@ def build_json(conn: sqlite3.Connection) -> dict:
             SELECT
                 COUNT(*)                            AS total,
                 SUM(CASE WHEN tenure = 'Freehold' THEN 1 ELSE 0 END) AS freehold,
-                ROUND(AVG(days_on_market), 0)        AS avg_dom
-            FROM listings
+                ROUND(MEDIAN(days_on_market), 0)        AS avg_dom
+            FROM active_listings
             WHERE price_numeric >= ? AND price_numeric < ?
         """, (lo, hi))
         r = cur.fetchone()
@@ -148,17 +174,17 @@ def build_json(conn: sqlite3.Connection) -> dict:
         return "Buyer's Market"
 
     # Freehold specific
-    cur.execute("SELECT COUNT(*) AS n FROM listings WHERE tenure = 'Freehold'")
+    cur.execute("SELECT COUNT(*) AS n FROM active_listings WHERE tenure = 'Freehold'")
     fh_active = cur.fetchone()["n"]
     fh_est_monthly = max(1, round(fh_active * 0.05))
     fh_months = round(fh_active / fh_est_monthly, 1) if fh_est_monthly else None
 
     # DOM distribution
-    cur.execute("SELECT COUNT(*) FROM listings WHERE days_on_market <= 30")
+    cur.execute("SELECT COUNT(*) FROM active_listings WHERE days_on_market <= 30")
     new_30 = cur.fetchone()[0]
-    cur.execute("SELECT COUNT(*) FROM listings WHERE days_on_market <= 90")
+    cur.execute("SELECT COUNT(*) FROM active_listings WHERE days_on_market <= 90")
     listed_90 = cur.fetchone()[0]
-    cur.execute("SELECT COUNT(*) FROM listings WHERE days_on_market > 180")
+    cur.execute("SELECT COUNT(*) FROM active_listings WHERE days_on_market > 180")
     stale_180 = cur.fetchone()[0]
 
     absorption = {
@@ -184,7 +210,7 @@ def build_json(conn: sqlite3.Connection) -> dict:
             days_on_market, tenure,
             bedrooms, bathrooms,
             land_area_sqm, floor_area_sqm
-        FROM listings
+        FROM active_listings
         ORDER BY days_on_market ASC NULLS LAST
     """)
     all_listings = [
@@ -221,7 +247,7 @@ def build_json(conn: sqlite3.Connection) -> dict:
                     SUM(CASE WHEN tenure = 'Leasehold'   THEN 1 ELSE 0 END) AS leasehold_count,
                     SUM(CASE WHEN tenure = 'Unit Title'  THEN 1 ELSE 0 END) AS unit_title_count,
                     ROUND(AVG(CAST(price_numeric AS REAL))/1e6, 2)    AS avg_price_m,
-                    ROUND(AVG(days_on_market), 0)                      AS avg_dom
+                    ROUND(MEDIAN(days_on_market), 0)                      AS avg_dom
                 FROM snapshots
                 WHERE run_date = ?
             """, (rd,))
@@ -293,21 +319,21 @@ def build_json(conn: sqlite3.Connection) -> dict:
         SELECT
             COUNT(*)                                          AS total_active,
             ROUND(AVG(CAST(price_numeric AS REAL)) / 1e6, 2) AS avg_price_m,
-            ROUND(AVG(days_on_market), 0)                     AS avg_dom
-        FROM listings
+            ROUND(MEDIAN(days_on_market), 0)                     AS avg_dom
+        FROM active_listings
         WHERE price_numeric IS NOT NULL
           AND address NOT LIKE '{QTN_EXCLUDE}'
     """)
     row_qtn = dict(cur.fetchone())
 
     cur.execute(f"""
-        SELECT COUNT(*) AS n FROM listings
+        SELECT COUNT(*) AS n FROM active_listings
         WHERE days_on_market <= 7
           AND address NOT LIKE '{QTN_EXCLUDE}'
     """)
     new_7_qtn = cur.fetchone()["n"]
 
-    cur.execute(f"SELECT COUNT(*) AS n FROM listings WHERE address NOT LIKE '{QTN_EXCLUDE}'")
+    cur.execute(f"SELECT COUNT(*) AS n FROM active_listings WHERE address NOT LIKE '{QTN_EXCLUDE}'")
     total_qtn = cur.fetchone()["n"]
 
     summary_qtn = {
@@ -326,8 +352,8 @@ def build_json(conn: sqlite3.Connection) -> dict:
             COALESCE(tenure, 'Not Specified')             AS t,
             COUNT(*)                                       AS count,
             ROUND(AVG(CAST(price_numeric AS REAL))/1e6,2) AS avg_price_m,
-            ROUND(AVG(days_on_market), 0)                  AS avg_dom
-        FROM listings
+            ROUND(MEDIAN(days_on_market), 0)                  AS avg_dom
+        FROM active_listings
         WHERE address NOT LIKE '{QTN_EXCLUDE}'
         GROUP BY COALESCE(tenure, 'Not Specified')
         ORDER BY count DESC
@@ -345,8 +371,8 @@ def build_json(conn: sqlite3.Connection) -> dict:
         cur.execute(f"""
             SELECT COUNT(*) AS total,
                    SUM(CASE WHEN tenure='Freehold' THEN 1 ELSE 0 END) AS freehold,
-                   ROUND(AVG(days_on_market),0) AS avg_dom
-            FROM listings
+                   ROUND(MEDIAN(days_on_market),0) AS avg_dom
+            FROM active_listings
             WHERE price_numeric >= ? AND price_numeric < ?
               AND address NOT LIKE '{QTN_EXCLUDE}'
         """, (lo, hi))
@@ -364,16 +390,16 @@ def build_json(conn: sqlite3.Connection) -> dict:
     est_qtn = max(1, round(total_qtn * 0.05))
     mos_qtn = round(total_qtn / est_qtn, 1) if est_qtn else None
 
-    cur.execute(f"SELECT COUNT(*) AS n FROM listings WHERE tenure='Freehold' AND address NOT LIKE '{QTN_EXCLUDE}'")
+    cur.execute(f"SELECT COUNT(*) AS n FROM active_listings WHERE tenure='Freehold' AND address NOT LIKE '{QTN_EXCLUDE}'")
     fh_qtn = cur.fetchone()["n"]
     fh_est_qtn = max(1, round(fh_qtn * 0.05))
     fh_mos_qtn = round(fh_qtn / fh_est_qtn, 1) if fh_est_qtn else None
 
-    cur.execute(f"SELECT COUNT(*) FROM listings WHERE days_on_market <= 30 AND address NOT LIKE '{QTN_EXCLUDE}'")
+    cur.execute(f"SELECT COUNT(*) FROM active_listings WHERE days_on_market <= 30 AND address NOT LIKE '{QTN_EXCLUDE}'")
     new_30_qtn = cur.fetchone()[0]
-    cur.execute(f"SELECT COUNT(*) FROM listings WHERE days_on_market <= 90 AND address NOT LIKE '{QTN_EXCLUDE}'")
+    cur.execute(f"SELECT COUNT(*) FROM active_listings WHERE days_on_market <= 90 AND address NOT LIKE '{QTN_EXCLUDE}'")
     listed_90_qtn = cur.fetchone()[0]
-    cur.execute(f"SELECT COUNT(*) FROM listings WHERE days_on_market > 180 AND address NOT LIKE '{QTN_EXCLUDE}'")
+    cur.execute(f"SELECT COUNT(*) FROM active_listings WHERE days_on_market > 180 AND address NOT LIKE '{QTN_EXCLUDE}'")
     stale_180_qtn = cur.fetchone()[0]
 
     absorption_qtn = {
@@ -399,7 +425,7 @@ def build_json(conn: sqlite3.Connection) -> dict:
             listing_id, url, address, asking_price, price_numeric, price_method,
             agency, agent, days_on_market, tenure, bedrooms, bathrooms,
             land_area_sqm, floor_area_sqm
-        FROM listings
+        FROM active_listings
         WHERE LOWER(agency) LIKE '%kawarau heights%'
         ORDER BY days_on_market ASC NULLS LAST
     """)
@@ -409,8 +435,8 @@ def build_json(conn: sqlite3.Connection) -> dict:
         SELECT
             COUNT(*) AS count,
             ROUND(AVG(CAST(price_numeric AS REAL))/1e6, 2) AS avg_price_m,
-            ROUND(AVG(days_on_market), 0) AS avg_dom
-        FROM listings
+            ROUND(MEDIAN(days_on_market), 0) AS avg_dom
+        FROM active_listings
         WHERE LOWER(agency) LIKE '%kawarau heights%'
           AND price_numeric IS NOT NULL
     """)
@@ -428,7 +454,7 @@ def build_json(conn: sqlite3.Connection) -> dict:
             listing_id, url, address, asking_price, price_numeric, price_method,
             agency, agent, days_on_market, tenure, bedrooms, bathrooms,
             land_area_sqm, floor_area_sqm
-        FROM listings
+        FROM active_listings
         WHERE LOWER(address) LIKE '%jacks point%'
            OR LOWER(address) LIKE '%hanley%farm%'
         ORDER BY days_on_market ASC NULLS LAST
@@ -439,8 +465,8 @@ def build_json(conn: sqlite3.Connection) -> dict:
         SELECT
             COUNT(*) AS count,
             ROUND(AVG(CAST(price_numeric AS REAL))/1e6, 2) AS avg_price_m,
-            ROUND(AVG(days_on_market), 0) AS avg_dom
-        FROM listings
+            ROUND(MEDIAN(days_on_market), 0) AS avg_dom
+        FROM active_listings
         WHERE (LOWER(address) LIKE '%jacks point%'
             OR LOWER(address) LIKE '%hanley%farm%')
           AND price_numeric IS NOT NULL
@@ -467,6 +493,7 @@ def build_json(conn: sqlite3.Connection) -> dict:
         "absorption_all":        absorption_all,
         "all_listings":          all_listings,
         "diff":                  diff,
+        "history":               history,
         "kh_listings":           kh_listings,
         "kh_summary":            kh_summary,
         "jacks_point_listings":  jp_listings,
