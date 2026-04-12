@@ -1,12 +1,12 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-04-11
+Run date: 2026-04-12
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 650 (unchanged from 650 last week, change of 0).
-Freehold listings: 334 (unchanged from 334 last week).
+Active listings: 648 (down from 650 last week, change of 2).
+Freehold listings: 332 (down from 334 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
@@ -14,7 +14,8 @@ NEW LISTINGS THIS WEEK
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  No listings removed this week.
+  - 16 Shoveler Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Queenstown | Was on market 144 days
+  - 1217 Gibbston Highway, Arrow Junction, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Arrowtown | Was on market 354 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -22,11 +23,16 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 572A Speargrass Flat Road, Lake Hayes, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: Negotiation
-  ! 22 Burbank Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Wanaka | Price: Negotiation
-  ! 34 Bonspiel Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Century 21 - Wanaka | Price: $2,745,000 (Fixed Price)
+  ! 11 Ewing Place, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Wanaka | Price: Deadline Sale
+  ! 15 Landsborough Lane, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Wanaka | Price: $2,090,000 (Fixed Price)
+  ! 61B Eely Point Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Wanaka | Price: Negotiation
+  ! 17 Foxs Terrace, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Arrowtown | Price: Negotiation
+  ! 5 Bloxham Lane, Lake Hayes, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Luxury Real Estate | Price: Negotiation
+  ! 4 Elva Dawson Place, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Arrowtown | Price: Negotiation
+  ! 65B McChesney Road, Arthurs Point, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Queenstown | Price: Negotiation
+  ! 7 Onyx Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-04-10 vs 2026-04-11
+Comparison: 2026-04-11 vs 2026-04-12
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
