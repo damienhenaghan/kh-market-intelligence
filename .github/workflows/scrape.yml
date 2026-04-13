@@ -38,5 +38,5 @@ jobs:
           git diff --cached --quiet && echo "No changes to commit" || git commit -m "data: scrape $(date -u '+%Y-%m-%d')"
           git push
 
-      - name: Trigger Netlify deploy
-        run: curl -s -X POST -d '{}' "${{ secrets.NETLIFY_BUILD_HOOK }}"
+
+   
