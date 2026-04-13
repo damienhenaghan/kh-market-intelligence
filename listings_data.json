@@ -2851,22 +2851,6 @@
       "floor_area_sqm": 234.0
     },
     {
-      "listing_id": "ARZ16633",
-      "url": "https://www.realestate.co.nz/43005421/residential/sale/21-waddell-street-lake-hawea",
-      "address": "21 Waddell Street, Lake Hawea, Wanaka, Central Otago / Lakes District",
-      "asking_price": "Enquiries Over $440,000",
-      "price_numeric": 440000,
-      "price_method": "Code 13",
-      "agency": "Arizto",
-      "agent": "Vicky Coulter",
-      "days_on_market": 31,
-      "tenure": "",
-      "bedrooms": 0,
-      "bathrooms": 0,
-      "land_area_sqm": 412.0,
-      "floor_area_sqm": 0.0
-    },
-    {
       "listing_id": "QBS14025",
       "url": "https://www.realestate.co.nz/43006225/residential/sale/14-sainsbury-road-fernhill",
       "address": "14 Sainsbury Road, Fernhill, Queenstown, Central Otago / Lakes District",
@@ -2963,22 +2947,6 @@
       "floor_area_sqm": 140.0
     },
     {
-      "listing_id": "res200997",
-      "url": "https://www.realestate.co.nz/43005423/residential/sale/7-forestlines-rise-ben-lomond",
-      "address": "7 Forestlines Rise, Ben Lomond, Queenstown, Central Otago / Lakes District",
-      "asking_price": "POA",
-      "price_numeric": null,
-      "price_method": "POA",
-      "agency": "RealEstate Me",
-      "agent": "RealEstate Me",
-      "days_on_market": 31,
-      "tenure": "",
-      "bedrooms": 6,
-      "bathrooms": 10,
-      "land_area_sqm": 3.19,
-      "floor_area_sqm": 1185.0
-    },
-    {
       "listing_id": "228181",
       "url": "https://www.realestate.co.nz/43004477/residential/sale/14-islington-place-wanaka",
       "address": "14 Islington Place, Wanaka, Wanaka, Central Otago / Lakes District",
@@ -3024,6 +2992,22 @@
       "bedrooms": 0,
       "bathrooms": 0,
       "land_area_sqm": 2.157,
+      "floor_area_sqm": 0.0
+    },
+    {
+      "listing_id": "ARZ16633",
+      "url": "https://www.realestate.co.nz/43005421/residential/sale/21-waddell-street-lake-hawea",
+      "address": "21 Waddell Street, Lake Hawea, Wanaka, Central Otago / Lakes District",
+      "asking_price": "Enquiries Over $440,000",
+      "price_numeric": 440000,
+      "price_method": "Code 13",
+      "agency": "Arizto",
+      "agent": "Vicky Coulter",
+      "days_on_market": 32,
+      "tenure": "",
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "land_area_sqm": 412.0,
       "floor_area_sqm": 0.0
     },
     {
@@ -3073,6 +3057,22 @@
       "bathrooms": 3,
       "land_area_sqm": 740.0,
       "floor_area_sqm": 158.0
+    },
+    {
+      "listing_id": "res200997",
+      "url": "https://www.realestate.co.nz/43005423/residential/sale/7-forestlines-rise-ben-lomond",
+      "address": "7 Forestlines Rise, Ben Lomond, Queenstown, Central Otago / Lakes District",
+      "asking_price": "POA",
+      "price_numeric": null,
+      "price_method": "POA",
+      "agency": "RealEstate Me",
+      "agent": "RealEstate Me",
+      "days_on_market": 32,
+      "tenure": "",
+      "bedrooms": 6,
+      "bathrooms": 10,
+      "land_area_sqm": 3.19,
+      "floor_area_sqm": 1185.0
     },
     {
       "listing_id": "0293",
@@ -4755,22 +4755,6 @@
       "floor_area_sqm": 217.0
     },
     {
-      "listing_id": "RX4925024",
-      "url": "https://www.realestate.co.nz/42983338/residential/sale/26-fitzpatrick-road-dalefield-wakatipu-basin",
-      "address": "26 Fitzpatrick Road, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District",
-      "asking_price": "$2,495,000",
-      "price_numeric": 2495000,
-      "price_method": "Fixed Price",
-      "agency": "Oliver Road | Luxury Real Estate",
-      "agent": "Cameron Winter",
-      "days_on_market": 58,
-      "tenure": "",
-      "bedrooms": 0,
-      "bathrooms": 0,
-      "land_area_sqm": 1.43,
-      "floor_area_sqm": null
-    },
-    {
       "listing_id": "228092",
       "url": "https://www.realestate.co.nz/42983065/residential/sale/32-quinnat-street-albert-town",
       "address": "32 Quinnat Street, Albert Town, Wanaka, Central Otago / Lakes District",
@@ -4833,6 +4817,22 @@
       "bathrooms": 3,
       "land_area_sqm": 1699.0,
       "floor_area_sqm": 318.0
+    },
+    {
+      "listing_id": "RX4925024",
+      "url": "https://www.realestate.co.nz/42983338/residential/sale/26-fitzpatrick-road-dalefield-wakatipu-basin",
+      "address": "26 Fitzpatrick Road, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District",
+      "asking_price": "$2,495,000",
+      "price_numeric": 2495000,
+      "price_method": "Fixed Price",
+      "agency": "Oliver Road | Luxury Real Estate",
+      "agent": "Cameron Winter",
+      "days_on_market": 59,
+      "tenure": "",
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "land_area_sqm": 1.43,
+      "floor_area_sqm": null
     },
     {
       "listing_id": "228086",
@@ -10171,7 +10171,7 @@
       "price_method": "Negotiation",
       "agency": "NZSIR - Arrowtown",
       "agent": "Vanessa Sharp",
-      "days_on_market": 860,
+      "days_on_market": 861,
       "tenure": "Freehold",
       "bedrooms": 0,
       "bathrooms": 0,
@@ -10411,7 +10411,7 @@
       "price_method": "Negotiation",
       "agency": "LJ Hooker - Wanaka",
       "agent": "Stephanie Georgalli",
-      "days_on_market": 1607,
+      "days_on_market": 1608,
       "tenure": "",
       "bedrooms": 0,
       "bathrooms": 0,
@@ -10443,7 +10443,7 @@
       "price_method": "Negotiation",
       "agency": "Berry Real Estate",
       "agent": "Graham Berry",
-      "days_on_market": 1696,
+      "days_on_market": 1697,
       "tenure": "",
       "bedrooms": 0,
       "bathrooms": 0,
@@ -10459,7 +10459,7 @@
       "price_method": "Negotiation",
       "agency": "Professionals - Queenstown",
       "agent": "Adrian Snow",
-      "days_on_market": 2802,
+      "days_on_market": 2803,
       "tenure": "",
       "bedrooms": 0,
       "bathrooms": 0,
@@ -10475,7 +10475,7 @@
       "price_method": "Negotiation",
       "agency": "Professionals - Queenstown",
       "agent": "Adrian Snow",
-      "days_on_market": 2908,
+      "days_on_market": 2909,
       "tenure": "",
       "bedrooms": 0,
       "bathrooms": 0,
@@ -10484,7 +10484,7 @@
     }
   ],
   "diff": {
-    "price_reductions": 1,
+    "price_reductions": 2,
     "withdrawn": 14
   },
   "history": [
@@ -10581,14 +10581,14 @@
     },
     {
       "snapshot_date": "2026-04-13",
-      "total_active": 640,
-      "new_7_days": 152,
+      "total_active": 1280,
+      "new_7_days": 304,
       "avg_price_m": 3.05,
       "avg_dom": 73,
-      "freehold_count": 327,
-      "leasehold_count": 16,
+      "freehold_count": 654,
+      "leasehold_count": 32,
       "unit_title_count": 0,
-      "est_monthly_sales": 32,
+      "est_monthly_sales": 64,
       "months_of_supply": 20.0,
       "market_signal": "Buyer's Market"
     }
