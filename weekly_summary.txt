@@ -1,35 +1,36 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-04-16
+Run date: 2026-04-17
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 636 (up from 635 last week, change of 1).
+Active listings: 624 (down from 636 last week, change of 12).
 Freehold listings: 324 (unchanged from 324 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 66 Marina Drive, Frankton, Queenstown, Central Otago / Lakes District | $7,500,000 (Offers Over) | NZSIR - Queenstown | Tenure: Freehold
-  + 10 Kamana Rise, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Tenure: Freehold
-  + 1 Peak View Ridge, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
-  + 18 Goldrush Way, Queenstown, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Tenure: Leasehold
-  + 5 Top Paddock Lane, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
-  + 45B Erskine Street, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | Deadline Sale | Colliers - Queenstown | Tenure: 
-  + 18 Panorama Terrace, QUEENSTOWN HILL, Queenstown, Central Otago / Lakes District | Deadline Sale | One Agency - The Property Specialists | Tenure: 
-  + 111 Fitzpatrick Road, Dalefield, Queenstown, Central Otago / Lakes District | $2,850,000 (Code 9) | Luxury Real Estate | Tenure: 
-  + 2B Lansdown Street, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Prime Wanaka - Wanaka | Tenure: Freehold
+  + 12 Flora Dora Parade, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | Harcourts - Wanaka | Tenure: 
+  + 17 Mill End, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
+  + 5 Escalator Avenue, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 24 Ayrburn Ridge, Arrowtown, Queenstown, Central Otago / Lakes District | $5,900,000 (Fixed Price) | Millbrook Realty | Was on market 121 days
-  -  Hawea Back Road, Hawea Flat, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Christchurch | Was on market 117 days
-  - 7 Skylark Place, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 41 days
-  - 43 McDonnell Road, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Arrowtown | Was on market 48 days
-  - 8 The Rees, 375 Frankton Road, Queenstown, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 419 days
-  - 24 Ayrburn Ridge, Arrowtown, Queenstown, Central Otago / Lakes District | $5,900,000 (Fixed Price) | Bayleys - Queenstown | Was on market 180 days
-  - 15/1066 Frankton Road, Frankton, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Was on market 40 days
-  - 432 Domain Road, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | Colliers - Wanaka | Was on market 16 days
+  - 14 Sainsbury Road, Fernhill, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Was on market 34 days
+  - Lot 2/85 Grandview Road, Lake Hawea, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Was on market 27 days
+  - 4 Kent Street, Kingston, Queenstown, Central Otago / Lakes District | Deadline Sale | Connect | Was on market 35 days
+  - 34 Stackbrae Avenue, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Was on market 37 days
+  - 15 Lost Burn Road, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 36 days
+  - 3 Highridge Terrace, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Prime Wanaka - Wanaka | Was on market 161 days
+  - 65 Oregon Drive, Kelvin Heights, Queenstown, Central Otago / Lakes District | Deadline Sale | Professionals - Queenstown | Was on market 22 days
+  - 15 Islington Place, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Was on market 34 days
+  - 44 Willowridge, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Was on market 37 days
+  - 140 Beacon Point Road, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Was on market 34 days
+  - 161B Frankton Road, Queenstown, Queenstown, Central Otago / Lakes District | Negotiation | NZSIR - Queenstown | Was on market 163 days
+  - 2 Ashgrove Lane, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Was on market 27 days
+  - 132 Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Was on market 37 days
+  - 7 Sycamore Place, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Was on market 20 days
+  - 22 Forage Road, Hanley's Farm, JACKS POINT, Queenstown, Central Otago / Lakes District | Deadline Sale | WHITEFOX - Queenstown-Lakes | Was on market 36 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -37,10 +38,10 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 108 Panorama Terrace, Queenstown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Queenstown | Price: $2,980,000 (Code 13)
-  ! 18 Wilding Road, Lake Hayes, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | NZSIR - Queenstown | Price: Negotiation
+  ! 52 Cunninghams Drive, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: $2,050,000 (Fixed Price)
+  ! 13 Foxtail Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: Deadline Sale
 
 ============================================================
-Comparison: 2026-04-15 vs 2026-04-16
+Comparison: 2026-04-16 vs 2026-04-17
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
