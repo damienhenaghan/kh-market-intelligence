@@ -1,12 +1,12 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-04-18
+Run date: 2026-04-19
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 624 (unchanged from 624 last week, change of 0).
-Freehold listings: 324 (unchanged from 324 last week).
+Active listings: 623 (down from 624 last week, change of 1).
+Freehold listings: 323 (down from 324 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
@@ -14,20 +14,19 @@ NEW LISTINGS THIS WEEK
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  No listings removed this week.
+  - 25B Marina Drive, Frankton, Queenstown, Central Otago / Lakes District | Auction | Evolv Property | Was on market 25 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  v 26 McChesney Road, ARTHURS POINT, Queenstown, Central Otago / Lakes District | $2,300,000 -> $2,250,000 | Down 2.2% | One Agency - The Property Specialists | DOM: 33 days
+  No price reductions this week.
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 53 Longview Drive, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Century 21 - Wanaka | Price: Negotiation
-  ! 27 Arrowtown- Lake Hayes Road , Lake Hayes, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | PQ Property Intelligence | Price: Negotiation
-  ! 86 Middleton Road, QUEENSTOWN HILL, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | WHITEFOX - Queenstown-Lakes | Price: $2,400,000 (Asking Price)
-  ! 22 Soudley Court, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Walker & Co | Price: $1,725,000 (Code 13)
+  ! 20 Sherwood Court, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Queenstown | Price: $2,795,000 (Fixed Price)
+  ! 33 Central Park Avenue, Lake Hayes, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | NZSIR - Queenstown | Price: Negotiation
+  ! 1 McDonnell Road, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: Negotiation
 
 ============================================================
-Comparison: 2026-04-17 vs 2026-04-18
+Comparison: 2026-04-18 vs 2026-04-19
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
