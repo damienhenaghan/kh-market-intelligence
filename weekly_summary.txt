@@ -1,29 +1,35 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-04-21
+Run date: 2026-04-22
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 606 (down from 615 last week, change of 9).
-Freehold listings: 316 (down from 321 last week).
+Active listings: 607 (up from 606 last week, change of 1).
+Freehold listings: 317 (up from 316 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 2/23 Adelaide Street, Queenstown Central, Queenstown, Central Otago / Lakes District | Deadline Sale | One Agency - The Property Specialists | Tenure: 
+  + 76 Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
+  + 28 McAdam Drive, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
+  + 10 Kamana Rise, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Arizto | Tenure: 
+  + 64 Little Owl Loop, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Arrowtown | Tenure: Freehold
+  + 4 Lauderdale Lane, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
+  + 18 Norfolk Street, Arrowtown, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Arrowtown | Tenure: Freehold
+  + 34b Youghal Street, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Century 21 - Wanaka | Tenure: 
+  + 36 Atkins Road, Luggate, Wanaka, Central Otago / Lakes District | Negotiation | LJ Hooker - Wanaka | Tenure: 
+  + 38 Shelduck Road, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Walker & Co | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 61B Eely Point Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | NZSIR - Wanaka | Was on market 68 days
-  - 1050 Lake Hawea-Albert Town Road, Lake Hawea, Wanaka, Central Otago / Lakes District | $3,500,000 (Code 13) | Berry Real Estate | Was on market 187 days
-  - 294 Studholme Rise, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Was on market 25 days
-  - 9 Swan Street, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 39 days
-  - 8A Olivers Place, Queenstown, Queenstown, Central Otago / Lakes District | Auction | NZSIR - Arrowtown | Was on market 32 days
-  - 93 Warren Street, WANAKA, Wanaka, Central Otago / Lakes District | Negotiation | WHITEFOX - Queenstown-Lakes | Was on market 145 days
-  - 47 Lakeview Terrace, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 40 days
-  - 1087 Lake Hawea-Albert Town Road, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Berry Real Estate | Was on market 153 days
-  - 411 Peninsula Road, Kelvin Heights, Queenstown, Central Otago / Lakes District | Deadline Sale | Ray White - Queenstown | Was on market 28 days
-  - Lots 3 and 4, Luggate Cromwell Road, Luggate, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 60 days
+  - 15 Shanahan Lane, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Walker & Co | Was on market 228 days
+  - 196 Dalefield Road, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | Negotiation | One Agency - The Property Specialists | Was on market 32 days
+  - 59 West Meadows Drive, WANAKA, Wanaka, Central Otago / Lakes District | Negotiation | WHITEFOX - Queenstown-Lakes | Was on market 153 days
+  - 78, 80, 82 Thompson Street, Queenstown, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Was on market 68 days
+  - 792B Glenorchy-Queenstown Road, Closeburn, Queenstown, Central Otago / Lakes District | $2,395,000 (Fixed Price) | Colliers - Queenstown | Was on market 175 days
+  - 11 Centre Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Was on market 34 days
+  - 6 Heuchan Lane, WANAKA, Wanaka, Central Otago / Lakes District | Negotiation | WHITEFOX - Queenstown-Lakes | Was on market 77 days
+  - 25 Campbell Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Colliers - Wanaka | Was on market 24 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -31,18 +37,15 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 366 Malaghans Road, Dalefield, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: Negotiation
-  ! 837F Lake Hawea-Albert Town Road, Albert Town, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Prime Wanaka - Wanaka | Price: $5,000,000 (Code 13)
-  ! 1443B Gibbston Highway, Arrow Junction, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: Negotiation
-  ! 36 Red Oaks Drive, Frankton, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Queenstown | Price: $639,000 (Code 12)
-  ! 28 Mill Farm Lane, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Millbrook Realty | Price: Negotiation
-  ! 16 Station Rise, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Oliver Road | Luxury Real Estate | Price: $2,895,000 (Fixed Price)
-  ! 711 Mount Barker Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Prime Wanaka - Wanaka | Price: $5,000,000 (Code 13)
-  ! 11 Carlin Creek Drive, Drift Bay, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: $5,800,000 (Fixed Price)
-  ! 47 Tenby Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: $2,250,000 (Offers Over)
-  ! 2133 Gibbston Highway, Gibbston, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Queenstown | Price: $6,850,000 (Fixed Price)
+  ! 5 Sarges Way, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
+  ! Lot 1, 26 Mountain View Road, Dalefield, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Queenstown | Price: Negotiation
+  ! 11 Tahi Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | NZSIR - Wanaka | Price: Negotiation
+  ! 70 Nichol Street, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Wanaka | Price: Negotiation
+  ! Lots 1-96 Karamata Peak, Queenstown Hill, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Queenstown | Price: $1,100,000 (Code 13)
+  ! 63 Kingston Street, Albert Town, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | RealEstate Me | Price: $1,185,000 (Code 11)
+  ! 1 Mica Ridge, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Millbrook Realty | Price: Negotiation
 
 ============================================================
-Comparison: 2026-04-20 vs 2026-04-21
+Comparison: 2026-04-21 vs 2026-04-22
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
