@@ -1,37 +1,20 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-04-24
+Run date: 2026-04-25
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 616 (up from 615 last week, change of 1).
-Freehold listings: 318 (down from 320 last week).
+Active listings: 616 (unchanged from 616 last week, change of 0).
+Freehold listings: 318 (unchanged from 318 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 4 Lindmore Lane, Lower Shotover, Queenstown, Central Otago / Lakes District | $2,595,000 (Fixed Price) | Colliers - Queenstown | Tenure: 
-  + 7 Hopkins Street, Luggate, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
-  + 9 Packer Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
-  + 10 Hidden Hills Drive, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
-  + 20A Cornwall Street, Arrowtown, Queenstown, Central Otago / Lakes District | Deadline Sale | Ray White - Arrowtown | Tenure: 
-  + . Address Withheld, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Prime Wanaka - Wanaka | Tenure: 
-  + 137 Kent Street, Kingston, Queenstown, Central Otago / Lakes District | Deadline Sale | Colliers - Queenstown | Tenure: 
-  + 42 Central Park Avenue, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | $5,325,000 (Fixed Price) | Oliver Road | Luxury Real Estate | Tenure: 
-  + 206 Dalefield Road, Dalefield, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Arrowtown | Tenure: Freehold
-  + 11 Highlands Close, Queenstown Hill, Queenstown, Central Otago / Lakes District | Deadline Sale | Harcourts - Queenstown | Tenure: 
+  No new listings this week.
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 15 Landsborough Lane, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 71 days
-  - 21/65-95 Lakeside Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | NZSIR - Wanaka | Was on market 21 days
-  - 86 Middleton Road, QUEENSTOWN HILL, Queenstown, Central Otago / Lakes District | $2,400,000 (Asking Price) | WHITEFOX - Queenstown-Lakes | Was on market 65 days
-  - 88 Jack Hanley Drive, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Queenstown | Was on market 43 days
-  - 41A Kings Drive, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Was on market 28 days
-  - Lot 1 Atley Road, Arthurs Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Was on market 44 days
-  - 38B Bowen Street, Queenstown Central, Queenstown, Central Otago / Lakes District | Deadline Sale | Connect | Was on market 16 days
-  - Lot 6 The  Littles Road, Dalefield, Queenstown, Central Otago / Lakes District | POA | NZSIR - Queenstown | Was on market 1634 days
-  - 4 McKellar Drive, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Queenstown | Was on market 182 days
+  No listings removed this week.
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -39,9 +22,11 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 206 Peninsula Road, Kelvin Heights, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: Negotiation
+  ! 9 Bellfield Lane, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Century 21 - Wanaka | Price: Negotiation
+  ! 6 Highridge Terrace, WANAKA, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Aspire Realty | Price: Negotiation
+  ! 4 Dalgleish Lane, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: $9,199,000 (Asking Price)
 
 ============================================================
-Comparison: 2026-04-23 vs 2026-04-24
+Comparison: 2026-04-24 vs 2026-04-25
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
