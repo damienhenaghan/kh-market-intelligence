@@ -1,6 +1,6 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-04-25
+Run date: 2026-04-26
 ============================================================
 
 INVENTORY
@@ -22,11 +22,14 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 9 Bellfield Lane, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Century 21 - Wanaka | Price: Negotiation
-  ! 6 Highridge Terrace, WANAKA, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Aspire Realty | Price: Negotiation
-  ! 4 Dalgleish Lane, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: $9,199,000 (Asking Price)
+  ! 52 Kirimoko Crescent, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Wanaka | Price: Negotiation
+  ! 10 Cypress Court, Kelvin Heights, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Luxury Real Estate | Price: Negotiation
+  ! 19 Pounamu Avenue, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
+  ! 40 Dart Place, Fernhill, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: Negotiation
+  ! 570 Glenorchy-Paradise Road, GLENORCHY, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | One Agency - The Property Specialists | Price: Negotiation
+  ! 1 Torridon Court, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Queenstown | Price: $2,700,000 (Fixed Price)
 
 ============================================================
-Comparison: 2026-04-24 vs 2026-04-25
+Comparison: 2026-04-25 vs 2026-04-26
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
