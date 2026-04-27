@@ -1,12 +1,12 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-04-26
+Run date: 2026-04-27
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 616 (unchanged from 616 last week, change of 0).
-Freehold listings: 318 (unchanged from 318 last week).
+Active listings: 614 (down from 616 last week, change of 2).
+Freehold listings: 316 (down from 318 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
@@ -14,7 +14,8 @@ NEW LISTINGS THIS WEEK
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  No listings removed this week.
+  - 4 Shallow Close, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Arrowtown | Was on market 55 days
+  - 5 Mills Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 388 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -22,14 +23,15 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 52 Kirimoko Crescent, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Wanaka | Price: Negotiation
-  ! 10 Cypress Court, Kelvin Heights, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Luxury Real Estate | Price: Negotiation
-  ! 19 Pounamu Avenue, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
-  ! 40 Dart Place, Fernhill, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: Negotiation
-  ! 570 Glenorchy-Paradise Road, GLENORCHY, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | One Agency - The Property Specialists | Price: Negotiation
-  ! 1 Torridon Court, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Queenstown | Price: $2,700,000 (Fixed Price)
+  ! 1/624 Glenorchy-Queenstown Road, Closeburn, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: Negotiation
+  ! 5 Glengarry Court, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Connect | Price: Negotiation
+  ! 3 Pioneer Court, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: $2,249,000 (Fixed Price)
+  ! 29 Waimana Place, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
+  ! 556 Speargrass Flat Road, Lake Hayes, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Queenstown | Price: Negotiation
+  ! 22 Cornwall Street, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Connect | Price: Negotiation
+  ! 39 Fitzpatrick Road, Dalefield, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Arrowtown | Price: Negotiation
 
 ============================================================
-Comparison: 2026-04-25 vs 2026-04-26
+Comparison: 2026-04-26 vs 2026-04-27
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
