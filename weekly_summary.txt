@@ -1,6 +1,6 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-05-02
+Run date: 2026-05-03
 ============================================================
 
 INVENTORY
@@ -22,14 +22,13 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 14 Woods Lane, Queenstown Central, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | IQNZ | Price: Negotiation
-  ! 69-70/4 Lake Avenue, Frankton, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Tall Poppy | Price: Deadline Sale
-  ! 335 Beacon Point Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Aspire Realty | Price: Negotiation
-  ! 10A Kinross Lane, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: Negotiation
-  ! 28 Dunn Street, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Wanaka | Price: Negotiation
-  ! 7 Rata Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: $2,495,000 (Fixed Price)
+  ! 4 Rua Street, Albert Town, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | LJ Hooker - Wanaka | Price: Negotiation
+  ! 19B Monteith Road, Albert Town, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
+  ! 6 Stackbrae Avenue, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
+  ! 4 Stackbrae Avenue, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Wanaka | Price: Negotiation
+  ! 13 Ruby Ridge, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-05-01 vs 2026-05-02
+Comparison: 2026-05-02 vs 2026-05-03
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
