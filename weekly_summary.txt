@@ -1,37 +1,20 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-05-22
+Run date: 2026-05-23
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 582 (down from 583 last week, change of 1).
-Freehold listings: 301 (down from 302 last week).
+Active listings: 582 (unchanged from 582 last week, change of 0).
+Freehold listings: 301 (unchanged from 301 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 4 Fairway Drive, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
-  + 4 Hodgkinson Street, John Creek, Lake Hawea, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Tenure: 
-  + 22 Brisbane Street, Queenstown Central, Queenstown, Central Otago / Lakes District | $4,950,000 (Fixed Price) | Oliver Road | Luxury Real Estate | Tenure: 
-  + 21 McDonnell Road, Arrowtown, Queenstown, Central Otago / Lakes District | Auction | Ray White - Arrowtown | Tenure: 
-  + 26 Quill Street, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Tenure: Freehold
-  + 7 Richardson Street, Glenorchy, Queenstown, Central Otago / Lakes District | Deadline Sale | Ray White - Queenstown | Tenure: 
-  + 28 Bellfield Lane, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
-  + 8 Callaghans Creek Rise , Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Tenure: Freehold
-  + 112 Fowler Lane, Albert Town, Wanaka, Central Otago / Lakes District | Negotiation | NZSIR - Wanaka | Tenure: Freehold
+  No new listings this week.
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  -  House A and House B, 1 Armidale Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 49 days
-  - 170B Beacon Point Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 470 days
-  - 18 Swan Street, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 212 days
-  - 11 Rua Street, Albert Town, Wanaka, Central Otago / Lakes District | Negotiation | NZSIR - Wanaka | Was on market 149 days
-  - 18 Goldrush Way, Queenstown, Queenstown, Central Otago / Lakes District | Negotiation | NZSIR - Queenstown | Was on market 35 days
-  - Lot 2 452 Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Property Brokers - Wanaka | Was on market 21 days
-  - 21B Kidds Way, Albert Town, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 41 days
-  - 19 Pounamu Avenue, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 85 days
-  - 15 Kereru Crescent, Wanaka, Wanaka, Central Otago / Lakes District | $2,000,000 (Fixed Price) | Bayleys - Wanaka | Was on market 230 days
-  - 10 Onyx Street, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Was on market 28 days
+  No listings removed this week.
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -39,9 +22,11 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 111/24 Hawthorne Drive, Frankton, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Barfoot & Thompson - Mangere | Price: Negotiation
+  ! 4 Innes Place, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Arrowtown | Price: $2,295,000 (Asking Price)
+  ! 8 Pennycook Place, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Century 21 - Wanaka | Price: Negotiation
+  ! 17 Armidale Crescent, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-05-21 vs 2026-05-22
+Comparison: 2026-05-22 vs 2026-05-23
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
