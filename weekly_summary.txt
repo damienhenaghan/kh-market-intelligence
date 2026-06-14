@@ -1,12 +1,12 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-06-13
+Run date: 2026-06-14
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 554 (down from 555 last week, change of 1).
-Freehold listings: 271 (down from 272 last week).
+Active listings: 554 (unchanged from 554 last week, change of 0).
+Freehold listings: 271 (unchanged from 271 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
@@ -14,7 +14,7 @@ NEW LISTINGS THIS WEEK
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 9 Balneaves Lane, Albert Town, Wanaka, Central Otago / Lakes District | Negotiation | NZSIR - Wanaka | Was on market 120 days
+  No listings removed this week.
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -22,10 +22,12 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 7 Centurion Court, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: Negotiation
-  ! 14/239 Frankton Road, Frankton, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: Negotiation
+  ! 6 Tiffany Lane, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Aspire Realty | Price: $3,600,000 (Fixed Price)
+  ! 83 Atley Road, Arthurs Point, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | WHITEFOX - Queenstown-Lakes | Price: $5,000,000 (Code 13)
+  ! 13 Arbor Lane, Mount Creighton, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Walker & Co | Price: Negotiation
+  ! 21 Packer Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-06-12 vs 2026-06-13
+Comparison: 2026-06-13 vs 2026-06-14
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
