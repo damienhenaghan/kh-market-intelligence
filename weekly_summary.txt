@@ -1,29 +1,34 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-06-18
+Run date: 2026-06-19
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 568 (up from 565 last week, change of 3).
-Freehold listings: 278 (up from 277 last week).
+Active listings: 562 (down from 568 last week, change of 6).
+Freehold listings: 275 (down from 278 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 108 Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Century 21 - Wanaka | Tenure: 
-  + 22 Kernel Loop, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
-  + 32 Timsfield Drive, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
-  + 84 Kirimoko Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Tenure: 
-  + 182 Burdon Loop, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | Tall Poppy | Tenure: Freehold
-  + 10 Alice Burn Drive, Luggate, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
-  + 7 Carrickmore Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Tenure: 
+  + 90B Golf Course Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
+  + 7 Innes Place, Arrowtown, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Arrowtown | Tenure: Freehold
+  + 357 Frankton Road, Queenstown, Queenstown, Central Otago / Lakes District | Deadline Sale | Ray White - Queenstown | Tenure: 
+  + 14/239 Frankton Road, Frankton, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Tenure: 
+  + 508 Lake Hawea-Albert Town Road, Albert Town, Wanaka, Central Otago / Lakes District | $4,450,000 (Fixed Price) | Bayleys - Wanaka | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 9 Totara Terrace, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 194 days
-  - 9 Scaife Place, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Was on market 20 days
-  - 8 Bale Road, Hanley's Farm , Queenstown, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Was on market 36 days
-  - 14/239 Frankton Road, Frankton, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 64 days
+  - 41 Farrant Drive, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 78 days
+  - 2/83 Arawata Terrace, Sunshine Bay, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Was on market 30 days
+  - 6 Aspen Grove, Fernhill, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 231 days
+  - 5 Old Homestead Place, Kelvin Heights, Queenstown, Central Otago / Lakes District | $5,000,000 (Offers Over) | NZSIR - Queenstown | Was on market 982 days
+  - 21 & 23 MacKinnon Terrace, Sunshine Bay, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 71 days
+  - 26 Quill Street, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Was on market 27 days
+  - 9 Oregon Drive, Kelvin Heights, Queenstown, Central Otago / Lakes District | $1,850,000 (Code 13) | Walker & Co | Was on market 7 days
+  - 19/13 Plantation Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Colliers - Wanaka | Was on market 35 days
+  - 10 St Marks Lane, Queenstown Hill, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 83 days
+  - 20 Cunninghams Drive, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Harcourts - Queenstown | Was on market 155 days
+  - 30 Metzger Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Was on market 85 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -31,15 +36,12 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 196 Dalefield Road, Dalefield, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | One Agency - The Property Specialists | Price: Negotiation
-  ! 63A West Meadows Drive, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
-  ! 4 Glenbrook Lane, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
-  ! 8B Minaret Ridge, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
-  ! 31 Falconer Rise, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | NZSIR - Queenstown | Price: $2,995,000 (Fixed Price)
-  ! Lot 1135 Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Queenstown | Price: Deadline Sale
-  ! Lot 1109 Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Queenstown | Price: Deadline Sale
+  ! 375 Littles Road, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Walker & Co | Price: $7,000,000 (Code 13)
+  ! 559 Peninsula Road, Kelvin Heights, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Walker & Co | Price: $7,000,000 (Code 13)
+  ! 59 Infinity Drive, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
+  ! 317 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Barfoot & Thompson - Mission Bay | Price: Negotiation
 
 ============================================================
-Comparison: 2026-06-17 vs 2026-06-18
+Comparison: 2026-06-18 vs 2026-06-19
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
