@@ -1,34 +1,20 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-06-19
+Run date: 2026-06-20
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 562 (down from 568 last week, change of 6).
-Freehold listings: 275 (down from 278 last week).
+Active listings: 563 (up from 562 last week, change of 1).
+Freehold listings: 275 (unchanged from 275 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 90B Golf Course Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
-  + 7 Innes Place, Arrowtown, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Arrowtown | Tenure: Freehold
-  + 357 Frankton Road, Queenstown, Queenstown, Central Otago / Lakes District | Deadline Sale | Ray White - Queenstown | Tenure: 
-  + 14/239 Frankton Road, Frankton, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Tenure: 
-  + 508 Lake Hawea-Albert Town Road, Albert Town, Wanaka, Central Otago / Lakes District | $4,450,000 (Fixed Price) | Bayleys - Wanaka | Tenure: Freehold
+  + 1 Kamana Rise, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Colliers - Wanaka | Tenure: 
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 41 Farrant Drive, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 78 days
-  - 2/83 Arawata Terrace, Sunshine Bay, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Was on market 30 days
-  - 6 Aspen Grove, Fernhill, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 231 days
-  - 5 Old Homestead Place, Kelvin Heights, Queenstown, Central Otago / Lakes District | $5,000,000 (Offers Over) | NZSIR - Queenstown | Was on market 982 days
-  - 21 & 23 MacKinnon Terrace, Sunshine Bay, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 71 days
-  - 26 Quill Street, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Was on market 27 days
-  - 9 Oregon Drive, Kelvin Heights, Queenstown, Central Otago / Lakes District | $1,850,000 (Code 13) | Walker & Co | Was on market 7 days
-  - 19/13 Plantation Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Colliers - Wanaka | Was on market 35 days
-  - 10 St Marks Lane, Queenstown Hill, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 83 days
-  - 20 Cunninghams Drive, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Harcourts - Queenstown | Was on market 155 days
-  - 30 Metzger Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Was on market 85 days
+  No listings removed this week.
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -36,12 +22,9 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 375 Littles Road, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Walker & Co | Price: $7,000,000 (Code 13)
-  ! 559 Peninsula Road, Kelvin Heights, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Walker & Co | Price: $7,000,000 (Code 13)
-  ! 59 Infinity Drive, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
-  ! 317 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Barfoot & Thompson - Mission Bay | Price: Negotiation
+  No listings crossing DOM thresholds this week.
 
 ============================================================
-Comparison: 2026-06-18 vs 2026-06-19
+Comparison: 2026-06-19 vs 2026-06-20
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
