@@ -1,16 +1,16 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-06-20
+Run date: 2026-06-21
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 563 (up from 562 last week, change of 1).
+Active listings: 563 (unchanged from 563 last week, change of 0).
 Freehold listings: 275 (unchanged from 275 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 1 Kamana Rise, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Colliers - Wanaka | Tenure: 
+  No new listings this week.
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
@@ -20,11 +20,20 @@ PRICE REDUCTIONS
 ----------------------------------------
   No price reductions this week.
 
+PRICE INCREASES
+----------------------------------------
+  ^ 17-22/32-42 Bullendale Drive, Arthurs Point, Queenstown, Central Otago / Lakes District | $1,275,000 -> $1,375,000 | Up 7.8% | IQNZ
+  ^ 18-21/32-42 Bullendale Drive, Queenstown Central, Queenstown, Central Otago / Lakes District | $895,000 -> $1,275,000 | Up 42.5% | IQNZ
+
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  No listings crossing DOM thresholds this week.
+  ! 111/24 Hawthorne Drive, Frankton, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Barfoot & Thompson - Mangere | Price: Negotiation
+  ! 18 Norfolk Street, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Arrowtown | Price: Negotiation
+  ! 76 Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: $3,350,000 (Fixed Price)
+  ! 24 Risinghurst Terrace, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: Negotiation
+  ! 10 Kamana Rise, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Arizto | Price: Negotiation
 
 ============================================================
-Comparison: 2026-06-19 vs 2026-06-20
+Comparison: 2026-06-20 vs 2026-06-21
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
