@@ -1,43 +1,44 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-06-24
+Run date: 2026-06-25
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 551 (down from 554 last week, change of 3).
-Freehold listings: 269 (down from 270 last week).
+Active listings: 546 (down from 551 last week, change of 5).
+Freehold listings: 269 (unchanged from 269 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 4 Chapman Way, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | NZSIR - Queenstown | Tenure: Freehold
-  + 9 Capell Avenue, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Tenure: 
-  + 3B Glenelg Lane, Jacks Point, Queenstown, Central Otago / Lakes District | $1,475,000 (Code 13) | Walker & Co | Tenure: Freehold
-  + 27 Walton Way, Lower Shotover, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Tenure: Freehold
+  + 2 Aberdare Court, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Tenure: Freehold
+  + 3/2352 Cardrona Valley Road, Cardrona, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Leasehold
+  + 6 Tiffany Lane, Wanaka, Wanaka, Central Otago / Lakes District | $3,600,000 (Fixed Price) | Bayleys - Wanaka | Tenure: Freehold
+  + Lot 3 Homestead Bay Road, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 35 Friesian Close, Hanley's Farm , JACKS POINT, Queenstown, Central Otago / Lakes District | Negotiation | WHITEFOX - Queenstown-Lakes | Was on market 55 days
-  - 50 Peninsula Road, Peninsula Rise Duplexes, Kelvin Heights, Queenstown, Central Otago / Lakes District | $2,095,000 (Asking Price) | Colliers - Queenstown | Was on market 71 days
-  - 25 Campbell Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Colliers - Wanaka | Was on market 87 days
-  - 4 Glenbrae Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 75 days
-  - 4 Glenbrook Lane, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 95 days
-  -  Lake McKay Station, Luggate, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 75 days
-  - 40 Rowe Drive, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Queenstown | Was on market 34 days
+  - 25 Whio Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Was on market 19 days
+  - 1 O'Leary's Paddock, Sunshine Bay, Queenstown, Central Otago / Lakes District | Deadline Sale | Harcourts - Queenstown | Was on market 14 days
+  - 2 Mount Linton Avenue,, Wanaka, Wanaka, Central Otago / Lakes District | $2,150,000 (Fixed Price) | Stroud - Queenstown Lakes | Was on market 188 days
+  - 20 Bell Street, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Was on market 50 days
+  - 22 Brisbane Street, Queenstown Central, Queenstown, Central Otago / Lakes District | $4,950,000 (Fixed Price) | Oliver Road | Luxury Real Estate | Was on market 33 days
+  - 35A Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 40 days
+  - 2 Mount Linton Avenue,, Wanaka, Wanaka, Central Otago / Lakes District | $2,055,000 (Fixed Price) | Stroud - Queenstown Lakes | Was on market 188 days
+  - 44 Kernel Loop, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Walker & Co | Was on market 54 days
+  - 8 Mills Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Colliers - Wanaka | Was on market 84 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  v 1147 Lake Hawea - Albert Town Road, Albert Town, Wanaka, Central Otago / Lakes District | $4,000,000 -> $3,450,000 | Down 13.8% | Century 21 - Wanaka | DOM: 83 days
-  v 42 Central Park Avenue, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | $5,325,000 -> $5,100,000 | Down 4.2% | Oliver Road | Luxury Real Estate | DOM: 61 days
-  v 50 Peninsula Road, Peninsula Rise, Kelvin Heights, Queenstown, Central Otago / Lakes District | $2,750,000 -> $2,649,000 | Down 3.7% | Colliers - Queenstown | DOM: 72 days
+  v 4 Lindmore Lane, Lower Shotover, Queenstown, Central Otago / Lakes District | $2,595,000 -> $2,249,000 | Down 13.3% | Colliers - Queenstown | DOM: 62 days
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 333 Beacon Point Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Aspire Realty | Price: Negotiation
-  ! 32 Hogans Gully Road, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Luxury Real Estate | Price: Negotiation
-  ! 28 Greenbelt Place, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
+  ! 14 Ruby Ridge, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Wanaka | Price: Negotiation
+  ! 10 Doug Ledgerwood Drive, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Harcourts - Wanaka | Price: Negotiation
+  ! 3 Barley Court, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | NZSIR - Queenstown | Price: Negotiation
+  ! 13 Magpie Place, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Harcourts - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-06-23 vs 2026-06-24
+Comparison: 2026-06-24 vs 2026-06-25
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
