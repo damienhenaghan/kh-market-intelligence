@@ -1,16 +1,16 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-06-27
+Run date: 2026-06-28
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 542 (up from 541 last week, change of 1).
-Freehold listings: 265 (up from 264 last week).
+Active listings: 542 (unchanged from 542 last week, change of 0).
+Freehold listings: 265 (unchanged from 265 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 11 Gala Burn Lane, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Arrowtown | Tenure: Freehold
+  No new listings this week.
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
@@ -22,12 +22,13 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 210 Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
-  ! 13 Malaghan Street, Queenstown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: Negotiation
-  ! 3 McKellar Drive, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Arrowtown | Price: $2,395,000 (Fixed Price)
-  ! 39 Nichol Street, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Century 21 - Wanaka | Price: Negotiation
+  ! 22 Ballantyne Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Wanaka | Price: Negotiation
+  ! 26 Middleton Road, Frankton, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Walker & Co | Price: Negotiation
+  ! 432 Domain Road, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Wanaka | Price: Negotiation
+  ! 14 Mason Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
+  ! 24 Robrosa Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Berry Real Estate | Price: $1,550,000 (Code 13)
 
 ============================================================
-Comparison: 2026-06-26 vs 2026-06-27
+Comparison: 2026-06-27 vs 2026-06-28
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
