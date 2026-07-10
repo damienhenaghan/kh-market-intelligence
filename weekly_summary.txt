@@ -1,34 +1,21 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-07-09
+Run date: 2026-07-10
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 533 (up from 531 last week, change of 2).
-Freehold listings: 270 (down from 271 last week).
+Active listings: 532 (down from 533 last week, change of 1).
+Freehold listings: 270 (unchanged from 270 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 4 Stradbroke Way, Kingston, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Tenure: 
-  + 35 Ferry Hill Drive, Lower Shotover, Queenstown, Central Otago / Lakes District | Deadline Sale | Ray White - Queenstown | Tenure: 
-  + 208/29 Warren Street, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Harcourts - Wanaka | Tenure: 
-  + 45 Partridge Road, Lake Hawea, Wanaka, Central Otago / Lakes District | $2,980,000 (Fixed Price) | Century 21 - Wanaka | Tenure: 
-  + 2 Quartz Rise, Queenstown, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Tenure: Leasehold
-  + 504/18 Mountain Ash Drive, Frankton, Queenstown, Central Otago / Lakes District | Deadline Sale | Ray White - Queenstown | Tenure: 
-  + 36 Woolshed Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
-  + 16 Lafranchi Lane, Cardrona, Wanaka, Central Otago / Lakes District | $2,395,000 (Fixed Price) | NZSIR - Queenstown | Tenure: Freehold
-  + 11/495 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | $1,135,000 (Code 13) | One Agency - The Property Specialists | Tenure: 
+  + 102 Thompson Street, Queenstown Central, Queenstown, Central Otago / Lakes District | Negotiation | One Agency - The Property Specialists | Tenure: 
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 46 Shearers Drive, Frankton, Queenstown, Central Otago / Lakes District | Negotiation | REMAX Revolution | Was on market 27 days
-  - 182 Burdon Loop, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | Tall Poppy | Was on market 20 days
-  - 24 Perendale Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Queenstown | Was on market 56 days
-  - 333 Beacon Point Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Aspire Realty | Was on market 104 days
-  - 45 Partridge Road, Wanaka, Wanaka, Central Otago / Lakes District | $2,980,000 (Fixed Price) | Century 21 - Wanaka | Was on market 344 days
-  - 4 Lindmore Lane, Lower Shotover, Queenstown, Central Otago / Lakes District | $2,249,000 (Fixed Price) | Colliers - Queenstown | Was on market 75 days
-  - 22 Huxley Place, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Was on market 23 days
+  - 90B Golf Course Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Was on market 20 days
+  - 5 Glengarry Court, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Connect | Was on market 163 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -36,12 +23,9 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 178 Burdon Loop, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
-  ! 2 Kiwi Street, Makarora, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Harcourts - Wanaka | Price: Negotiation
-  ! 26 River Quartz Terrace, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Berry Real Estate | Price: Negotiation
-  ! 1 O'Kane Lane, Queenstown Hill, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Queenstown | Price: Negotiation
+  No listings crossing DOM thresholds this week.
 
 ============================================================
-Comparison: 2026-07-08 vs 2026-07-09
+Comparison: 2026-07-09 vs 2026-07-10
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
