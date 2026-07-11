@@ -1,21 +1,20 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-07-10
+Run date: 2026-07-11
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 532 (down from 533 last week, change of 1).
+Active listings: 532 (unchanged from 532 last week, change of 0).
 Freehold listings: 270 (unchanged from 270 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 102 Thompson Street, Queenstown Central, Queenstown, Central Otago / Lakes District | Negotiation | One Agency - The Property Specialists | Tenure: 
+  No new listings this week.
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 90B Golf Course Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Was on market 20 days
-  - 5 Glengarry Court, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Connect | Was on market 163 days
+  No listings removed this week.
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -23,9 +22,10 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  No listings crossing DOM thresholds this week.
+  ! 18 Barn Hill Drive, Arrow Junction, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: Negotiation
+  ! 1 Mica Ridge, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Luxury Real Estate | Price: Negotiation
 
 ============================================================
-Comparison: 2026-07-09 vs 2026-07-10
+Comparison: 2026-07-10 vs 2026-07-11
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
