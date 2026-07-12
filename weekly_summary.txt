@@ -1,16 +1,16 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-07-11
+Run date: 2026-07-12
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 532 (unchanged from 532 last week, change of 0).
-Freehold listings: 270 (unchanged from 270 last week).
+Active listings: 533 (up from 532 last week, change of 1).
+Freehold listings: 271 (up from 270 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  No new listings this week.
+  + 114 Anderson Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | LJ Hooker - Wanaka | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
@@ -22,10 +22,12 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 18 Barn Hill Drive, Arrow Junction, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: Negotiation
-  ! 1 Mica Ridge, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Luxury Real Estate | Price: Negotiation
+  ! 18 Mason Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Deadline Sale
+  ! 22 Golden Terrace, Queenstown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: $2,550,000 (Asking Price)
+  ! 50 Peninsula Road, Peninsula Rise, Kelvin Heights, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Queenstown | Price: $2,649,000 (Asking Price)
+  ! 19 Hobart Street, Queenstown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Queenstown | Price: Negotiation
 
 ============================================================
-Comparison: 2026-07-10 vs 2026-07-11
+Comparison: 2026-07-11 vs 2026-07-12
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
