@@ -1,33 +1,45 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-07-12
+Run date: 2026-07-13
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 533 (up from 532 last week, change of 1).
-Freehold listings: 271 (up from 270 last week).
+Active listings: 524 (down from 533 last week, change of 9).
+Freehold listings: 266 (down from 271 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 114 Anderson Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | LJ Hooker - Wanaka | Tenure: Freehold
+  + 11 Shelduck Road, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  No listings removed this week.
+  - 8 Gillespie Street, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 40 days
+  - 11 Wiltshire Street, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 117 days
+  - 4 Chapman Way, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | NZSIR - Queenstown | Was on market 18 days
+  - 27 Walton Way, Lower Shotover, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Was on market 18 days
+  - 62 Morven Ferry Road, Dalefield, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 143 days
+  - 57 Lakeside Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 629 days
+  - 61 Longview Drive, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 40 days
+  - 11 Till Street, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Walker & Co | Was on market 102 days
+  - 24 Robrosa Street, Wanaka, Wanaka, Central Otago / Lakes District | $1,550,000 (Code 13) | Berry Real Estate | Was on market 104 days
+  -  Cardrona Valley Road, Wanaka, Wanaka, Central Otago / Lakes District | $2,420,000 (Fixed Price) | NZSIR - Queenstown | Was on market 1696 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  No price reductions this week.
+  v 8 Jacks Point Rise, Jacks Point, Queenstown, Central Otago / Lakes District | $2,495,000 -> $2,450,000 | Down 1.8% | NZSIR - Queenstown | DOM: 102 days
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 18 Mason Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Deadline Sale
-  ! 22 Golden Terrace, Queenstown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: $2,550,000 (Asking Price)
-  ! 50 Peninsula Road, Peninsula Rise, Kelvin Heights, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Queenstown | Price: $2,649,000 (Asking Price)
-  ! 19 Hobart Street, Queenstown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Queenstown | Price: Negotiation
+  ! 25 Heaton Park Drive, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Pulse Real Estate | Price: Negotiation
+  ! Unit 4, 58 Malvern Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
+  ! 7 Centurion Court, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | NZSIR - Queenstown | Price: Negotiation
+  ! 2 McFarlane Terrace, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Wanaka | Price: Negotiation
+  ! 14/239 Frankton Road, Frankton, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Queenstown | Price: Negotiation
+  ! 28 Evergreen Place, Sunshine Bay, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: Negotiation
+  ! 56 Jacks Point Rise, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Arrowtown | Price: $2,275,000 (Fixed Price)
 
 ============================================================
-Comparison: 2026-07-11 vs 2026-07-12
+Comparison: 2026-07-12 vs 2026-07-13
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
