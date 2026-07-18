@@ -1,39 +1,31 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-07-17
+Run date: 2026-07-18
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 527 (down from 528 last week, change of 1).
-Freehold listings: 265 (up from 264 last week).
+Active listings: 527 (unchanged from 527 last week, change of 0).
+Freehold listings: 265 (unchanged from 265 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 43 Forage Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
-  + 30 Somerset Street, Kingston, Queenstown, Central Otago / Lakes District | Deadline Sale | Professionals - Queenstown | Tenure: 
-  + 17 Mount Nicholas Avenue, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
-  + 8 Little Oak Common, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
+  No new listings this week.
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 10 Mason Street, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Century 21 - Wanaka | Was on market 36 days
-  - 7 Rua Street, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 34 days
-  - 43 Atkins Road, Luggate, Wanaka, Central Otago / Lakes District | Deadline Sale | Century 21 - Wanaka | Was on market 30 days
-  - 4 Rua Street, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | LJ Hooker - Wanaka | Was on market 134 days
-  - 1 Todd Lane, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | $7,365,000 (Fixed Price) | Oliver Road | Luxury Real Estate | Was on market 286 days
+  No listings removed this week.
 
 PRICE REDUCTIONS
 ----------------------------------------
-  v 74 McDougall Street, Wanaka, Wanaka, Central Otago / Lakes District | $2,490,000 -> $2,440,000 | Down 2.0% | Ray White - Wanaka | DOM: 50 days
+  No price reductions this week.
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 54 Avalon Station Drive, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Century 21 - Wanaka | Price: $2,285,000 (Fixed Price)
-  ! 8 McDonald Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Berry Real Estate | Price: $2,200,000 (Code 13)
-  ! 1 Kamana Rise, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Wanaka | Price: Negotiation
+  ! 6 Kahiwi Drive, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Walker & Co | Price: $3,500,000 (Code 13)
+  ! 9 Kamana Rise, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-07-16 vs 2026-07-17
+Comparison: 2026-07-17 vs 2026-07-18
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
