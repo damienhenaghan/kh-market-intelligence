@@ -1,6 +1,6 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-07-18
+Run date: 2026-07-19
 ============================================================
 
 INVENTORY
@@ -22,10 +22,13 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 6 Kahiwi Drive, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Walker & Co | Price: $3,500,000 (Code 13)
-  ! 9 Kamana Rise, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Wanaka | Price: Negotiation
+  ! 11 Morning Star Terrace, Arthurs Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Queenstown | Price: Negotiation
+  ! 317 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Barfoot & Thompson - Mission Bay | Price: Negotiation
+  ! 375 Littles Road, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Walker & Co | Price: $7,000,000 (Code 13)
+  ! 559 Peninsula Road, Kelvin Heights, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Walker & Co | Price: $7,000,000 (Code 13)
+  ! 59 Infinity Drive, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-07-17 vs 2026-07-18
+Comparison: 2026-07-18 vs 2026-07-19
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
