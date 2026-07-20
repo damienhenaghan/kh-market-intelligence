@@ -1,20 +1,31 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-07-19
+Run date: 2026-07-20
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 527 (unchanged from 527 last week, change of 0).
+Active listings: 526 (down from 527 last week, change of 1).
 Freehold listings: 265 (unchanged from 265 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  No new listings this week.
+  + 48 Minaret Ridge, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | LJ Hooker - Wanaka | Tenure: 
+  + Unit 303 Highview Apartments, 68 Thompson Street, Queenstown, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Tenure: 
+  + 19 Walton Way, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Leasehold
+  + 2402B Cardrona Valley Road, Cardrona, Wanaka, Central Otago / Lakes District | Negotiation | Colliers - Wanaka | Tenure: 
+  + 38 Malvern Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
+  + 282 Lakeview Terrace, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | NZSIR - Wanaka | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  No listings removed this week.
+  - 21 Glenbrae Crescent, Wanaka, Wanaka, Central Otago / Lakes District | $2,775,000 (Fixed Price) | Ray White - Wanaka | Was on market 107 days
+  - 33 Atkins Road, Luggate, Wanaka, Central Otago / Lakes District | Negotiation | LJ Hooker - Wanaka | Was on market 186 days
+  - 132 Main Road, Luggate, Wanaka, Central Otago / Lakes District | Negotiation | Prime Wanaka - Wanaka | Was on market 108 days
+  - 8 Foxglove Heights, Wanaka, Wanaka, Central Otago / Lakes District | $13,500,000 (Fixed Price) | Aspire Realty | Was on market 303 days
+  - 672 Ballantyne Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | NZSIR - Wanaka | Was on market 170 days
+  - Address unknown | Negotiation | REMAX Revolution | Was on market 75 days
+  - 7 Carrickmore Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 31 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -22,13 +33,12 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 11 Morning Star Terrace, Arthurs Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Queenstown | Price: Negotiation
-  ! 317 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Barfoot & Thompson - Mission Bay | Price: Negotiation
-  ! 375 Littles Road, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Walker & Co | Price: $7,000,000 (Code 13)
-  ! 559 Peninsula Road, Kelvin Heights, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Walker & Co | Price: $7,000,000 (Code 13)
-  ! 59 Infinity Drive, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
+  ! 119 Lower Shotover Road, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Walker & Co | Price: $3,950,000 (Code 13)
+  ! 13 Fox's Rush, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Millbrook Realty | Price: Negotiation
+  ! 22 Ballantyne Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Wanaka | Price: Negotiation
+  ! 14 Tomtit Crescent, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Century 21 - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-07-18 vs 2026-07-19
+Comparison: 2026-07-19 vs 2026-07-20
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
