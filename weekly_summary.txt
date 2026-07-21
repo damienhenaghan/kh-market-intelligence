@@ -1,44 +1,46 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-07-20
+Run date: 2026-07-21
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 526 (down from 527 last week, change of 1).
-Freehold listings: 265 (unchanged from 265 last week).
+Active listings: 526 (unchanged from 526 last week, change of 0).
+Freehold listings: 264 (down from 265 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 48 Minaret Ridge, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | LJ Hooker - Wanaka | Tenure: 
-  + Unit 303 Highview Apartments, 68 Thompson Street, Queenstown, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Tenure: 
-  + 19 Walton Way, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Leasehold
-  + 2402B Cardrona Valley Road, Cardrona, Wanaka, Central Otago / Lakes District | Negotiation | Colliers - Wanaka | Tenure: 
-  + 38 Malvern Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
-  + 282 Lakeview Terrace, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | NZSIR - Wanaka | Tenure: Freehold
+  + 31B Onslow Road, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | Auction | Colliers - Queenstown | Tenure: 
+  + 38 Hunter Crescent, Wanaka, Wanaka, Central Otago / Lakes District | $2,495,000 (Fixed Price) | Bayleys - Wanaka | Tenure: Freehold
+  + 102/16 Mountain Ash Drive, Frankton, Queenstown, Central Otago / Lakes District | Negotiation | Walker & Co | Tenure: Leasehold
+  + 9 Magpie Place, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Century 21 - Wanaka | Tenure: 
+  + 37 McAdam Drive, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Tenure: Freehold
+  + 48 Peterley Road, Lower Shotover, Queenstown, Central Otago / Lakes District | Auction | Harcourts - Queenstown | Tenure: 
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 21 Glenbrae Crescent, Wanaka, Wanaka, Central Otago / Lakes District | $2,775,000 (Fixed Price) | Ray White - Wanaka | Was on market 107 days
-  - 33 Atkins Road, Luggate, Wanaka, Central Otago / Lakes District | Negotiation | LJ Hooker - Wanaka | Was on market 186 days
-  - 132 Main Road, Luggate, Wanaka, Central Otago / Lakes District | Negotiation | Prime Wanaka - Wanaka | Was on market 108 days
-  - 8 Foxglove Heights, Wanaka, Wanaka, Central Otago / Lakes District | $13,500,000 (Fixed Price) | Aspire Realty | Was on market 303 days
-  - 672 Ballantyne Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | NZSIR - Wanaka | Was on market 170 days
-  - Address unknown | Negotiation | REMAX Revolution | Was on market 75 days
-  - 7 Carrickmore Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 31 days
+  - 149 Slopehill Road, Speargrass Flat, Queenstown, Central Otago / Lakes District | $9,995,000 (Fixed Price) | Colliers - Queenstown | Was on market 999 days
+  - 19 Pendeen Crescent, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 865 days
+  - 45 The Terraces, Wanaka, Wanaka, Central Otago / Lakes District | $2,375,000 (Fixed Price) | Bayleys - Wanaka | Was on market 314 days
+  - 7 Richardson Street, Glenorchy, Queenstown, Central Otago / Lakes District | Negotiation | Ray White - Queenstown | Was on market 59 days
+  - 38 Hunter Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 241 days
+  - 17 Stewart Street, Frankton, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Was on market 33 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  No price reductions this week.
+  v 257 Frankton Road, Queenstown, Queenstown, Central Otago / Lakes District | $3,850,000 -> $3,750,000 | Down 2.6% | NZSIR - Queenstown | DOM: 89 days
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 119 Lower Shotover Road, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Walker & Co | Price: $3,950,000 (Code 13)
-  ! 13 Fox's Rush, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Millbrook Realty | Price: Negotiation
-  ! 22 Ballantyne Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Wanaka | Price: Negotiation
-  ! 14 Tomtit Crescent, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Century 21 - Wanaka | Price: Negotiation
+  ! 21 McDonnell Road, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Arrowtown | Price: Negotiation
+  ! 112 Fowler Lane, Albert Town, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Wanaka | Price: Negotiation
+  ! 18 Norfolk Street, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Arrowtown | Price: Negotiation
+  ! 8 Callaghans Creek Rise , Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
+  ! 4 Fairway Drive, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: Negotiation
+  ! 10 Kamana Rise, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Arizto | Price: Negotiation
+  ! 76 Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: $3,350,000 (Fixed Price)
 
 ============================================================
-Comparison: 2026-07-19 vs 2026-07-20
+Comparison: 2026-07-20 vs 2026-07-21
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
