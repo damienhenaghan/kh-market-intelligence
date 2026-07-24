@@ -1,37 +1,29 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-07-23
+Run date: 2026-07-24
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 524 (up from 523 last week, change of 1).
-Freehold listings: 263 (unchanged from 263 last week).
+Active listings: 523 (down from 524 last week, change of 1).
+Freehold listings: 262 (down from 263 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 2 Percy Lane, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Tall Poppy | Tenure: Freehold
-  + 7 Moonraker Place, Lake Hawea, Wanaka, Central Otago / Lakes District | Auction | Harcourts - Wanaka | Tenure: 
-  + 23 Mountain View Drive, Wanaka, Wanaka, Central Otago / Lakes District | Tender | Harcourts - Wanaka | Tenure: 
-  + 20 Niger Street, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Tenure: 
-  + 8 Foxglove Heights, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
-  + 1 Eely Point Road and 116 Beacon Point Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
-  + 19 Glenbrae Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Tenure: 
-  + 9 Marston Road, Lower Shotover, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Tenure: Freehold
-  + 6 Rosella Lane, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | Harcourts - Wanaka | Tenure: 
-  + 7 Carrickmore Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Harcourts - Wanaka | Tenure: 
+  + 12 Kawarau Heights Boulevard, Lake Hayes, Queenstown, Central Otago / Lakes District | $3,250,000 (Fixed Price) | Bayleys - Queenstown | Tenure: Freehold
+  + 38 Hunter Crescent, Wanaka, Wanaka, Central Otago / Lakes District | $2,495,000 (Fixed Price) | Aspire Realty | Tenure: 
+  + 70 Kirimoko Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Tenure: 
+  + 62 Morven Ferry Road, Arrow Junction, Queenstown, Central Otago / Lakes District | $5,875,000 (Fixed Price) | NZSIR - Queenstown | Tenure: Freehold
+  + 17 Carlin Creek Drive, Drift Bay, Queenstown, Central Otago / Lakes District | Negotiation | Professionals - Queenstown | Tenure: 
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 8 Penrith Park Drive, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Prime Wanaka - Wanaka | Was on market 29 days
-  - 26 Stackbrae Avenue, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Was on market 265 days
-  - 39 Woolshed Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Was on market 30 days
-  - 6 Rushland Road, Hanley's Farm, JACKS POINT, Queenstown, Central Otago / Lakes District | Deadline Sale | WHITEFOX - Queenstown-Lakes | Was on market 23 days
-  - 1 Witley Lane, Quail Rise, Lower Shotover, Queenstown, Central Otago / Lakes District | Negotiation | Weka Legal and Real Estate | Was on market 28 days
-  - 4 Moonstone Street, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Was on market 37 days
-  - 22 Golden Terrace, Queenstown, Queenstown, Central Otago / Lakes District | $2,550,000 (Asking Price) | Bayleys - Queenstown | Was on market 70 days
-  - 41 Woolshed Road, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Arizto | Was on market 46 days
-  - 15 Kanuka Rise, Albert Town, Wanaka, Central Otago / Lakes District | Negotiation | Century 21 - Wanaka | Was on market 37 days
+  - 9 Magpie Place, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Century 21 - Wanaka | Was on market 35 days
+  - 17 Mount Nicholas Avenue, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Was on market 6 days
+  - 37 Risinghurst Terrace, Lower Shotover, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 27 days
+  - Lot 1109 Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Queenstown | Was on market 125 days
+  - 26 Deans Drive, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 120 days
+  - 2 Mount Linton Avenue, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Tall Poppy | Was on market 260 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -39,13 +31,11 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! . Address Withheld, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Prime Wanaka - Wanaka | Price: Negotiation
-  ! 20A Cornwall Street, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Ray White - Arrowtown | Price: Negotiation
-  ! 42 Central Park Avenue, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Oliver Road | Luxury Real Estate | Price: $5,100,000 (Fixed Price)
-  ! 10 Hidden Hills Drive, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Ray White - Wanaka | Price: $2,949,000 (Fixed Price)
-  ! 206 Dalefield Road, Dalefield, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Arrowtown | Price: $4,790,000 (Offers Over)
+  ! 45 Arrow Junction Road, Arrow Junction, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: Negotiation
+  ! 6 Terranova Place, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Wanaka | Price: Negotiation
+  ! 199 & 203 Fernhill Road, Fernhill, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: $3,800,000 (Fixed Price)
 
 ============================================================
-Comparison: 2026-07-22 vs 2026-07-23
+Comparison: 2026-07-23 vs 2026-07-24
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
