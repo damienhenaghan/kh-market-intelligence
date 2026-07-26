@@ -1,6 +1,6 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-07-25
+Run date: 2026-07-26
 ============================================================
 
 INVENTORY
@@ -22,11 +22,10 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 63 Totara Terrace, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Wanaka | Price: Negotiation
-  ! 248 Beacon Point Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
-  ! 61 Totara Terrace, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Wanaka | Price: Negotiation
+  ! 203 Littles Road, Dalefield, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: $2,900,000 (Fixed Price)
+  ! 10 Shepherd Road, JACKS POINT, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | WHITEFOX - Queenstown-Lakes | Price: Negotiation
 
 ============================================================
-Comparison: 2026-07-24 vs 2026-07-25
+Comparison: 2026-07-25 vs 2026-07-26
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
