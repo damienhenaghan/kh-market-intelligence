@@ -1,11 +1,11 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-08-01
+Run date: 2026-08-02
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 522 (unchanged from 522 last week, change of 0).
+Active listings: 521 (down from 522 last week, change of 1).
 Freehold listings: 269 (unchanged from 269 last week).
 
 NEW LISTINGS THIS WEEK
@@ -14,7 +14,7 @@ NEW LISTINGS THIS WEEK
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  No listings removed this week.
+  - 11 McKinlay Lane, Lake Tewa, Jacks Point, Queenstown, Central Otago / Lakes District | $8,495,000 (Fixed Price) | NZSIR - Queenstown | Was on market 255 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -22,10 +22,13 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 79 Middleton Road, Queenstown Hill, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: $3,490,000 (Fixed Price)
-  ! 8 Anreca Lane, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Wanaka | Price: Negotiation
+  ! 34, 633 Frankton Road, Queenstown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: Negotiation
+  ! 32 Rockhaven, Albert Town, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
+  ! 27 Arrowtown-Lake Hayes Road, Lake Hayes, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Luxury Real Estate | Price: Negotiation
+  ! 77a Frogmore Lane, Dalefield, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: $5,825,000 (Fixed Price)
+  ! Lot 1, 100 Whitechapel Road, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | NZSIR - Arrowtown | Price: Negotiation
 
 ============================================================
-Comparison: 2026-07-31 vs 2026-08-01
+Comparison: 2026-08-01 vs 2026-08-02
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
