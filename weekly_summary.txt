@@ -1,44 +1,35 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-08-04
+Run date: 2026-08-05
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 513 (down from 519 last week, change of 6).
-Freehold listings: 265 (down from 269 last week).
+Active listings: 515 (up from 513 last week, change of 2).
+Freehold listings: 267 (up from 265 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  No new listings this week.
+  + 92 Mount Iron Drive, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | NZSIR - Wanaka | Tenure: Freehold
+  + 008/18 Mountain Ash Drive, Frankton, Queenstown, Central Otago / Lakes District | Negotiation | Barfoot & Thompson - Greenlane | Tenure: Leasehold
+  + 15A McBride Street, Frankton, Queenstown, Central Otago / Lakes District | Deadline Sale | Colliers - Queenstown | Tenure: 
+  + 31 Hackett Road, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 572A Speargrass Flat Road, Lake Hayes, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Queenstown | Was on market 174 days
-  - 83 Atley Road, Arthurs Point, Queenstown, Central Otago / Lakes District | $5,000,000 (Code 13) | WHITEFOX - Queenstown-Lakes | Was on market 140 days
-  - 50 Edinburgh Drive, Queenstown, Queenstown, Central Otago / Lakes District | Negotiation | NZSIR - Queenstown | Was on market 67 days
-  - 29 Settlers Way, Arrowtown, Queenstown, Central Otago / Lakes District | $5,700,000 (Fixed Price) | Millbrook Realty | Was on market 90 days
-  - 111/112 Butel Villa, Arrowtown, Queenstown, Central Otago / Lakes District | Deadline Sale | Millbrook Realty | Was on market 45 days
-  - 210 Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 97 days
+  - 9 Scaife Place, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Was on market 68 days
+  - 63 Avalon Station Drive, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Was on market 874 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  No price reductions this week.
-
-PRICE INCREASES
-----------------------------------------
-  ^ 50 Peninsula Road, Peninsula Rise, Kelvin Heights, Queenstown, Central Otago / Lakes District | $2,495,000 -> $2,499,000 | Up 0.2% | Colliers - Queenstown
+  v 50 Peninsula Road, Kelvin Heights, Queenstown, Central Otago / Lakes District | $2,499,000 -> $2,485,000 | Down 0.6% | Colliers - Queenstown | DOM: 114 days
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 103 West Meadows Drive, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Wanaka | Price: Negotiation
-  ! 71 Seven Lane, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Berry Real Estate | Price: Negotiation
-  ! 95 McDougall Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Wanaka | Price: Negotiation
-  ! 194 Black Rock Rise, Treble Cone/Mount Aspiring, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Prime Wanaka - Wanaka | Price: Negotiation
-  ! 3B Ploughmans Lane , Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Millbrook Realty | Price: Negotiation
-  ! Lots 2 & 3/111 Atley Road, Arthurs Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: Negotiation
+  ! 22 Ayrburn Ridge, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Millbrook Realty | Price: Negotiation
+  ! 11 Hikuwai Drive, Albert Town, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-08-03 vs 2026-08-04
+Comparison: 2026-08-04 vs 2026-08-05
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
