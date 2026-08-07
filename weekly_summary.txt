@@ -1,35 +1,38 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-08-05
+Run date: 2026-08-07
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 515 (up from 513 last week, change of 2).
-Freehold listings: 267 (up from 265 last week).
+Active listings: 520 (up from 515 last week, change of 5).
+Freehold listings: 270 (up from 267 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 92 Mount Iron Drive, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | NZSIR - Wanaka | Tenure: Freehold
-  + 008/18 Mountain Ash Drive, Frankton, Queenstown, Central Otago / Lakes District | Negotiation | Barfoot & Thompson - Greenlane | Tenure: Leasehold
-  + 15A McBride Street, Frankton, Queenstown, Central Otago / Lakes District | Deadline Sale | Colliers - Queenstown | Tenure: 
-  + 31 Hackett Road, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
+  + 4b Pritchard Place, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Luxury Real Estate | Tenure: 
+  + 745 Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
+  + 41 Avalon Station Drive, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
+  + 77 Bannister Street, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Walker & Co | Tenure: Freehold
+  + 38 Lindis Road, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Tenure: 
+  + 1 Serpentine Street, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 9 Scaife Place, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Was on market 68 days
-  - 63 Avalon Station Drive, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Was on market 874 days
+  - 3/2352 Cardrona Valley Road, Cardrona, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Was on market 41 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  v 50 Peninsula Road, Kelvin Heights, Queenstown, Central Otago / Lakes District | $2,499,000 -> $2,485,000 | Down 0.6% | Colliers - Queenstown | DOM: 114 days
+  No price reductions this week.
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 22 Ayrburn Ridge, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Millbrook Realty | Price: Negotiation
-  ! 11 Hikuwai Drive, Albert Town, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: Negotiation
+  ! 23 Banbury Terrace, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 91 | Ray White - Queenstown | Price: Negotiation
+  ! 25 Riverslea Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Wanaka | Price: Negotiation
+  ! 317 Crown Range Road, Arrow Junction, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | NZSIR - Queenstown | Price: Negotiation
+  ! 12 Rubus Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Century 21 - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-08-04 vs 2026-08-05
+Comparison: 2026-08-05 vs 2026-08-07
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
