@@ -1,27 +1,24 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-08-07
+Run date: 2026-08-08
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 522 (up from 515 last week, change of 7).
-Freehold listings: 540 (up from 267 last week).
+Active listings: 518 (down from 522 last week, change of 4).
+Freehold listings: 271 (down from 540 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 77 Bannister Street, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Walker & Co | Tenure: Freehold
-  + 41 Avalon Station Drive, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
-  + 745 Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
-  + 38 Lindis Road, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Ray White - Wanaka | Tenure: 
-  + 4b Pritchard Place, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Luxury Real Estate | Tenure: 
-  + 20 Taurus Lane, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
-  + 1 Serpentine Street, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
-  + 19 Baywaters Lane, Closeburn, Queenstown-Lakes, Closeburn, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
+  + Lot 3, 156 Hogans Gully Road, Arrowtown, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 3/2352 Cardrona Valley Road, Cardrona, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Was on market 41 days
+  - 1 Mary Lane, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 154 days
+  - 13 Magpie Place, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 133 days
+  - 63A West Meadows Drive, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 139 days
+  - 1B Dart Place, Fernhill, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Arrowtown | Was on market 58 days
+  - 43 and 43A Muster Road, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Connect | Was on market 22 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -29,14 +26,9 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 105 Burdon Loop, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Century 21 - Wanaka | Price: Negotiation
-  ! 7 Tuke Lane, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Wanaka | Price: $2,500,000 (Code 13)
-  ! 317 Crown Range Road, Arrow Junction, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 91 | NZSIR - Queenstown | Price: Negotiation
-  ! 23 Banbury Terrace, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 91 | Ray White - Queenstown | Price: Negotiation
-  ! 25 Riverslea Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Wanaka | Price: Negotiation
-  ! 12 Rubus Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 91 | Century 21 - Wanaka | Price: Negotiation
+  ! 7/381 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | IQNZ | Price: Negotiation
 
 ============================================================
-Comparison: 2026-08-05 vs 2026-08-07
+Comparison: 2026-08-07 vs 2026-08-08
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
