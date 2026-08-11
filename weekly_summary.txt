@@ -1,43 +1,39 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-08-10
+Run date: 2026-08-11
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 516 (down from 518 last week, change of 2).
-Freehold listings: 270 (down from 271 last week).
+Active listings: 511 (down from 516 last week, change of 5).
+Freehold listings: 267 (down from 270 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 6 Anreca Lane, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Ray White - Wanaka | Tenure: 
-  + 19 Ridgecrest, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
-  + 34, 633 Frankton Road, Queenstown, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Queenstown | Tenure: Freehold
-  + 11 Tahi Street, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | NZSIR - Wanaka | Tenure: Freehold
-  + 4/67 Andrews Road, Queenstown Central, Queenstown, Central Otago / Lakes District | Deadline Sale | Walker & Co | Tenure: Leasehold
+  + 13/2 McKinlay Lane, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Leasehold
+  + 24/2 McKinlay Lane, Jacks Point, Queenstown, Central Otago / Lakes District | $2,295,000 (Fixed Price) | Colliers - Queenstown | Tenure: 
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 6 Highridge Terrace, WANAKA, Wanaka, Central Otago / Lakes District | Negotiation | Aspire Realty | Was on market 166 days
-  - Unit 2, 58 Malvern Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 87 days
-  - Lot 3, 156 Hogans Gully Road, Arrowtown, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Was on market 1 days
-  - 5C Aspen Grove, Fernhill/Sunshine Bay, Queenstown, Central Otago / Lakes District | Auction | Connect | Was on market 24 days
-  - 257 Frankton Road, Queenstown, Queenstown, Central Otago / Lakes District | $3,750,000 (Fixed Price) | NZSIR - Queenstown | Was on market 108 days
-  - 14 Muir Road, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 40 days
-  - 8 Jacks Point Rise, Jacks Point, Queenstown, Central Otago / Lakes District | $2,450,000 (Fixed Price) | NZSIR - Queenstown | Was on market 129 days
+  - 18 Panorama Terrace, QUEENSTOWN HILL, Queenstown, Central Otago / Lakes District | $2,035,000 (Code 13) | One Agency - The Property Specialists | Was on market 116 days
+  - 4 Mount Linton Avenue, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 27 days
+  - 112 Tenby Street, WANAKA, Wanaka, Central Otago / Lakes District | Negotiation | WHITEFOX - Queenstown-Lakes | Was on market 172 days
+  - 114 Hensman Road, Queenstown, Queenstown, Central Otago / Lakes District | Negotiation | NZSIR - Queenstown | Was on market 262 days
+  - 42 Burdon Loop, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | LJ Hooker - Wanaka | Was on market 33 days
+  - 206 Peninsula Road, Kelvin Heights, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 168 days
+  - Unit 1003/327 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | Negotiation | IQNZ | Was on market 188 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  No price reductions this week.
+  v 30B Chalmers Street, Wanaka, Wanaka, Central Otago / Lakes District | $2,600,000 -> $2,500,000 | Down 3.8% | Berry Real Estate | DOM: 298 days
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  !  Long Grass Place, Hawea Flat, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Wanaka | Price: Negotiation
-  ! Lot 5, The Paddock,  Littles Road, Dalefield, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Arrowtown | Price: $2,900,000 (Fixed Price)
-  ! Lot 2, The Paddock,  Littles Road, Dalefield, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Arrowtown | Price: $3,200,000 (Fixed Price)
-  ! 18 Barn Hill Drive, Arrow Junction, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Queenstown | Price: Negotiation
+  ! 14 Craigroy Crescent, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
+  ! 19 Hobart Street, Queenstown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Ray White - Queenstown | Price: Negotiation
+  ! 18 Mason Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Wanaka | Price: $2,049,000 (Fixed Price)
 
 ============================================================
-Comparison: 2026-08-09 vs 2026-08-10
+Comparison: 2026-08-10 vs 2026-08-11
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
