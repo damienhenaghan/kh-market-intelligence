@@ -1,12 +1,12 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-08-22
+Run date: 2026-08-23
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 515 (down from 516 last week, change of 1).
-Freehold listings: 260 (unchanged from 260 last week).
+Active listings: 514 (down from 515 last week, change of 1).
+Freehold listings: 259 (down from 260 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
@@ -14,7 +14,7 @@ NEW LISTINGS THIS WEEK
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 2 Elevator Lane, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Connect | Was on market 24 days
+  - 508 Lake Hawea-Albert Town Road, Albert Town, Wanaka, Central Otago / Lakes District | $4,450,000 (Fixed Price) | Bayleys - Wanaka | Was on market 64 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -22,9 +22,11 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 14J Lakeridge Road, Queenstown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Luxury Real Estate | Price: Negotiation
+  ! 6 Terranova Place, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Harcourts - Wanaka | Price: Negotiation
+  ! 45 Arrow Junction Road, Arrow Junction, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Queenstown | Price: Negotiation
+  ! 199 & 203 Fernhill Road, Fernhill, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Colliers - Queenstown | Price: $3,800,000 (Fixed Price)
 
 ============================================================
-Comparison: 2026-08-21 vs 2026-08-22
+Comparison: 2026-08-22 vs 2026-08-23
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
