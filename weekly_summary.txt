@@ -5,21 +5,22 @@ Run date: 2026-08-29
 
 INVENTORY
 ----------------------------------------
-Active listings: 504 (down from 509 last week, change of 5).
-Freehold listings: 248 (down from 251 last week).
+Active listings: 505 (down from 509 last week, change of 4).
+Freehold listings: 497 (up from 251 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
+  + 2127b Cardrona Valley Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Berry Real Estate | Tenure: Freehold
   + Unit 705/327 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | Negotiation | IQNZ | Tenure: 
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 8 Little Oak Common, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Was on market 42 days
-  - 6 Rosella Lane, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 36 days
-  - 65 Kernel Loop, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Arrowtown | Was on market 29 days
   - Lot 1, Speargrass Park, Speargrass Flat, Queenstown, Central Otago / Lakes District | $5,500,000 (Fixed Price) | NZSIR - Queenstown | Was on market 29 days
-  - Lot 10 Preservation Lane, Arrowtown, Queenstown, Central Otago / Lakes District | $2,495,000 (Fixed Price) | Ray White - Arrowtown | Was on market 259 days
+  - 65 Kernel Loop, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Arrowtown | Was on market 29 days
+  - 6 Rosella Lane, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 36 days
+  - 8 Little Oak Common, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Was on market 42 days
   - 103 West Meadows Drive, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 83 days
+  - Lot 10 Preservation Lane, Arrowtown, Queenstown, Central Otago / Lakes District | $2,495,000 (Fixed Price) | Ray White - Arrowtown | Was on market 259 days
 
 PRICE REDUCTIONS
 ----------------------------------------
