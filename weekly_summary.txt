@@ -1,26 +1,21 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-08-29
+Run date: 2026-08-30
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 505 (down from 509 last week, change of 4).
-Freehold listings: 497 (up from 251 last week).
+Active listings: 503 (down from 505 last week, change of 2).
+Freehold listings: 249 (down from 497 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 2127b Cardrona Valley Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Berry Real Estate | Tenure: Freehold
-  + Unit 705/327 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | Negotiation | IQNZ | Tenure: 
+  No new listings this week.
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - Lot 1, Speargrass Park, Speargrass Flat, Queenstown, Central Otago / Lakes District | $5,500,000 (Fixed Price) | NZSIR - Queenstown | Was on market 29 days
-  - 65 Kernel Loop, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Arrowtown | Was on market 29 days
-  - 6 Rosella Lane, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 36 days
-  - 8 Little Oak Common, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Was on market 42 days
-  - 103 West Meadows Drive, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 83 days
-  - Lot 10 Preservation Lane, Arrowtown, Queenstown, Central Otago / Lakes District | $2,495,000 (Fixed Price) | Ray White - Arrowtown | Was on market 259 days
+  - 15A McBride Street, Frankton, Queenstown, Central Otago / Lakes District | Deadline Sale | Colliers - Queenstown | Was on market 23 days
+  - 6 Terranova Place, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Was on market 96 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -28,9 +23,11 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  No listings crossing DOM thresholds this week.
+  ! 20 Advance Terrace, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Arrowtown | Price: Negotiation
+  ! 127 Flyer View Lane, Kingston, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Professionals - Queenstown | Price: Deadline Sale
+  ! 9 Mills Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-08-28 vs 2026-08-29
+Comparison: 2026-08-29 vs 2026-08-30
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
