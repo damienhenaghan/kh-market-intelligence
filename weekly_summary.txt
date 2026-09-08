@@ -1,43 +1,45 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-09-07
+Run date: 2026-09-08
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 517 (up from 516 last week, change of 1).
-Freehold listings: 255 (up from 254 last week).
+Active listings: 522 (up from 517 last week, change of 5).
+Freehold listings: 258 (up from 255 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 2 Brodie Avenue, Arrowtown, Queenstown, Central Otago / Lakes District | Deadline Sale | Walker & Co | Tenure: Freehold
-  + 12 Foxglove Heights, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Aspire Realty | Tenure: 
-  + 118 Jack Hanley Drive, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
-  + 77 Kawarau Heights Boulevard , Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | $2,850,000 (Fixed Price) | Kawarau Heights | Tenure: Freehold
-  + 12 Kawarau Heights Boulevard , Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | $3,250,000 (Fixed Price) | Kawarau Heights | Tenure: Freehold
-  + 13 Shelduck Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
+  + 70 Lost Burn Road, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | Harcourts - Wanaka | Tenure: 
+  + 7 Sapphire Spring Rise, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | LJ Hooker - Wanaka | Tenure: Freehold
+  + 27 Redfern Terrace, Arthurs Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Ray White - Queenstown | Tenure: 
+  + 11 Craigie Burn Lane, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Tenure: Freehold
+  + 455 Littles Road, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | $3,950,000 (Code 13) | Walker & Co | Tenure: Freehold
+  + 3 Tudor Lane, Shotover Country, Lower Shotover, Queenstown, Central Otago / Lakes District | Deadline Sale | Weka Legal and Real Estate | Tenure: 
+  +  Paddock Lane, Lower Shotover, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Arrowtown | Tenure: Freehold
+  + 25 Mckellar Drive, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
+  + 15 Ellesmere Avenue, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Walker & Co | Tenure: Freehold
+  + 33 Jack Hanley Drive, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 54 Huff Street, Queenstown, Queenstown, Central Otago / Lakes District | Negotiation | NZSIR - Queenstown | Was on market 124 days
-  - 10 Butel Avenue, Arrowtown, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Arrowtown | Was on market 24 days
-  - 18 Mason Street, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 116 days
-  - 5 Lancewood Lane, Queenstown Hill, Queenstown, Central Otago / Lakes District | $3,150,000 (Fixed Price) | Harcourts - Queenstown | Was on market 81 days
-  - 2 Aberdare Court, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | NZSIR - Queenstown | Was on market 73 days
+  - 18 Finch Street, Albert Town, Wanaka, Central Otago / Lakes District | Negotiation | LJ Hooker - Wanaka | Was on market 186 days
+  - 17 Foxs Terrace, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Arrowtown | Was on market 238 days
+  - 114 Anderson Road, Wanaka, Wanaka, Central Otago / Lakes District | $2,250,000 (Offers Over) | LJ Hooker - Wanaka | Was on market 57 days
+  - 36 Spur Ridge Rise, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Walker & Co | Was on market 47 days
+  - 22 Headley Drive, Lower Shotover, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 173 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  No price reductions this week.
+  v 84 Gladsmuir Road, Luggate, Wanaka, Central Otago / Lakes District | $1,600,000 -> $1,400,000 | Down 12.5% | Berry Real Estate | DOM: 334 days
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 504/18 Mountain Ash Drive, Frankton, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Queenstown | Price: Negotiation
-  ! 45 Partridge Road, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Century 21 - Wanaka | Price: $2,980,000 (Fixed Price)
-  ! 36 Woolshed Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: Deadline Sale
-  ! 208/29 Warren Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Wanaka | Price: Negotiation
-  ! 16 Lafranchi Lane, Cardrona, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: $2,395,000 (Fixed Price)
+  ! 7 Laurel Bank Place, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Walker & Co | Price: $1,350,000 (Code 13)
+  ! 102 Thompson Street, Queenstown Central, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | One Agency - The Property Specialists | Price: Negotiation
+  ! 10 Bluff View Terrace, Drift Bay, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Walker & Co | Price: Deadline Sale
 
 ============================================================
-Comparison: 2026-09-06 vs 2026-09-07
+Comparison: 2026-09-07 vs 2026-09-08
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
