@@ -1,45 +1,47 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-09-08
+Run date: 2026-09-09
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 522 (up from 517 last week, change of 5).
-Freehold listings: 258 (up from 255 last week).
+Active listings: 526 (up from 522 last week, change of 4).
+Freehold listings: 258 (unchanged from 258 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 70 Lost Burn Road, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | Harcourts - Wanaka | Tenure: 
-  + 7 Sapphire Spring Rise, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | LJ Hooker - Wanaka | Tenure: Freehold
-  + 27 Redfern Terrace, Arthurs Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Ray White - Queenstown | Tenure: 
-  + 11 Craigie Burn Lane, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Tenure: Freehold
-  + 455 Littles Road, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | $3,950,000 (Code 13) | Walker & Co | Tenure: Freehold
-  + 3 Tudor Lane, Shotover Country, Lower Shotover, Queenstown, Central Otago / Lakes District | Deadline Sale | Weka Legal and Real Estate | Tenure: 
-  +  Paddock Lane, Lower Shotover, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Arrowtown | Tenure: Freehold
-  + 25 Mckellar Drive, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
-  + 15 Ellesmere Avenue, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Walker & Co | Tenure: Freehold
-  + 33 Jack Hanley Drive, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
+  + 60 Shepherd Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
+  + 13 Jackson Rise, Luggate, Wanaka, Central Otago / Lakes District | Deadline Sale | Colliers - Wanaka | Tenure: 
+  + 152 Beacon Point Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Century 21 - Wanaka | Tenure: 
+  + 1/14 Fryer Street, Queenstown Central, Queenstown, Central Otago / Lakes District | Deadline Sale | WHITEFOX - Queenstown-Lakes | Tenure: 
+  + 25 Robins Road, Queenstown Central, Queenstown, Central Otago / Lakes District | Negotiation | Wolfbrook Residential | Tenure: 
+  +  50 Stalker Road, Lower Shotover, Queenstown, Central Otago / Lakes District | Negotiation | Wolfbrook Residential | Tenure: 
+  + 46 Stalker Road, Lower Shotover, Queenstown, Central Otago / Lakes District | Negotiation | Wolfbrook Residential | Tenure: 
+  + 51 Corriedale Road, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Freehold
+  + 30/2 McKinlay Lane, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Leasehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 18 Finch Street, Albert Town, Wanaka, Central Otago / Lakes District | Negotiation | LJ Hooker - Wanaka | Was on market 186 days
-  - 17 Foxs Terrace, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Arrowtown | Was on market 238 days
-  - 114 Anderson Road, Wanaka, Wanaka, Central Otago / Lakes District | $2,250,000 (Offers Over) | LJ Hooker - Wanaka | Was on market 57 days
-  - 36 Spur Ridge Rise, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Walker & Co | Was on market 47 days
-  - 22 Headley Drive, Lower Shotover, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 173 days
+  - 2 Annahs Place, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Prime Wanaka - Wanaka | Was on market 321 days
+  - 34 Bonspiel Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Century 21 - Wanaka | Was on market 210 days
+  - 15 The Terrace, Queenstown, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Was on market 74 days
+  - 11 Haines Way, Arthurs Point, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Was on market 5 days
+  - 34 Bonspiel Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Colliers - Wanaka | Was on market 202 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  v 84 Gladsmuir Road, Luggate, Wanaka, Central Otago / Lakes District | $1,600,000 -> $1,400,000 | Down 12.5% | Berry Real Estate | DOM: 334 days
+  No price reductions this week.
+
+PRICE INCREASES
+----------------------------------------
+  ^ 9 Kahiwi Drive, Lower Shotover, Queenstown, Central Otago / Lakes District | $4,450,000 -> $4,600,000 | Up 3.4% | Walker & Co
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 7 Laurel Bank Place, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Walker & Co | Price: $1,350,000 (Code 13)
-  ! 102 Thompson Street, Queenstown Central, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | One Agency - The Property Specialists | Price: Negotiation
-  ! 10 Bluff View Terrace, Drift Bay, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Walker & Co | Price: Deadline Sale
+  ! Lot 2, The Paddock,  Littles Road, Dalefield, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | NZSIR - Arrowtown | Price: $3,200,000 (Fixed Price)
+  ! Lot 5, The Paddock,  Littles Road, Dalefield, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | NZSIR - Arrowtown | Price: $2,900,000 (Fixed Price)
 
 ============================================================
-Comparison: 2026-09-07 vs 2026-09-08
+Comparison: 2026-09-08 vs 2026-09-09
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
