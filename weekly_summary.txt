@@ -1,12 +1,12 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-09-12
+Run date: 2026-09-13
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 547 (unchanged from 547 last week, change of 0).
-Freehold listings: 267 (unchanged from 267 last week).
+Active listings: 546 (down from 547 last week, change of 1).
+Freehold listings: 266 (down from 267 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
@@ -14,19 +14,20 @@ NEW LISTINGS THIS WEEK
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  No listings removed this week.
+  - 8 Stafford Street, Arrowtown, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Arrowtown | Was on market 26 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  v 84 Nook Road, Lake Hawea, Wanaka, Central Otago / Lakes District | $2,200,000 -> $2,195,000 | Down 0.2% | Century 21 - Wanaka | DOM: 135 days
+  No price reductions this week.
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 50 Forest Heights, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Prime Wanaka - Wanaka | Price: Negotiation
-  ! 17 Lee Avenue, Mt. Cardrona Station, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Stroud - Queenstown Lakes | Price: $2,429,000 (Fixed Price)
-  ! The Links/110 Wanaka-Luggate Highway, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Wanaka | Price: $929,000 (Code 13)
+  ! 77 Kawarau Heights Boulevard, Lake Hayes, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: $2,850,000 (Fixed Price)
+  ! 6 Crawford Place, Walnut Grove, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Queenstown | Price: Negotiation
+  ! 6 Primary Lane, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
+  ! 18 hidden hills Drive, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Berry Real Estate | Price: Negotiation
 
 ============================================================
-Comparison: 2026-09-11 vs 2026-09-12
+Comparison: 2026-09-12 vs 2026-09-13
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
