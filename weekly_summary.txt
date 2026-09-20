@@ -1,16 +1,16 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-09-19
+Run date: 2026-09-20
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 564 (up from 563 last week, change of 1).
+Active listings: 564 (unchanged from 564 last week, change of 0).
 Freehold listings: 263 (unchanged from 263 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 1/42 Hallenstein Street, QUEENSTOWN, Queenstown, Central Otago / Lakes District | Negotiation | One Agency - The Property Specialists | Tenure: 
+  No new listings this week.
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
@@ -18,13 +18,14 @@ REMOVED SINCE LAST WEEK (sold or withdrawn)
 
 PRICE REDUCTIONS
 ----------------------------------------
-  v 29 Settlers Way, Arrowtown, Queenstown, Central Otago / Lakes District | $5,525,000 -> $5,275,000 | Down 4.5% | Oliver Road | Luxury Real Estate | DOM: 36 days
+  No price reductions this week.
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 37 McAdam Drive, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: $2,700,000 (Offers Over)
+  ! 301/ Kahiwi Drive, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Walker & Co | Price: Negotiation
+  ! 25 Ellacott Lane, Lake Hawea, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-09-18 vs 2026-09-19
+Comparison: 2026-09-19 vs 2026-09-20
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
