@@ -1,12 +1,12 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-09-26
+Run date: 2026-09-27
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 566 (down from 567 last week, change of 1).
-Freehold listings: 265 (down from 266 last week).
+Active listings: 565 (down from 566 last week, change of 1).
+Freehold listings: 265 (unchanged from 265 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
@@ -14,7 +14,7 @@ NEW LISTINGS THIS WEEK
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 28 Quill Street, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | $1,550,000 (Code 13) | Walker & Co | Was on market 119 days
+  - 13 Alice Burn Drive, Luggate, Wanaka, Central Otago / Lakes District | Negotiation | Colliers - Wanaka | Was on market 134 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -22,9 +22,13 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 6/23 Tenby Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
+  ! 8B Kiely Lane, Queenstown Central, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Connect | Price: Deadline Sale
+  ! 1 Witley Lane, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Evolv Property | Price: $1,740,000 (Code 13)
+  ! Lot 2, Speargrass Park, Speargrass Flat, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: $5,975,000 (Fixed Price)
+  ! 15 Mount Alfred Ridge, Wyuna, Glenorchy, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: Negotiation
+  ! 28 Myles Way, Lower Shotover, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: Negotiation
 
 ============================================================
-Comparison: 2026-09-25 vs 2026-09-26
+Comparison: 2026-09-26 vs 2026-09-27
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
