@@ -1,20 +1,34 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-10-04
+Run date: 2026-10-05
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 561 (up from 560 last week, change of 1).
-Freehold listings: 262 (unchanged from 262 last week).
+Active listings: 561 (unchanged from 561 last week, change of 0).
+Freehold listings: 260 (down from 262 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 48 Atkins Road, Luggate, Wanaka, Central Otago / Lakes District | Deadline Sale | LJ Hooker - Wanaka | Tenure: 
+  + 8B Cresta Lane, Frankton, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Leasehold
+  + 23 Mulberry Lane, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Colliers - Wanaka | Tenure: 
+  + 25 Campbell Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
+  + 34 Erskine Street, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | Deadline Sale | Walker & Co | Tenure: Freehold
+  + 11 Flax Street, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Weka Legal and Real Estate | Tenure: Freehold
+  + 1.2/153 Ardmore Street, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Stewart Real Estate | Tenure: Leasehold
+  + 19 Glenfiddich Road, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Ray White - Queenstown | Tenure: 
+  + 3 Wallace Place, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Harcourts - Wanaka | Tenure: 
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  No listings removed this week.
+  - 30/65-93 Lakeside Road, WANAKA, Wanaka, Central Otago / Lakes District | Negotiation | WHITEFOX - Queenstown-Lakes | Was on market 66 days
+  - 51 Corriedale Road, Jacks Point, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Was on market 25 days
+  - 19 Baywaters Lane, Closeburn, Queenstown-Lakes, Closeburn, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Queenstown | Was on market 58 days
+  - 39 Obelisk Street, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | NZSIR - Wanaka | Was on market 45 days
+  - 3 Dip Road, Jacks Point, Queenstown, Central Otago / Lakes District | $2,075,000 (Fixed Price) | Fowler Homes Ltd | Was on market 65 days
+  - 27 Redfern Terrace, Arthurs Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Ray White - Queenstown | Was on market 26 days
+  - 43 Tullamore Lane, Dalefield, Queenstown, Central Otago / Lakes District | $2,550,000 (Fixed Price) | Bayleys - Queenstown | Was on market 94 days
+  - 6 (Lot 15) Ranch Terrace,, Wanaka, Wanaka, Central Otago / Lakes District | $2,365,000 (Fixed Price) | Stroud - Queenstown Lakes | Was on market 293 days
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -22,9 +36,13 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 31 Hackett Road, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: $3,950,000 (Asking Price)
+  ! 1 Serpentine Street, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Wanaka | Price: Negotiation
+  ! 4b Pritchard Place, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Luxury Real Estate | Price: Negotiation
+  ! 1 Rapley Close, Arrow Junction, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Arrowtown | Price: $2,950,000 (Fixed Price)
+  ! 1 York Street (Type C) The Rise, Queenstown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Bayleys - Queenstown | Price: $2,790,000 (Asking Price)
+  ! 745 Aubrey Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Wanaka | Price: Negotiation
 
 ============================================================
-Comparison: 2026-10-03 vs 2026-10-04
+Comparison: 2026-10-04 vs 2026-10-05
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
