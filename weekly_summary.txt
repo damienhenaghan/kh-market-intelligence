@@ -1,30 +1,35 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-10-10
+Run date: 2026-10-11
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 573 (up from 572 last week, change of 1).
-Freehold listings: 268 (unchanged from 268 last week).
+Active listings: 573 (unchanged from 573 last week, change of 0).
+Freehold listings: 267 (down from 268 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + B/13 Peregrine Place, Queenstown Hill, Queenstown, Central Otago / Lakes District | Deadline Sale | Weka Legal and Real Estate | Tenure: 
+  + 15 Cable Lane, Frankton, Queenstown, Central Otago / Lakes District | Auction | Bayleys - Queenstown | Tenure: Leasehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  No listings removed this week.
+  - 6 Glenbrook Lane, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 206 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  v 16 Station Rise, Dalefield/Wakatipu Basin, Queenstown, Central Otago / Lakes District | $2,895,000 -> $2,750,000 | Down 5.0% | Oliver Road | Luxury Real Estate | DOM: 232 days
+  No price reductions this week.
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 24/2 McKinlay Lane, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Colliers - Queenstown | Price: $2,295,000 (Fixed Price)
+  ! 3 Glenbrae Crescent, Wanaka, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Wanaka | Price: Negotiation
+  ! 24 Crop Street, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: Deadline Sale
+  ! 19 Reid Avenue, Luggate, Wanaka, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Wanaka | Price: Negotiation
+  ! Stage 1 Deer Valley, Silver Creek, Queenstown Hill, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Professionals - Queenstown | Price: $630,000 (Code 11)
+  ! 68 Sicilian Lane, Lake Hayes, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Luxury Real Estate | Price: Negotiation
+  ! 14 Taurus Lane, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Bayleys - Queenstown | Price: Deadline Sale
 
 ============================================================
-Comparison: 2026-10-09 vs 2026-10-10
+Comparison: 2026-10-10 vs 2026-10-11
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
