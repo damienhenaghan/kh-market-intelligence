@@ -1,50 +1,44 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-10-14
+Run date: 2026-10-15
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 585 (up from 584 last week, change of 1).
-Freehold listings: 273 (down from 545 last week).
+Active listings: 589 (up from 585 last week, change of 4).
+Freehold listings: 277 (up from 273 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 23 Finch Street, Albert Town, Wanaka, Central Otago / Lakes District | Deadline Sale | Property Brokers - Wanaka | Tenure: Freehold
-  + 21 Aeolus Place, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | LJ Hooker - Wanaka | Tenure: 
-  + 10 Back Shed Road, Jacks Point, Queenstown, Central Otago / Lakes District | Negotiation | Luxury Real Estate | Tenure: 
-  + 27 Drake Place, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | Century 21 - Wanaka | Tenure: 
-  + 27 Cottesbrook Street, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Colliers - Wanaka | Tenure: 
-  + 624 Glenorchy-Queenstown Road, Closeburn, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
-  + 9 Manchester Place, Queenstown, Queenstown, Central Otago / Lakes District | $7,600,000 (Asking Price) | Luxury Real Estate | Tenure: 
-  + 635 Peninsula Road, Kelvin Heights, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
-  + 10 Yorkie Way, Lake Hawea, Wanaka, Central Otago / Lakes District | Negotiation | Harcourts - Wanaka | Tenure: 
-  + 23 Fitzpatrick Road, Dalefield, Queenstown, Central Otago / Lakes District | Negotiation | Luxury Real Estate | Tenure: 
-  + 10 Packer Road, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
+  + 33 Alps View Place, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | Negotiation | Colliers - Queenstown | Tenure: 
+  + 139/140 Butel Villa, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Millbrook Realty | Tenure: Leasehold
+  + 9 Ayrburn Ridge, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Millbrook Realty | Tenure: Freehold
+  + 5 Theodore Court, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Stewart Real Estate | Tenure: Freehold
+  +  Ayr Residences Land, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Queenstown | Tenure: Freehold
+  + 15 Achilles Place, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Century 21 - Wanaka | Tenure: 
+  + Apt 14, 7 Northlake Drive, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Leasehold
+  + 26 Metzger Road, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
+  + 3 Willow Glen Lane , Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Millbrook Realty | Tenure: Freehold
+  + 48 Nereus Way, Glenorchy, Queenstown, Central Otago / Lakes District | Negotiation | NZSIR - Arrowtown | Tenure: Freehold
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 11 Craigie Burn Lane, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 34 days
-  -  Ayr Residences Land, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Bayleys - Queenstown | Was on market 162 days
-  - 38 Ballantyne Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Century 21 - Wanaka | Was on market 41 days
-  - 14 Craigroy Crescent, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Was on market 124 days
-  - 1 Owen Marshall Lane, Arrowtown, Queenstown, Central Otago / Lakes District | Negotiation | Millbrook Realty | Was on market 362 days
-  - 68 McDougall Street, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Ray White - Wanaka | Was on market 75 days
-  - 50 Coll Street, Glenorchy, Queenstown, Central Otago / Lakes District | Negotiation | Walker & Co | Was on market 15 days
-  - 5 Wallace Place, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Tall Poppy | Was on market 25 days
-  - 1 Craigie Burn Lane, Wanaka, Wanaka, Central Otago / Lakes District | Auction | Tall Poppy | Was on market 27 days
-  - 17 Drysdale Road, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Ray White - Queenstown | Was on market 22 days
+  - 953 Mt Barker Road, Wanaka, Wanaka, Central Otago / Lakes District | Negotiation | Berry Real Estate | Was on market 166 days
+  - 34 Noema Terrace, Lake Hawea, Wanaka, Central Otago / Lakes District | Deadline Sale | Harcourts - Wanaka | Was on market 29 days
+  - 17B Monteith Road, Albert Town, Wanaka, Central Otago / Lakes District | $2,995,000 (Fixed Price) | Bayleys - Wanaka | Was on market 98 days
+  - Unit 906/34 Lake Esplanade, Queenstown Central, Queenstown, Central Otago / Lakes District | Negotiation | IQNZ | Was on market 29 days
+  - Lot 209 Little Meg Lane, Cardrona, Wanaka, Central Otago / Lakes District | Negotiation | NZSIR - Queenstown | Was on market 824 days
+  - 19 Hackett Road, Jacks Point, Queenstown, Central Otago / Lakes District | $2,350,000 (Fixed Price) | Colliers - Queenstown | Was on market 223 days
 
 PRICE REDUCTIONS
 ----------------------------------------
-  v 2 Brodie Avenue, Arrowtown, Queenstown, Central Otago / Lakes District | $3,300,000 -> $3,100,000 | Down 6.1% | Walker & Co | DOM: 37 days
+  No price reductions this week.
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  ! 7 Ploughman Lane, Arrowtown, Queenstown, Central Otago / Lakes District | crossed 90 days | DOM now: 90 | Millbrook Realty | Price: Negotiation
-  ! 11 Campbell Road, Wanaka, Wanaka, Central Otago / Lakes District | crossed 90 days | DOM now: 141 | Bayleys - Wanaka | Price: Negotiation
+  No listings crossing DOM thresholds this week.
 
 ============================================================
-Comparison: 2026-10-13 vs 2026-10-14
+Comparison: 2026-10-14 vs 2026-10-15
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
