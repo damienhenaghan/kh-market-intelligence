@@ -1,37 +1,20 @@
 ============================================================
 KAWARAU HEIGHTS — MARKET INTELLIGENCE SUMMARY
-Run date: 2026-10-16
+Run date: 2026-10-17
 ============================================================
 
 INVENTORY
 ----------------------------------------
-Active listings: 598 (up from 589 last week, change of 9).
+Active listings: 599 (up from 598 last week, change of 1).
 Freehold listings: 277 (unchanged from 277 last week).
 
 NEW LISTINGS THIS WEEK
 ----------------------------------------
-  + 51 Drysdale Road, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Renexus - Manukau | Tenure: 
-  + Lots 3 and 4, Luggate Cromwell Road, Luggate, Wanaka, Central Otago / Lakes District | Negotiation | Bayleys - Wanaka | Tenure: Freehold
-  + The Lakeho/159A Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | Negotiation | IQNZ | Tenure: 
-  + 90 Hedditch Street, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Bayleys - Wanaka | Tenure: Freehold
-  + 33 Belfast Terrace, Queenstown, Queenstown, Central Otago / Lakes District | Negotiation | Luxury Real Estate | Tenure: 
-  + 6A Scott Place, Fernhill, Queenstown, Central Otago / Lakes District | Deadline Sale | NZSIR - Queenstown | Tenure: Leasehold
-  + 38, 633 Frankton Road, Frankton, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Queenstown | Tenure: Freehold
-  + 26 Quarry Place, Walnut Grove, Lake Hayes Estate, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Arrowtown | Tenure: Freehold
-  + 50 Alice Burn Drive, Luggate, Wanaka, Central Otago / Lakes District | Deadline Sale | Harcourts - Wanaka | Tenure: 
-  + Unit 613/379 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | Negotiation | IQNZ | Tenure: 
-  + Unit 1005/327 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | Negotiation | IQNZ | Tenure: 
-  + 79 Spur Ridge Rise, Hanley's Farm, Jacks Point, Queenstown, Central Otago / Lakes District | Deadline Sale | Colliers - Queenstown | Tenure: 
-  + Unit 707/171 Frankton Road, Queenstown Central, Queenstown, Central Otago / Lakes District | Negotiation | IQNZ | Tenure: 
-  + 15 Fox's Rush, Arrowtown, Queenstown, Central Otago / Lakes District | Deadline Sale | Oliver Road | Luxury Real Estate | Tenure: 
+  + 28 Rua Street, Wanaka, Wanaka, Central Otago / Lakes District | Deadline Sale | Prime Wanaka - Wanaka | Tenure: 
 
 REMOVED SINCE LAST WEEK (sold or withdrawn)
 ----------------------------------------
-  - 12 Crows Nest Road, ARTHURS POINT, Queenstown, Central Otago / Lakes District | $4,000,000 (Code 13) | WHITEFOX - Queenstown-Lakes | Was on market 197 days
-  - 39 Old School Road, Lower Shotover, Queenstown, Central Otago / Lakes District | $3,935,000 (Fixed Price) | Walker & Co | Was on market 197 days
-  - 33 Central Park Avenue, Lake Hayes, Queenstown, Central Otago / Lakes District | Negotiation | NZSIR - Queenstown | Was on market 269 days
-  - 43 McDonnell Road, Arrowtown, Queenstown, Central Otago / Lakes District | Deadline Sale | Bayleys - Arrowtown | Was on market 35 days
-  - 26 Middleton Road, Frankton, Queenstown, Central Otago / Lakes District | Negotiation | Walker & Co | Was on market 199 days
+  No listings removed this week.
 
 PRICE REDUCTIONS
 ----------------------------------------
@@ -39,9 +22,11 @@ PRICE REDUCTIONS
 
 DAYS ON MARKET FLAGS
 ----------------------------------------
-  No listings crossing DOM thresholds this week.
+  ! The Reach, 53-65 Frankton Road, Queenstown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | NZSIR - Queenstown | Price: $2,295,000 (Fixed Price)
+  ! 17 Bannister Street, Jacks Point, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Ray White - Queenstown | Price: Negotiation
+  ! 317 Frankton Road, Queenstown, Queenstown, Central Otago / Lakes District | crossed 60 days | DOM now: 60 | Harcourts - Three Kings | Price: Negotiation
 
 ============================================================
-Comparison: 2026-10-15 vs 2026-10-16
+Comparison: 2026-10-16 vs 2026-10-17
 Database: /home/runner/work/kh-market-intelligence/kh-market-intelligence/listings.db
 ============================================================
